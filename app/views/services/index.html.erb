@@ -83,8 +83,7 @@
       </ul>
     </div>
     <div id="services-list-more">
-      <% recent_solution = Service.find(:first,:order => 'updated_at desc' ) %>                                             
-        <%= link_to "Read More" ,:action => "show", :id => recent_solution %>  
+      <%=will_paginate @services%>
     </div>
   </div>
 </div>
