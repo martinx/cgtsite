@@ -1,6 +1,7 @@
 class ServicesController < ApplicationController
   def index
-    @services = Service.find(:all,:order => 'updated_at desc',:limit =>15)
+    #@services = Service.find(:all,:order => 'updated_at desc',:limit =>15)
+    @services=Service.paginate :page=>params[:page],:per_page=>5
   end
   
   def find
