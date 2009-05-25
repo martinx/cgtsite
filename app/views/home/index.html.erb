@@ -1,0 +1,59 @@
+<%= stylesheet_link_tag "home", :media => "all"  %>   
+<% @title = "CGT Website" -%>
+
+<!-- Welcome and News&Events Block -->
+<div id="home-main-line">
+  <div id="home-main-greybox">
+    <!-- Welcome Side --><!-- End of Welcome Side -->
+      <!-- News&Events Side -->
+    <div id="home-main-news-title">
+      <div id="home-main-news-pic"> <%= image_tag("home-news-pic.gif") %> </div>
+      <div id="home-main-event-title"> <%= image_tag("home-event-title.gif") %> </div>
+    </div>
+    <!-- Video Area In News&Events Side -->
+    <div id="home-main-whitebox">
+      <div id="home-main-inbox">
+        <div id="home-main-inbox-pic"> <%= image_tag("home-welcome-pic.gif") %> </div>
+        <div id="home-main-inbox-title"> <%= image_tag("home-welcome-title.gif") %> </div>
+        <div id="home-main-welcome">
+          <p class="inbox-con">Here is content of "Welcome to CGT!" </p>
+        </div>
+        <div id="home-main-more"> <%=link_to "Read More About CGT" ,:controller => "about"%></div>
+      </div>
+    </div>
+    <div id="home-main-video">
+      <p class="main-video">Here is video of "News/Events.</p>
+    </div>
+    <div id="home-main-words">
+      <p>Here is comment of the video.  </p>
+    </div>
+    <div id="home-main-read"> <%= link_to "Read More" ,:controller => "events" %> </div>
+  </div>
+  <!-- End of News&Events Side -->
+</div>
+<!-- End of Welcome and News&Events Block -->
+  <!-- Services and Advance Block -->
+<div id="home-main-services">
+  <div id="home-main-overview"><%= image_tag("home-overview.gif")  %></div>
+  <div id="home-main-overview-title"><%= image_tag("home-overview-title.gif")  %></div>
+  <div id="home-main-integrations">
+    <div id="home-main-integrations-pic"><%= link_to image_tag("home-integrations-pic.gif") ,:controller => "services"   %></div>
+    <div id="home-main-integrations-title"><%= link_to image_tag("home-integrations-title.gif") ,:controller => "services"   %></div>
+  </div>
+  <div id="home-main-software">
+    <div id="home-main-software-pic"><%= link_to image_tag("home-software-pic.gif") ,:controller => "services"   %></div>
+    <div id="home-main-software-title"><%= link_to image_tag("home-software-title.gif") ,:controller => "services"   %></div>
+  </div>
+  <div id="home-main-music">
+    <div id="home-main-music-pic"><%= link_to image_tag("home-music-pic.gif") ,:controller => "services"   %></div>
+    <div id="home-main-music-title"><%= link_to image_tag("home-music-title.gif") ,:controller => "services"   %></div>
+  </div>
+  <div id="home-main-training">
+    <div id="home-main-training-pic"><%= link_to image_tag("home-training-pic.gif") ,:controller => "services"  %></div>
+    <div id="home-main-training-title"><%= link_to image_tag("home-training-title.gif") ,:controller => "services"  %></div>
+  </div>
+</div>
+<div id="home-main-advance">
+  <div id="home-main-advance-button"><%= link_to image_tag("home-advance-button.gif") ,:controller => "newenergy" %></div>
+</div>
+<!-- End of Services and Advance Block -->

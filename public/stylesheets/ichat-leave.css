@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ichat-leave-line {
+float:left;
+position:relative;
+margin:5px 0px 0px 0px;
+width:800px; 
+height:612px;
+font-family:Arial, Helvetica, sans-serif;
+border-top:1px solid #999999;
+border-bottom:1px solid #999999;
+display:inline;
+}
+
+#ichat-leave-title {
+float:left;
+position:relative;
+background-image:url(images/news-title-box.gif);
+margin:10px 0px 0px 0px;
+width:800px; 
+height:40px;
+display:inline;
+}
+
+#ichat-leave-title img {
+float:left;
+position:relative;
+margin:5px 10px 5px 10px;
+display:inline;
+}
+
+#ichat-leave-title h3 {
+float:left;
+position:relative;
+margin:10px 0px 0px 10px;
+color:#339900;
+display:inline;
+}
+
+#ichat-leave {
+	float:left;
+	position:relative;
+	margin-top:20px;
+	padding:0px;
+	width:547px;
+	height:522px;
+	border:1px solid #99CCFF;
+	display:inline;
+	font-size:14px;
+}
+
+#ichat-leave .leave-title {
+	float:left;
+	position:relative;
+	margin:20px 0px 20px 10px;
+	padding:0px;
+	width:500px;
+	height:30px;
+	text-align:center;
+	color:#339900;
+	display:inline;
+}
+
+#ichat-leave form {
+float:left;
+position:relative;
+margin:20px 0px 20px 40px;
+padding:0px;
+color:#339900;
+display:inline;
+}
+
+#ichat-leave input {
+color:#444444;
+}
+
+#ichat-info {
+float:right;
+position:relative;
+margin-top:20px;
+padding:0px;
+width:249px; 
+height:522px;
+border-top:1px solid #99CCFF;
+border-right:1px solid #99CCFF;
+border-bottom:1px solid #99CCFF;
+color:#339900;
+font-size:16px;
+display:inline;
+}
+
+#ichat-info-comm {
+float:left;
+position:relative;
+margin:0px;
+padding:0px;
+width:249px; 
+height:200px;
+border-right:1px solid #99CCFF;
+border-bottom:1px solid #99CCFF;
+display:inline;
+}
+
+#ichat-info-comm p {
+	float:left;
+	position:relative;
+	margin:5px;
+	padding:0px;
+	width:239px;
+	display:inline;
+}
+
+#ichat-info-ads {
+	float:left;
+	position:relative;
+	margin:5px;
+	padding:0px;
+	width:239px;
+	height:312px;
+	color:#0033FF;
+	display:inline;
+}

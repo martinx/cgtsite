@@ -1,0 +1,39 @@
+<%= stylesheet_link_tag "back-ab-team-col", :media => "all"  %>   
+<% @title = "About CGT Page Back - Show About Our Work Team Column" -%>
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Information About Our Work Team Column</h3>
+    <p>The column is an abstract of "About Our Work Team" page. The content is only text. The font size is 14px, and the color is blue. The size of the display box is 290x380px.
+    <p>In the column, at most, there are 2 paragraphes in it. In one paragraph case, it can include about 960 letters; In two paragraphes case, it can contain about 870 letters. 
+    <p>Please review the content as follows.
+    </p>
+  </div><!-- end #operate-intro -->
+
+  <div id="operate-area">
+    <h3>Show About Our Work Team Column Content</h3>
+    <h5>(The show box size is the same to the column on About Our Work Team page.)</h5>
+    <div id="operate-show">
+      <p><%=  @team_col.content %></p>
+    </div>
+    <div id="operate-author">
+      <h5>Current Author:  </h5> 
+    </div>
+    <div id="operate-author">     
+      <p><%=  @team_col.author %></p>
+    </div>
+    <div id="operate-admin">
+      <h5>Current Admin: </h5> 
+    </div>    
+    <div id="operate-admin">
+      <p>DerDer</p>
+    </div>
+    <div id="operate-buttons"> 
+      <ul>
+        <li><%= link_to "New Comment" ,:action => "team_col_new"%></li>
+      </ul>
+    </div><!-- End #operate-bottons -->
+        
+  </div> <!-- end #operate-area -->
+    
+</div> <!-- end #operate-mgt -->
+

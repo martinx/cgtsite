@@ -1,0 +1,64 @@
+<%= stylesheet_link_tag "back-partners-show-show", :media => "all"  %>   
+<% @title = "CGT Partners Page Back - Show Partners Show Column" -%>
+<% @header = "CGT Partners Page Back - Show Partners Show Column" -%>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About showing Partners Show Column</h3>
+      <p>It shows partner's logo, brief, name and its URL. The logo picture size is totally 80X60px, and brief box size is  280X60px (190 letters). There is URL link on its logo. Its name font size is 10px and it is text.
+      <p>In this page, there are 3 operations - Back, Edit Content and Destroy Content. Admin can select one to operate them.
+      <p>Please review the content as follows.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Show Partners Show Column</h3>
+      <h5>(The Sizes of Partner's Logo Image and Brief is the same to Partners Show Page's)</h5>
+      <div id="operate-author">
+        <h5>Current Logo Image:  (80X60px)</h5> 
+      </div>
+      <div id="operate-image"><%= image_tag @partner.public_filename %></div>
+      <div id="operate-author">
+        <h5>Current Brief:  (260X60px)</h5> 
+      </div>
+      <div id="operate-show">
+        <p> <%=h @partner.pa_desc %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Partner's Name:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p>Realrock</p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Partner's URL:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=h @partner.pa_url %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=h @partner.pa_author %></p>
+      </div>
+      
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "Back" ,:action => "list"%></li>
+          <li><%= link_to "Edit Content" ,:action => "edit",:id => @partner.id %></li>
+          <li><%= link_to "Destory Content" ,:action => "destroy",:id => @partner.id,:confirm => 'Are you sure?', :method => :delete%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->

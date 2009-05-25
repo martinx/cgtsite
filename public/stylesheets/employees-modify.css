@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+text-align:center;
+background-color:#FFFFFF;
+}
+
+#main {
+position:relative;
+margin:0px auto 0px auto;
+text-align:left;
+width:800px; 
+}
+
+#employees-banner {
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+	width:800px;
+	height:150px;
+	display:inline;
+}
+
+#employees-page {
+float:left;
+position:relative;
+margin-right:20px;
+padding:0;
+width:380px;
+height:150px;
+display:inline;
+}
+
+#employees-page img{
+float:left;
+position:relative;
+margin-top:15px;
+margin-right:30px;
+padding:0;
+display:inline;
+}
+
+#employees-board {
+float:right;
+position:relative;
+margin:0;
+padding:0;
+width:400px;
+height:150px;
+display:inline;
+}
+
+#employees-buttons {
+float:left;
+position:relative;
+margin:0;
+padding:0;
+width:800px;
+height:30px;
+font-size:14px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+display:inline;
+}
+
+#employees-buttons ul{
+list-style-type:none;
+position:absolute;			
+margin:0px 0px 0px 0px;
+width:800px;
+height:30px;
+}
+
+#employees-buttons li{
+float:left; 
+text-align:center;
+padding:7px 10px 7px 10px;	
+}
+
+#employees-buttons a:link, #employees-buttons a:visited{
+color:#FF0000;
+text-decoration:none;
+}
+
+#employees-buttons a:hover{
+color:#0000FF;           	
+text-decoration:underline;
+}
+
+#employees-modify {
+float:left; 
+position:relative;
+margin-left:150px;
+margin-top:20px;
+padding:0;
+width:500px;
+height:320px;
+border:1px solid #6666FF;
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+color:#6666FF;
+display:inline;
+}
+
+#login-form {
+margin:0px;
+padding:0px;
+}
+
+.info {
+margin-top:10px;
+margin-bottom:15px;
+padding:0px;
+width:500px;
+height:20px;
+text-align:center;
+font-size:18px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color:#FF0000;
+}
+
+.word {
+float:left; 
+position:relative;
+margin-left:30px;
+margin-top:10px;
+padding:0px;
+width:430px;
+height:40px;
+text-align:left;
+font-size:16px;
+}
+
+.word p {
+margin:0;
+padding:0;
+}
+
+.new p {
+float:left; 
+position:relative;
+margin-left:30px;
+margin-top:10px;
+padding:0px;
+width:430px;
+height:20px;
+text-align:left;
+font-size:16px;
+}
+
+.row input {
+float:left; 
+position:relative;
+margin-left:30px;
+margin-bottom:10px;
+padding:0px;
+width:430px;
+height:20px;
+text-align:left;
+font-size:16px;
+}
+
+.div {
+float:left; 
+position:relative;
+margin-left:30px;
+margin-top:20px;
+margin-bottom:10px;
+padding:0px;
+width:430px;
+height:24px; 
+text-align:center;
+font-size:14px;
+color:#FF0000;
+} 
+
+.div input {
+float:left; 
+position:relative;
+margin-left:180px;
+padding:0px;
+} 
+
+
+
+
+
+/*  Common Footer  */
+
+#cgt-footer {
+float:left;
+position:relative;
+margin-top:20px;
+width:800px;
+height:60px;
+display:inline;
+}
+
+#cgt-footer-copyright {
+float:left; 
+width:800px; height:30px;	
+margin:0px; 
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-copyright ul{
+list-style-type:none;
+position:absolute;			
+width:440px;
+left:180px;
+top:10px;					
+padding:0px;
+margin:0px;
+height: 20px;
+}
+
+#cgt-footer-copyright li{
+float:left; 
+text-align:center;
+padding:2px 15px 0px 15px;	
+display:inline;
+}
+
+#cgt-footer-copyright a:link, #cgt-footer-copyright a:visited{
+color:#0000FF;
+text-decoration:none;
+}
+
+#cgt-footer-copyright a:hover{
+color:#FF0000;           	/* 蓝色 */
+text-decoration:underline;
+}
+
+#cgt-footer-usa {
+float:left; 
+width:400px; height:20px;	
+margin-top:5px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+display:inline;
+}
+
+#cgt-footer-portland {
+float:left; 
+width:60px; height:15px;	
+margin-left:120px; 
+margin-top:3px;
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444444;
+display:inline;
+}
+
+#cgt-footer-portland p{
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-portland-date iframe{
+float:right; 
+text-align:left;
+width:200px; height:20px;	
+margin-right:20px; 
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-china {
+float:right; 
+width:370px; height:20px;	
+margin-top:5px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+display:inline;
+}
+
+#cgt-footer-beijing {
+float:left; 
+width:60px; height:15px;	
+margin-top:3px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444444;
+display:inline;
+}
+
+#cgt-footer-beijing p{
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:10px;
+display:inline;
+
+}
+
+#cgt-footer-beijing-date iframe{
+float:left; 
+text-align:left;
+width:200px; height:20px;	
+margin:0px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}

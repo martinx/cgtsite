@@ -1,0 +1,43 @@
+<%= stylesheet_link_tag "back-serv-servlist-col", :media => "all"  %>   
+<% @title = "CGT Services Page Back - Services List Comment" -%>
+<% @header = "CGT Services Page Back - Services List Comment" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>      
+  
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About Services List Comment</h3>
+      <p>The comment displays what is in Services List area. it is only text. The font size is 12px. The size of the display box is 305x90px. It can hold max 290 letters.
+      <p>In this page, there is only a operation - New Comment. If there is not any comment (blank), click the operation to add a new comment. Otherwise, use the operaion to update it.
+      <p>Please review the comment as follows.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Show Services List Comment</h3>
+      <h5>(The show box size is the same to Services List Comment.)</h5>
+       <div id="operate-show">
+        <p><%=  @servlist.content %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=  @servlist.author %></p>
+      </div>
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "New Comment" ,:action => "servlist_new"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->

@@ -1,0 +1,21 @@
+<%= stylesheet_link_tag "events-report", :media => "all"  %>   
+<% @title = "CGT News/Events Report" -%>
+<!-- News Block -->
+<div id="report-line">
+  <!-- News/Enevts Title Block -->
+  <div id="report-title">
+    <%= image_tag("home-news-pic.gif") %>
+    <p>News / Events Report</p>
+  </div>
+  <div id="report-show">
+    <h3 name="report-title"><%=h @event.ev_title %></h3>
+    <div id="report-sub">
+      <p id="report-date">Date: <%=h  @event.updated_at.strftime("%b.,%d,%Y") %></p>
+      <p id="report-author">Author:<%=h @event.ev_author %></p>
+    </div>
+    <div id="report-article">
+      <p><%= @event.ev_desc %></p>
+    </div>
+  </div>
+</div>
+<!-- End of News Block -->

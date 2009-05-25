@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+font-size:18px;
+text-align:center;
+background:url(/images/comm-background.gif) repeat-x;
+}
+
+#container{
+position:relative;
+margin:0px auto 0px auto;
+text-align:left;
+width:800px; height:940px;	
+
+}
+
+#cgt-link{
+width:800px; height:60px;	
+margin:0px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+background:url(/images/comm-links.gif) no-repeat top;
+}
+
+#cgt-link ul{
+list-style-type:none;
+position:absolute;			
+left:17px;
+top:17px;					
+padding:0px;
+margin:0px 0px 0px 20px;
+height: 26px;
+}
+
+#cgt-link li{
+float:left; 
+text-align:center;
+padding:2px 15px 0px 15px;	
+}
+
+#cgt-link a:link, #cgt-link a:visited{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+#cgt-link a:hover{
+color:#0000FF;           	
+text-decoration:underline;
+}
+
+#cgt-title-en{
+width:800px;
+height:40px;				
+margin:0px;
+padding:0px;
+text-align:center;
+font-family: Arial, Helvetica, sans-serif;
+color:#FF0000;			   
+}
+
+#cgt-title-en h2{
+margin:6px; 
+}
+
+#cgt-title-cn{
+width:800px;
+height:20px;				
+margin:0px;
+padding:0px;
+text-align:center;
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#FF0000;			   
+}
+
+#cgt-title-cn p{
+margin:0px; 
+}
+
+#cgt-func3{					
+list-style:none;
+width:800px;
+height:20px;
+padding:0px;
+margin:0px;
+}
+
+#cgt-func3 ul{				
+list-style:none;
+padding:0px;
+margin:0px 2px 0px 2px;
+}
+
+#cgt-func3 li {
+float:right;
+border:none;
+margin:0px; padding:0px;
+width:20px; height:20px;	
+}
+
+#cgt-func3 img {
+border:none;
+}
+
+#cgt-banner {
+width:800px; height:260px;	
+padding:0px; margin:0px;
+}
+
+
+#cgt-footer {
+float:left;
+position:relative;
+margin-top:20px;
+width:800px;
+height:60px;
+background-image:url(/images/comm-footer.gif);
+display:inline;
+}
+
+#cgt-footer-copyright {
+float:left; 
+width:800px; height:30px;	/* 设置块的尺寸 */
+margin:0px; 
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-copyright ul{
+list-style-type:none;
+position:absolute;			/* 绝对定位 */
+width:440px;
+left:180px;
+top:10px;					/* 具体位置 */
+padding:0px;
+margin:0px;
+height: 20px;
+}
+
+#cgt-footer-copyright li{
+float:left; 
+text-align:center;
+padding:2px 15px 0px 15px;	/* 链接之间的距离 */
+display:inline;
+}
+
+#cgt-footer-copyright a:link, #cgt-footer-copyright a:visited{
+color:#0000FF;
+text-decoration:none;
+}
+
+#cgt-footer-copyright a:hover{
+color:#FF0000;           	/* 蓝色 */
+text-decoration:underline;
+}
+
+#cgt-footer-usa {
+float:left; 
+width:400px; height:20px;	/* 设置块的尺寸 */
+margin-top:5px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+display:inline;
+}
+
+#cgt-footer-portland {
+float:left; 
+width:60px; height:15px;	/* 设置块的尺寸 */
+margin-left:110px; 
+margin-top:3px;
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444444;
+display:inline;
+}
+
+#cgt-footer-portland p{
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-portland-date iframe{
+float:right; 
+text-align:left;
+width:200px; height:20px;	/* 设置块的尺寸 */
+margin-right:20px; 
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-china {
+float:right; 
+width:400px; height:20px;	/* 设置块的尺寸 */
+margin-top:5px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+display:inline;
+}
+
+#cgt-footer-beijing {
+float:left; 
+width:60px; height:15px;	/* 设置块的尺寸 */
+margin-top:3px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444444;
+display:inline;
+}
+
+#cgt-footer-beijing p{
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:10px;
+display:inline;
+
+}
+
+#cgt-footer-beijing-date iframe{
+float:left; 
+text-align:left;
+width:200px; height:20px;	/* 设置块的尺寸 */
+margin:0px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+

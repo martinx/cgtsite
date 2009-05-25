@@ -1,0 +1,1658 @@
+# Logfile created on Wed Dec 03 15:47:11 +0800 2008 by /
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+rebuild index: [Service(id: integer, sl_title: string, sl_content: text, sl_author: string, sl_year: string, service_type_id: integer, created_at: datetime, updated_at: datetime, client_id: integer)]
+reindexing model Service
+reindex model Service : 100.00% complete : 0.36 secs to finish
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_content:*a* client_id:*a* sl_title:*a* created_at:*a* sl_author:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_content:*a* client_id:*a* sl_title:*a* created_at:*a* sl_author:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_content:*a* client_id:*a* sl_title:*a* created_at:*a* sl_author:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:** client_id:** sl_year:** sl_content:** created_at:** sl_author:** sl_title:** updated_at:**
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_title:*a* service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* updated_at:*a* sl_author:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_title:*a* service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* updated_at:*a* sl_author:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*a* sl_year:*a* sl_content:*a* sl_author:*a* sl_title:*a* created_at:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*a* sl_year:*a* sl_content:*a* sl_author:*a* sl_title:*a* created_at:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*o* client_id:*o* sl_year:*o* sl_content:*o* created_at:*o* sl_author:*o* sl_title:*o* updated_at:*o*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*o* client_id:*o* sl_year:*o* sl_content:*o* created_at:*o* sl_author:*o* sl_title:*o* updated_at:*o*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* created_at:*a* sl_author:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*sa* client_id:*sa* created_at:*sa* sl_year:*sa* sl_content:*sa* sl_author:*sa* updated_at:*sa* sl_title:*sa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* sl_author:*a* updated_at:*a* sl_title:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* sl_author:*a* updated_at:*a* sl_title:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* sl_author:*a* updated_at:*a* sl_title:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* sl_author:*a* updated_at:*a* sl_title:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*paly* client_id:*paly* created_at:*paly* sl_year:*paly* sl_content:*paly* sl_author:*paly* updated_at:*paly* sl_title:*paly*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*soft* client_id:*soft* created_at:*soft* sl_year:*soft* sl_content:*soft* sl_author:*soft* updated_at:*soft* sl_title:*soft*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* created_at:*css* sl_year:*css* sl_content:*css* sl_author:*css* updated_at:*css* sl_title:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*soft* client_id:*soft* created_at:*soft* sl_year:*soft* sl_content:*soft* sl_author:*soft* updated_at:*soft* sl_title:*soft*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*music* client_id:*music* created_at:*music* sl_year:*music* sl_content:*music* sl_author:*music* updated_at:*music* sl_title:*music*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*music* client_id:*music* created_at:*music* sl_year:*music* sl_content:*music* sl_author:*music* updated_at:*music* sl_title:*music*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*show* client_id:*show* created_at:*show* sl_year:*show* sl_content:*show* sl_author:*show* updated_at:*show* sl_title:*show*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*play* client_id:*play* created_at:*play* sl_year:*play* sl_content:*play* sl_author:*play* updated_at:*play* sl_title:*play*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* sl_author:*a* updated_at:*a* sl_title:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*paly* client_id:*paly* created_at:*paly* sl_year:*paly* sl_content:*paly* sl_author:*paly* updated_at:*paly* sl_title:*paly*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*play* client_id:*play* created_at:*play* sl_year:*play* sl_content:*play* sl_author:*play* updated_at:*play* sl_title:*play*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* created_at:*a* sl_year:*a* sl_content:*a* sl_author:*a* updated_at:*a* sl_title:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*c* client_id:*c* created_at:*c* sl_year:*c* sl_content:*c* sl_author:*c* updated_at:*c* sl_title:*c*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*web* client_id:*web* created_at:*web* sl_year:*web* sl_content:*web* sl_author:*web* updated_at:*web* sl_title:*web*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_author:*css* created_at:*css* sl_title:*css* sl_content:*css* service_type_id:*css* updated_at:*css* client_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*a* service_type_id:*a* sl_title:*a* client_id:*a* created_at:*a* sl_year:*a* updated_at:*a* sl_author:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*mysql* service_type_id:*mysql* sl_title:*mysql* client_id:*mysql* created_at:*mysql* sl_year:*mysql* updated_at:*mysql* sl_author:*mysql*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*a* service_type_id:*a* sl_title:*a* client_id:*a* created_at:*a* sl_year:*a* updated_at:*a* sl_author:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*css* service_type_id:*css* sl_title:*css* client_id:*css* created_at:*css* sl_year:*css* updated_at:*css* sl_author:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*css* service_type_id:*css* sl_title:*css* client_id:*css* created_at:*css* sl_year:*css* updated_at:*css* sl_author:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*css* service_type_id:*css* sl_title:*css* client_id:*css* sl_year:*css* created_at:*css* sl_author:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*css* service_type_id:*css* sl_title:*css* client_id:*css* sl_year:*css* created_at:*css* sl_author:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_content:*css* service_type_id:*css* sl_title:*css* client_id:*css* sl_year:*css* created_at:*css* sl_author:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+rebuild index: [Solution(id: integer, so_title: string, so_content: text, so_author: string, solution_type_id: integer, created_at: datetime, updated_at: datetime)]
+reindexing model Solution
+reindex model Solution : 100.00% complete : 0.77 secs to finish
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_author:*a* sl_content:*a* created_at:*a* service_type_id:*a* sl_title:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*o* so_content:*o* solution_type_id:*o* created_at:*o* so_author:*o* updated_at:*o*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*o* so_content:*o* solution_type_id:*o* created_at:*o* so_author:*o* updated_at:*o*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*web* so_content:*web* solution_type_id:*web* created_at:*web* so_author:*web* updated_at:*web*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_author:*a* sl_content:*a* created_at:*a* service_type_id:*a* sl_title:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:our* so_content:our* solution_type_id:our* created_at:our* so_author:our* updated_at:our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:a* so_content:a* solution_type_id:a* created_at:a* so_author:a* updated_at:a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a so_content:*a solution_type_id:*a created_at:*a so_author:*a updated_at:*a
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:a* so_content:a* solution_type_id:a* created_at:a* so_author:a* updated_at:a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:a* so_content:a* solution_type_id:a* created_at:a* so_author:a* updated_at:a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_author:*a* sl_content:*a* created_at:*a* service_type_id:*a* sl_title:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_author:*a* sl_content:*a* created_at:*a* service_type_id:*a* sl_title:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_author:*a* sl_content:*a* created_at:*a* service_type_id:*a* sl_title:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*our* sl_author:*our* sl_content:*our* created_at:*our* service_type_id:*our* sl_title:*our* client_id:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_author:*a* sl_content:*a* created_at:*a* service_type_id:*a* sl_title:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*a* so_content:*a* solution_type_id:*a* created_at:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*o* so_content:*o* solution_type_id:*o* created_at:*o* so_author:*o* updated_at:*o*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* so_content:*our* solution_type_id:*our* created_at:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*rock* so_content:*rock* solution_type_id:*rock* created_at:*rock* so_author:*rock* updated_at:*rock*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*video* so_content:*video* solution_type_id:*video* created_at:*video* so_author:*video* updated_at:*video*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*show* sl_title:*show* sl_author:*show* created_at:*show* service_type_id:*show* sl_content:*show* client_id:*show* updated_at:*show*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_title:*our* solution_type_id:*our* so_author:*our* created_at:*our* so_content:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*show* sl_title:*show* sl_author:*show* created_at:*show* service_type_id:*show* sl_content:*show* client_id:*show* updated_at:*show*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:** sl_title:** sl_author:** created_at:** service_type_id:** sl_content:** client_id:** updated_at:**
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaa* sl_title:*aaaaaaa* sl_author:*aaaaaaa* created_at:*aaaaaaa* service_type_id:*aaaaaaa* sl_content:*aaaaaaa* client_id:*aaaaaaa* updated_at:*aaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaa* sl_title:*aaaaaaaaaaaa* sl_author:*aaaaaaaaaaaa* created_at:*aaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaa* sl_content:*aaaaaaaaaaaa* client_id:*aaaaaaaaaaaa* updated_at:*aaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaa* sl_title:*aaaaaaa* sl_author:*aaaaaaa* created_at:*aaaaaaa* service_type_id:*aaaaaaa* sl_content:*aaaaaaa* client_id:*aaaaaaa* updated_at:*aaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*a* sl_title:*a* sl_author:*a* created_at:*a* service_type_id:*a* sl_content:*a* client_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*aaaaaaaaaaaaa* sl_title:*aaaaaaaaaaaaa* sl_author:*aaaaaaaaaaaaa* created_at:*aaaaaaaaaaaaa* service_type_id:*aaaaaaaaaaaaa* sl_content:*aaaaaaaaaaaaa* client_id:*aaaaaaaaaaaaa* updated_at:*aaaaaaaaaaaaa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_content:*a* so_title:*a* created_at:*a* solution_type_id:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_content:*a* so_title:*a* created_at:*a* solution_type_id:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_content:*our* so_title:*our* created_at:*our* solution_type_id:*our* so_author:*our* updated_at:*our*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_content:*a* created_at:*a* solution_type_id:*a* so_title:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*a* sl_title:*a* sl_year:*a* sl_author:*a* created_at:*a* sl_content:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*a* sl_title:*a* sl_year:*a* sl_author:*a* created_at:*a* sl_content:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*a* sl_title:*a* sl_year:*a* sl_author:*a* created_at:*a* sl_content:*a* service_type_id:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/solution
+query: so_content:*a* created_at:*a* solution_type_id:*a* so_title:*a* so_author:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*sql* sl_title:*sql* sl_year:*sql* sl_author:*sql* created_at:*sql* updated_at:*sql* sl_content:*sql* service_type_id:*sql*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*sql* sl_title:*sql* sl_year:*sql* sl_author:*sql* created_at:*sql* updated_at:*sql* sl_content:*sql* service_type_id:*sql*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*sql* sl_title:*sql* sl_year:*sql* sl_author:*sql* created_at:*sql* updated_at:*sql* sl_content:*sql* service_type_id:*sql*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*find* sl_title:*find* sl_year:*find* sl_author:*find* created_at:*find* updated_at:*find* sl_content:*find* service_type_id:*find*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*find* sl_title:*find* sl_year:*find* sl_author:*find* created_at:*find* updated_at:*find* sl_content:*find* service_type_id:*find*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*find* sl_title:*find* sl_year:*find* sl_author:*find* created_at:*find* updated_at:*find* sl_content:*find* service_type_id:*find*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*css* sl_title:*css* sl_year:*css* sl_author:*css* created_at:*css* updated_at:*css* sl_content:*css* service_type_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*css* sl_title:*css* sl_year:*css* sl_author:*css* created_at:*css* updated_at:*css* sl_content:*css* service_type_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: client_id:*css* sl_title:*css* sl_year:*css* sl_author:*css* created_at:*css* updated_at:*css* sl_content:*css* service_type_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*training* sl_content:*training* service_type_id:*training* sl_title:*training* created_at:*training* client_id:*training* sl_year:*training* updated_at:*training*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*training* sl_content:*training* service_type_id:*training* sl_title:*training* created_at:*training* client_id:*training* sl_year:*training* updated_at:*training*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*css* sl_content:*css* service_type_id:*css* sl_title:*css* created_at:*css* client_id:*css* sl_year:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*css* sl_content:*css* service_type_id:*css* sl_title:*css* created_at:*css* client_id:*css* sl_year:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*css* sl_content:*css* service_type_id:*css* sl_title:*css* created_at:*css* client_id:*css* sl_year:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*css* sl_content:*css* service_type_id:*css* sl_title:*css* created_at:*css* client_id:*css* sl_year:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:*css* sl_content:*css* service_type_id:*css* sl_title:*css* created_at:*css* client_id:*css* sl_year:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:*css sl_content:*css service_type_id:*css sl_title:*css created_at:*css client_id:*css sl_year:*css updated_at:*css) +(sl_author:training* sl_content:training* service_type_id:training* sl_title:training* created_at:training* client_id:training* sl_year:training* updated_at:training*)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:*css sl_content:*css service_type_id:*css sl_title:*css created_at:*css client_id:*css sl_year:*css updated_at:*css) +(sl_author:training sl_content:training service_type_id:training sl_title:training created_at:training client_id:training sl_year:training updated_at:training) +(sl_author:1* sl_content:1* service_type_id:1* sl_title:1* created_at:1* client_id:1* sl_year:1* updated_at:1*)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:*css sl_content:*css service_type_id:*css sl_title:*css created_at:*css client_id:*css sl_year:*css updated_at:*css) +(sl_author:training sl_content:training service_type_id:training sl_title:training created_at:training client_id:training sl_year:training updated_at:training) +(sl_author:1* sl_content:1* service_type_id:1* sl_title:1* created_at:1* client_id:1* sl_year:1* updated_at:1*)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:*css sl_content:*css service_type_id:*css sl_title:*css created_at:*css client_id:*css sl_year:*css updated_at:*css) +(sl_author:training sl_content:training service_type_id:training sl_title:training created_at:training client_id:training sl_year:training updated_at:training) +(sl_author:1* sl_content:1* service_type_id:1* sl_title:1* created_at:1* client_id:1* sl_year:1* updated_at:1*)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:*css sl_content:*css service_type_id:*css sl_title:*css created_at:*css client_id:*css sl_year:*css updated_at:*css) +(sl_author:training* sl_content:training* service_type_id:training* sl_title:training* created_at:training* client_id:training* sl_year:training* updated_at:training*)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:*training sl_content:*training service_type_id:*training sl_title:*training created_at:*training client_id:*training sl_year:*training updated_at:*training) +(* * * * * * * *)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(service_type_id:*css client_id:*css sl_year:*css sl_content:*css sl_author:*css created_at:*css sl_title:*css updated_at:*css) +(service_type_id:training client_id:training sl_year:training sl_content:training sl_author:training created_at:training sl_title:training updated_at:training) +(* * * * * * * *)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*training* client_id:*training* sl_year:*training* sl_content:*training* sl_author:*training* created_at:*training* sl_title:*training* updated_at:*training*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+rebuild index: [Service(id: integer, sl_title: string, sl_content: text, sl_author: string, sl_year: string, service_type_id: integer, created_at: datetime, updated_at: datetime, client_id: integer)]
+reindexing model Service
+reindex model Service : 104.55% complete : 2.34 secs to finish
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(service_type_id:*css client_id:*css sl_year:*css sl_content:*css sl_author:*css created_at:*css sl_title:*css updated_at:*css) +(service_type_id:training* client_id:training* sl_year:training* sl_content:training* sl_author:training* created_at:training* sl_title:training* updated_at:training*)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(service_type_id:*css client_id:*css sl_year:*css sl_content:*css sl_author:*css created_at:*css sl_title:*css updated_at:*css) +(service_type_id:training client_id:training sl_year:training sl_content:training sl_author:training created_at:training sl_title:training updated_at:training) +(* * * * * * * *)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(service_type_id:*css client_id:*css sl_year:*css sl_content:*css sl_author:*css created_at:*css sl_title:*css updated_at:*css) +(service_type_id:training client_id:training sl_year:training sl_content:training sl_author:training created_at:training sl_title:training updated_at:training) +(* * * * * * * *)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(service_type_id:*css client_id:*css sl_year:*css sl_content:*css sl_author:*css created_at:*css sl_title:*css updated_at:*css) +(service_type_id:training client_id:training sl_year:training sl_content:training sl_author:training created_at:training sl_title:training updated_at:training) +(* * * * * * * *)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(service_type_id:*training client_id:*training sl_year:*training sl_content:*training sl_author:*training created_at:*training sl_title:*training updated_at:*training) +(* * * * * * * *)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*a* client_id:*a* sl_year:*a* sl_content:*a* sl_author:*a* created_at:*a* sl_title:*a* updated_at:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* sl_content:*css* sl_author:*css* created_at:*css* sl_title:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+rebuild index: [Service(id: integer, sl_title: string, sl_content: text, sl_author: string, sl_year: string, service_type_id: integer, created_at: datetime, updated_at: datetime, client_id: integer)]
+reindexing model Service
+reindex model Service : 104.55% complete : 2.64 secs to finish
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* created_at:*css* sl_content:*css* sl_author:*css* updated_at:*css* sl_title:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* created_at:*css* sl_content:*css* sl_author:*css* updated_at:*css* sl_title:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:*css* client_id:*css* sl_year:*css* created_at:*css* sl_content:*css* sl_author:*css* updated_at:*css* sl_title:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:css sl_content:css sl_author:css sl_title:css created_at:css service_type_id:css updated_at:css client_id:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:css sl_content:css sl_author:css sl_title:css created_at:css service_type_id:css updated_at:css client_id:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:css sl_content:css sl_author:css sl_title:css created_at:css service_type_id:css updated_at:css client_id:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_content:*css* sl_author:*css* sl_title:*css* created_at:*css* service_type_id:*css* updated_at:*css* client_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_content:*css* sl_author:*css* sl_title:*css* created_at:*css* service_type_id:*css* updated_at:*css* client_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:css sl_content:css sl_author:css sl_title:css created_at:css service_type_id:css updated_at:css client_id:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_content:*css* sl_author:*css* sl_title:*css* created_at:*css* service_type_id:*css* updated_at:*css* client_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_content:*css* sl_author:*css* sl_title:*css* created_at:*css* service_type_id:*css* updated_at:*css* client_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_content:*css* sl_author:*css* sl_title:*css* created_at:*css* service_type_id:*css* updated_at:*css* client_id:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:css client_id:css sl_content:css sl_year:css sl_title:css sl_author:css created_at:css updated_at:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:css client_id:css sl_content:css sl_year:css sl_title:css sl_author:css created_at:css updated_at:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: service_type_id:css client_id:css sl_content:css sl_year:css sl_title:css sl_author:css created_at:css updated_at:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: +(sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css) +(sl_author:training sl_content:training service_type_id:training sl_title:training created_at:training client_id:training updated_at:training sl_year:training)
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_author:css sl_content:css service_type_id:css sl_title:css created_at:css client_id:css updated_at:css sl_year:css
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_author:*css* sl_content:*css* sl_title:*css* created_at:*css* service_type_id:*css* client_id:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+query: sl_year:*css* sl_author:*css* sl_content:*css* sl_title:*css* created_at:*css* service_type_id:*css* client_id:*css* updated_at:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/My Documents/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+rebuild index: [Solution(id: integer, so_title: string, so_content: text, so_author: string, solution_type_id: integer, created_at: datetime, updated_at: datetime)]
+reindexing model Solution
+reindex model Solution : 111.11% complete : 0.50 secs to finish
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*css* so_title:*css* so_author:*css* created_at:*css* updated_at:*css* so_content:*css*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*a* so_title:*a* so_author:*a* created_at:*a* updated_at:*a* so_content:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*a* so_title:*a* so_author:*a* created_at:*a* updated_at:*a* so_content:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*aa* so_title:*aa* so_author:*aa* created_at:*aa* updated_at:*aa* so_content:*aa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*aa* so_title:*aa* so_author:*aa* created_at:*aa* updated_at:*aa* so_content:*aa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*aa* so_title:*aa* so_author:*aa* created_at:*aa* updated_at:*aa* so_content:*aa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*of* so_title:*of* so_author:*of* created_at:*of* updated_at:*of* so_content:*of*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*aa* so_title:*aa* so_author:*aa* created_at:*aa* updated_at:*aa* so_content:*aa*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*a* so_title:*a* so_author:*a* created_at:*a* updated_at:*a* so_content:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at D:/我的文件/NetBeans/cgt_site/index/development/solution
+query: solution_type_id:*a* so_title:*a* so_author:*a* created_at:*a* updated_at:*a* so_content:*a*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: solution_type_id:*system* so_author:*system* created_at:*system* so_content:*system* updated_at:*system* so_title:*system*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: solution_type_id:*system* so_author:*system* created_at:*system* so_content:*system* updated_at:*system* so_title:*system*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: solution_type_id:*system* so_author:*system* created_at:*system* so_content:*system* updated_at:*system* so_title:*system*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: solution_type_id:*system* so_author:*system* created_at:*system* so_content:*system* updated_at:*system* so_title:*system*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: solution_type_id:*development* so_author:*development* created_at:*development* so_content:*development* updated_at:*development* so_title:*development*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_title:*develop* created_at:*develop* solution_type_id:*develop* so_author:*develop* updated_at:*develop* so_content:*develop*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_title:*music* created_at:*music* solution_type_id:*music* so_author:*music* updated_at:*music* so_content:*music*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_title:*help* created_at:*help* solution_type_id:*help* so_author:*help* updated_at:*help* so_content:*help*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_title:*system* created_at:*system* solution_type_id:*system* so_author:*system* updated_at:*system* so_content:*system*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_title:*ruby* created_at:*ruby* solution_type_id:*ruby* so_author:*ruby* updated_at:*ruby* so_content:*ruby*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_title:*show* created_at:*show* solution_type_id:*show* so_author:*show* updated_at:*show* so_content:*show*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*music* so_content:*music* so_title:*music* updated_at:*music* created_at:*music* solution_type_id:*music*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*rails* so_content:*rails* so_title:*rails* updated_at:*rails* created_at:*rails* solution_type_id:*rails*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*rails* so_content:*rails* so_title:*rails* updated_at:*rails* created_at:*rails* solution_type_id:*rails*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*rails* so_content:*rails* so_title:*rails* updated_at:*rails* created_at:*rails* solution_type_id:*rails*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*rails* so_content:*rails* so_title:*rails* updated_at:*rails* created_at:*rails* solution_type_id:*rails*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*system* so_content:*system* updated_at:*system* so_title:*system* created_at:*system* solution_type_id:*system*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_author:*music* so_content:*music* updated_at:*music* so_title:*music* created_at:*music* solution_type_id:*music*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: solution_type_id:*network* updated_at:*network* so_author:*network* created_at:*network* so_content:*network* so_title:*network*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_content:*develop* so_title:*develop* updated_at:*develop* created_at:*develop* solution_type_id:*develop* so_author:*develop*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/solution
+query: so_content:*develop* so_title:*develop* updated_at:*develop* created_at:*develop* solution_type_id:*develop* so_author:*develop*
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
+query: 
+stored_fields: 

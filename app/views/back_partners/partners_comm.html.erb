@@ -1,0 +1,77 @@
+<%= stylesheet_link_tag "back-partners-comm", :media => "all"  %>   
+<% @title = "CGT Partners Page Back - Our Partners Comment" -%>
+<% @header = "CGT Partners Page Back - Our Partners Comment" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>    
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About Our Partners Comment</h3>
+      <p>It shows brief of CGT partners. The box size is totally 142 lettersX4 lines (568 letters), but the 3 lines of them are for the brief, and the last line is for the contact email. Its font size is 12px and its content is text.
+      
+      <p>In this page, there is only a operation - New Comment. If there is not any comment (blank) in it, click the operation to add a new comment. Otherwise, use the operaion to update it.
+      <p>Please review the comment as follows.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Show Our Partners Comment</h3>
+      <h5>(The show box size is the same to Our Partners Comment.)</h5>
+       <% if @partner %>
+      <div id="operate-show">
+        <p><%= @partner.content %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%= @partner.author %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Contact Email:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%= @partner.email %></p>
+      </div>
+      
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      
+       <% else %>
+
+      <div id="operate-show">
+        <p></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Contact Email:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p></p>
+      </div>
+      
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <% end %>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "New Comment" ,:action => "partners_new"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->  

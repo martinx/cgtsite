@@ -1,0 +1,53 @@
+<%= stylesheet_link_tag "back-solu-recent-col-new", :media => "all"  %>   
+<% @title = "CGT Solutions Page Back - New Recent Solutions Column" -%>
+<% @header = "CGT Solutions Page Back - New Recent Solutions Column" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About Recent Solutions Column</h3>
+      <p>The content is only text. The font size is 14px, and the color is dark yellow. The input box size is 410x60px. It includes max 230 letters.
+      <p>If the input is longer than the limit, the rest will be cut. Please pay attention to it.
+      <p>After you input the new content, then it will replace your old one that will be changed. </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>New Recent Solutions Column</h3>
+      
+      <div id="operate-new">
+        <% form_for :about,@about,:url => { :action => "create_recent",:id => @recent.id }, :html => { :method => :post } do |f| %>
+          <div class="word">
+            <p>New Comment:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 220 letters.)</p>
+          </div>
+          <div class="message">
+            <%= f.text_area :content %>
+          </div>
+          <div class="word">
+            <p>New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :author ,:maxlength=>40,:size=>50 %>
+          </div>
+          <div class="word">
+            <p>New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="Admin" type="text" class="input" maxlength='40' size='50' />
+          </div>
+          <div class="div">
+            <p>
+              <%= f.submit "New Content" ,:popup => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+        <% end %>
+      </div>    <!-- End #operate-new -->
+
+      <div id="operate-buttons">
+        <ul>
+          <li><%= link_to "Back" ,:action => "recent_col"%></li>
+        </ul>
+      </div>  <!-- End #operate-bottons -->
+
+    </div>   <!-- end #operate-area -->
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->

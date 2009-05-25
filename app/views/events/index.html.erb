@@ -1,0 +1,25 @@
+<%= stylesheet_link_tag "events", :media => "all"  %>   
+<% @title = "CGT News/Enevts" -%>
+<!-- News Block -->
+<div id="news-line">
+  <!-- News/Enevts Title Block -->
+  <div id="news-title"> 
+    <%= image_tag("home-news-pic.gif")  %>
+    <p>News / Events</p>
+  </div>
+  <div id="news-list">
+    <div id="news-topics">
+      <% for event in @events %>
+        <div id="news-display"> 
+          <%= image_tag("news-list-pic.gif") %>
+          <%= link_to event.ev_title,:action => "report", :id => event %>
+          <p><%=h event.updated_at.strftime("%b.,%d,%Y") %></p>
+        </div>
+      <% end %>  
+    </div>    
+    <div id="news-buttons">
+      <div class="paginate"><%= will_paginate @events %></div>
+    </div>
+  </div>
+</div>
+<!-- End of News Block -->

@@ -1,0 +1,2 @@
+module BackPartnersHelper
+end

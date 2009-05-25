@@ -1,0 +1,47 @@
+<%= stylesheet_link_tag "services-find", :media => "all"  %> 
+<%= stylesheet_link_tag "ser-cbcscbinsmenu", :media => "all" %>  
+<%= javascript_include_tag "ser-cbjscbinsmenu" %>
+<% @title = "CGT Services Search Result" -%>
+<!-- Services Block -->
+<div id="services-line">
+  <!-- Services List Title Block -->
+  <div id="serviceslist-title">
+    <%=  image_tag("services-list-title-pic.gif") %>
+    <p>Services List</p>    
+    <div id="serviceslist-search">  
+      <% form_tag('searches',:method => 'get') do %>
+        <div class="sl-seek">
+          <%= text_field_tag 'keyWord', @keyWord %>
+          <span class="div">
+            <%= submit_tag 'Search' %>
+          </span>
+        </div>
+      <% end %> 
+    </div>    
+  </div>   
+  <!-- End of Services List Title Block  --> 
+<%= render(:partial => 'menu') %>    
+  <div id="servicesfind-show">
+    <h3 id="sf-show">The Result List Of Searching</h3>
+    <div id="servicesfind-sub">
+    </div>
+    <div id="servicesfind-result">
+      <% for service in @services %>
+        <div id="sf-display"> 
+          <%= image_tag 'sl-find-info.gif' %>
+          <%= link_to service.sl_title,:action => "show", :id => service %>
+          <p><%=h service.updated_at.strftime("%b.,%d,%Y") %></p>
+        </div>  
+      <% end %>  
+    </div>
+    <div id="sf-buttons">
+      <div class="paginate"> 
+      <%=link_to "<",{:page=>@pager.previous_page,:keyWord=>@keyWord}%>
+      <%=link_to '>',{:page=>@pager.next_page,:keyWord=>@keyWord}%>
+      <%= will_paginate @services %>
+      </div> 
+    </div>     
+  </div>
+</div>
+<!-- End of Services Block -->
+

@@ -1,0 +1,48 @@
+<%= stylesheet_link_tag "back-home-event", :media => "all"  %>   
+<% @title = "Home Page Back - Show Event Column Content" -%>
+<% @header = "Home Page Back - Show Event Column Content" -%>
+<div id="block-mgt">  
+<div id="block-list">  
+  <ul>
+    <li><%= link_to "Web Back Menu" ,:controller => "back_menu"%></li>
+    <li><%= link_to "Welcome Column" ,:controller => "back_home",:action => 'wel' %></li>
+    <li><%= link_to "Event Column" ,:controller => "back_home",:action => 'event' %></li>
+  </ul>
+</div><!-- End #back-list -->
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Event Column Operation Introduce</h3>
+    <p>Event Colume is in the middle-right of the "Home" Page. The operations mean that you can create, edit, show or delete the column with your requirement.
+    <p>In the colume, there are two parts. One shows the video/picture of the newest event without any text. The area size is 306X160px. Another is a brief of the event. The area size is 306X36px, and the font-size is 10px with font family - Arial, Helvetice and sans-serif, and it is about 180 letters with only one paragraph.
+    </p>
+  </div>
+  <div id="operate-area">
+    <h3>Show Current Event Column Content</h3>
+    <h5>(The show box size is the same to the column on Home page.)</h5>
+    <div id="operate-show">
+      <p><%=  @event.content %></p>
+    </div>
+    <div id="operate-author">
+      <h5>Current Author:  </h5> 
+    </div>
+    <div id="operate-author">     
+      <p><%=  @event.author %></p>
+    </div>
+    <div id="operate-admin">
+      <h5>Current Admin: </h5> 
+    </div>    
+    <div id="operate-admin">
+      <p>DerDer</p>
+    </div>
+    <div id="operate-buttons"> 
+      <ul>
+        <li><%= link_to "New Comment" ,:action => "event_new"%></li>
+      </ul>
+    </div><!-- End #operate-bottons -->
+        
+  </div> <!-- end #operate-area -->
+    
+</div> <!-- end #operate-mgt -->
+
+
+

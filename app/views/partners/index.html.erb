@@ -1,0 +1,27 @@
+<%= stylesheet_link_tag "partners", :media => "all"  %>
+<% @title = "CGT Partners" -%> 
+
+<!-- Partners Block -->
+<div id="partners-line">
+  <!-- Our Partners Title Block -->
+  <div id="partners-title">
+    <%=image_tag("partners-title-pic.gif")%>
+    <p>Our Partners</p>
+  </div>
+  <div id="partners-comment">
+    <p>CGT Partners are an integral part of our business. We recognize the value proven partners bring in assisting organizations to successfully execute their strategic initiatives. Our partners are committed to delivering affordable, efficient and effective solutions that meet their client total requirements. 
+    <p>Please reach us at: <%= link_to "info@cgtechco.com",:controller => "contact"  %></p>        
+  </div>
+  
+  <div id="partners-show">
+    <% for partner in @partners %>      
+      <div id="partners-logo">
+        <%= link_to image_tag(partner.public_filename,:alt => partner.pa_url),partner.pa_url %>
+      </div>
+      <div id="partners-info">
+        <p><%= truncate(partner.pa_desc,80) %> </p>        			
+      </div>
+    <% end %>
+  </div>
+</div>
+<!-- End of Partners Block -->

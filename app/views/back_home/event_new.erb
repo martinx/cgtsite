@@ -1,0 +1,61 @@
+<%= stylesheet_link_tag "back-event-new", :media => "all"  %>   
+<% @title = "Home Page Back - New Event Colume Content" -%>
+<% @header = "Home Page Back - New Event Colume Content" -%>
+<div id="block-mgt">  
+  <div id="block-list">  
+    <ul>
+      <li><%= link_to "Web Back Menu" ,:controller => "back_menu"%></li>
+      <li><%= link_to "Welcome Column" ,:controller => "back_home",:action => 'wel' %></li>
+      <li><%= link_to "Event Column" ,:controller => "back_home",:action => 'event' %></li>
+    </ul>
+  </div><!-- End #back-list -->
+
+<div id="operate-mgt">
+  <div id="operate-intro">
+  		<h3>Important Understanding Of New Event Colume Content</h3>
+        <p>The event column of Home page is an abstract of the newest event for CGT. 
+        <p>In the column, there are two parts. One shows the video/picture of the newest event without any text. The area size is 306X160px. Another is a brief of the event only in text. The area size is 306X36px, and the font-size is 10px with font family - Arial, Helvetice and ..., and it is about 180 letters with only one paragraph. 
+        <p>After you create the new content, then it will replace your old one that will be changed.
+        </p>
+  </div>
+  <div id="operate-area">
+    <h3>New Event Colume Content</h3>
+    <div id="operate-new">
+        <% form_for :about,@about,:url => { :action => "create_event",:id => @event.id }, :html => { :method => :post } do |f| %>
+          <div class="word">
+            <p>New Comment:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 220 letters.)</p>
+          </div>
+          <div class="message">
+            <%= f.text_area :content %>
+          </div>
+          <div class="word">
+            <p>New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :author %>
+          </div>
+          <div class="word">
+            <p>New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="Admin" type="text" class="input" maxlength=40 size=50 />
+          </div>
+          <div class="div">
+            <p>
+              <%= f.submit "New Content" ,:popup => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+        <% end %>
+      </div>    <!-- End #operate-new -->
+
+      <div id="operate-buttons">
+        <ul>
+          <li><%= link_to "Back" ,:action => "event"%></li>
+        </ul>
+      </div>  <!-- End #operate-bottons -->
+
+    </div>   <!-- end #operate-area -->
+    
+  </div>  <!-- end #operate-mgt -->
+
+</div> <!-- end #block-mgt -->

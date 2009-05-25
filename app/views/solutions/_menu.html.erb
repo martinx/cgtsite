@@ -1,0 +1,50 @@
+<%= stylesheet_link_tag "solutions-menu", :media => "all"  %>   
+<%= stylesheet_link_tag "solutions-show", :media => "all"  %>   
+<%= stylesheet_link_tag "solutions", :media => "all"  %> 
+<!-- Solutions Show Title Block -->	 	
+<div id="solutions-show-title">
+  <%= image_tag("solutions-show-pic.gif") %>
+  <p>Solutions Show</p> 	
+  <div id="solutions-show-search">  		
+    <% form_tag :action => "find",:method=>"get" do %>
+      <div class="solu-seek">
+        <%= text_field_tag :search_text %>
+        <span class="div">
+          <%= submit_tag 'Search' %>
+        </span>
+      </div>
+    <% end %> 
+  </div> 
+</div>
+<!-- End Of Solutions Show Title Block -->	       
+    <!-- Solutions Show Menu Block -->      
+<div id="solutions-show-menu">
+  <%= stylesheet_link_tag "sol-cbcscbinsmenu", :media => "all" %> 
+  <% types = SolutionType.find(:all)%>
+  <% types.each do |type|  %> 
+    <% ebul_cbinsmenu = "ebul_cbinsmenu_" + type.id.to_s %> 
+    <% sol_cbsiicbinsmenu = "/images/sol-cbsiicbinsmenu_"+ type.id.to_s+".gif" %> 
+    <ul id="<%= ebul_cbinsmenu %>" class="ebul_cbinsmenu" style="display: none;">
+      <% solutions = Solution.find(:all,:conditions => [ "solution_type_id = ?", type.id] ) %> 
+      <% solutions.each do |solution|  %> 
+        <li><span class="ebul_imgcbinsmenu16x16" style="background-image: url('<%= sol_cbsiicbinsmenu %>')"></span><%= link_to solution.so_title,:action =>"show",:id => solution %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  <table id="cbinsmenuebul_table" width="0" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td style="padding-bottom:0px" title=""><a><img id="cbi_cbinsmenu_1" src="/images/sol-ebbtcbinsmenu1_0.gif" name="ebbcbinsmenu_1" width="190" height="28" style="vertical-align: bottom;" border="0" alt="Information  Industry" title="" /></a></td>
+    </tr>
+    <tr>
+      <td style="padding-bottom:0px" title=""><a><img id="cbi_cbinsmenu_2" src="/images/sol-ebbtcbinsmenu2_0.gif" name="ebbcbinsmenu_2" width="190" height="28" style="vertical-align: bottom;" border="0" alt="Media Industry" title="" /></a></td>
+    </tr>
+    <tr>
+      <td style="padding-bottom:0px" title=""><a><img id="cbi_cbinsmenu_3" src="/images/sol-ebbtcbinsmenu3_0.gif" name="ebbcbinsmenu_3" width="190" height="28" style="vertical-align: bottom;" border="0" alt="Consulting Industry" title="" /></a></td>
+    </tr>
+    <tr>
+      <td style="padding-bottom:0px" title=""><a><img id="cbi_cbinsmenu_4" src="/images/sol-ebbtcbinsmenu4_0.gif" name="ebbcbinsmenu_4" width="190" height="28" style="vertical-align: bottom;" border="0" alt="Traditional Industry" title="" /></a></td>
+    </tr>
+  </table>
+  <%= javascript_include_tag "sol-cbjscbinsmenu" %>  
+</div>
+<!-- End Of Solutions Show Menu Block --> 

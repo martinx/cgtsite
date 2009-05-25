@@ -1,0 +1,52 @@
+<%= stylesheet_link_tag "back-clients-show", :media => "all"  %>   
+<% @title = "CGT Clients Page Back - Listing Clients Show Column" -%>
+<% @header = "CGT Clients Page Back - Listing Clients Show Column" -%>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For Listing Clients Show Column</h3>
+      <p>In Clients Show Column, there are many clients' name and logos there. Listing Clients Show Column displays those client's names and published dates for Admin who can create, edit, show and delete them. 
+      <p>The order of listing those names and dates is the same to that which are listing in Clients Show Page in the front-end. It is that the lastest client is listed in top of the list.
+      <p>In the list, there are the information of clients' names, and Dates. Admin can select one of them to operate. 
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Listing Clients Show Column	</h3>
+      <% form_tag :action => 'show' , :method => :post do -%>
+        <div id="operate-listing">
+          <div id="operate-line">
+            <% for client in @clients %>
+              <div id="operate-item">
+                <ul>
+                  <% if client.id == Client.find(:first,:order => "updated_at DESC").id %>
+                    <li><%= radio_button_tag :list, client.id,:checked => "checked" %><%=h client.cl_name %></li>
+                    <li><%=h client.updated_at.strftime("%b.,%d,%Y") %></li>
+                  <% else  %>
+                    <li><%= radio_button_tag :list, client.id %><%=h client.cl_name %></li>
+                    <li><%=h client.updated_at.strftime("%b.,%d,%Y") %></li>
+                  <% end %>  
+                </ul>
+              </div>
+            <% end %>  
+          </div><!-- End #operate-line -->
+          <div id="news-buttons">
+            <div class="paginate"><%= will_paginate @clients %></div>
+          </div>
+        </div><!-- End #operate-listing --> 
+        <div id="operate-buttons"> 
+          <ul>
+            <%= link_to 'New Content',:action => "new"  %>
+            <%= submit_tag 'Show Content' %>
+            <%= link_to 'New Content',:action => "new"  %>
+          </ul>
+        </div><!-- End #operate-bottons -->
+<% end %>
+     
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+
+  
+</div> <!-- end #block-mgt -->

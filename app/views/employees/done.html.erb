@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <%= stylesheet_link_tag "employees-done", :media => "all"  %>
+    <% @title = "CGT Employees Information Done Page" -%>
+  </head>
+  <body class="employees-login">
+    <div id="main">
+      <!--   Employees Login Page  -->
+      <!--   Employees Login Page Banner -->
+      <div id="employees-banner">
+        <div id="employees-page">
+          <%= image_tag('employee-cgt-logo-red.gif') %>
+          <%= image_tag('employee-title-red.gif') %>
+        </div>
+        <div id="employees-board">
+          <%= image_tag('employee-slang.gif') %>
+        </div>
+      </div>
+
+
+<div id="employees-buttons"> 
+  <ul>
+    <li><%= link_to "Home" ,:controller => 'Home' %></li>
+    <li><%= link_to "Ideas List" ,:action => 'ideaslist' %></li> 
+    <li><%= link_to 'Settings',:action => 'setting' %></li>  
+  </ul>
+</div>
+<div id="employees-done">  	
+  <div class="title"> <p>Your Information</p></div>
+  <div class="info">
+    <p>Your information was successfully sent. 
+    <p>Please check your email out, then sequentially do next step. 
+    <p>Thanks! </p>
+  </div>
+</div>
+
+ </div>
+  </body>
+</html>
+

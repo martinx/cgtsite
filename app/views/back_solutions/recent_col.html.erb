@@ -1,0 +1,60 @@
+<%= stylesheet_link_tag "back-solu-recent-col", :media => "all"  %>   
+<% @title = "CGT Solutions Page Back - Recent Solutions Comment" -%>
+<% @header = "CGT Solutions Page Back - Recent Solutions Comment" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About Recent Solutions Comment</h3>
+      <p>The column shows the comment for CGT's recent solutions. It is located in middle-right of CGT Solutions page and above the case list.
+      <p>The content is only text. The font size is 14px, and the color is dark yellow. The size of the display box is max 230 letters. 
+      <p>Please review the content as follows.
+      </p>
+    </div>
+    <div id="operate-area">
+      <h3>Show Recent Solutions Comment</h3>
+      <h5>(The show box size is the same to the column on CGT Solutions page.)</h5>
+      <% if @recent %>
+      <div id="operate-show">
+        <p><%=  @recent.content %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=  @recent.author %></p>
+      </div>
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      
+      <% else %>
+      <div id="operate-show">
+        <p></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p></p>
+      </div>
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <% end %>
+
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "New Comment" ,:action => "recent_new"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->

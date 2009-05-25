@@ -1,0 +1,62 @@
+<%= stylesheet_link_tag "back-clients-comm-new", :media => "all"  %>   
+<% @title = "CGT Clients Page Back - New Our Clients Comment" -%>
+<% @header = "CGT Clients Page Back - New Our Clients Comment" -%>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About New Our Clients Comment</h3>
+      <p>The text size is totally 568 letters with 12px font-size, but 426 letters (3 lines) are for the comment, and another 142 letters (1 line) are for contact email information. There is not any picture or video in it. 
+      <p>After you input the new commet, then it will replace your old one that will be changed. 
+      <p>When you are sure that you need to input the new comment, please input your information below.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>New Our Clients Comment</h3>
+      
+      <div id="operate-new">
+        <% form_for :about_comm,@about_comm,:url => { :action => "create_client",:id => @client.id }, :html => { :method => :post } do |f| %>
+          <div class="word">
+            <p>New Comment:&nbsp;&nbsp;&nbsp;&nbsp;(Picture and Videos are not available.)</p>
+          </div>
+          <div class="message">
+            <%= f.text_area :content,:cols=>'70',:rows=>'11' %>
+          </div>
+          <div class="word">
+            <p align="center">New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :author ,:maxlength=>40,:size=>50 %>
+          </div>
+          <div class="word">
+            <p align="center">New Contact Email:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :email ,:maxlength=>40,:size=>50 %>
+          </div>
+          <div class="word">
+            <p align="center">New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="Admin" type="text" class="input" maxlength=40 size=50 />
+          </div>
+          <div class="div">
+            <p>
+              <%= f.submit "New Content" ,:popup => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+        <% end %>
+      </div>    <!-- End #operate-new -->
+
+
+      <div id="operate-buttons">
+        <ul>
+          <li><%= link_to "Back" ,:action => "clients_comm"%></li>
+        </ul>
+      </div>  <!-- End #operate-bottons -->
+
+    </div>   <!-- end #operate-area -->
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->
+

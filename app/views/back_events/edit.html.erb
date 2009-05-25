@@ -1,0 +1,69 @@
+<%= stylesheet_link_tag "back-events-page-edit", :media => "all"  %>   
+<% @title = "News/Events Page Back - Edit Events Page" -%>
+<% @header = "News/Events Page Back - Edit Events Page" -%>
+<%=  javascript_include_tag :fckeditor %>
+<div id="block-mgt">  
+  <div id="block-list">  
+    <ul>
+      <li><%= link_to "Web Back Menu" ,:controller => "back_menu"%></li>
+    </ul>
+  </div><!-- End #back-list -->
+  
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For Edit Events Page</h3>
+      <p>In Edit Events Page, at first Admin can read original content, then based on the original one to change the content. This changed page will add into the website and database. It will be displayed in the top of News/Events list. 
+      <p>The content of the page can contain text, photos and videos. The width of the editing area is 840px, but the length can be scrolled by the content. Its font size is 14px and font color is dard grey.
+      <p>After you changed this page, please do not forget to change its abstract in News/Events Column of Home Page.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Edit Events Page</h3>
+      <% form_for :event,@event,:url => { :action => "update",:id => @event.id }, :html => { :method => :post } do |f| %>
+      <div id="operate-new">
+          <div class="word">
+            <p align="center">Editing Title Of The Event:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 90 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :ev_title %>
+          </div>
+          <div class="word">
+            <p align="center">Editing Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :ev_author %>
+          </div>
+          <div class="word">
+            <p>Editing Content:&nbsp;&nbsp;&nbsp;&nbsp;(Text, Picture and Videos are available.)</p>
+          </div>
+          <div class="message">
+            <%= fckeditor_textarea(:event, :ev_desc, :width => '100%', :height => '360px' )%>
+          </div>
+          <div class="word">
+            <p align="center">Editing Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="admin" type="text" class="input" value="Original Admin Name"maxlength=40 size=50 />
+          </div>
+          <div class="div">
+            <p>
+              <%= f.submit "Edit Content" ,:confirm => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+      </div>    <!-- End #operate-new -->
+      <% end %>
+
+      
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "Back" ,:action => "index"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+
+  
+</div> <!-- end #block-mgt -->

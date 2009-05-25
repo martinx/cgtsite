@@ -1,0 +1,59 @@
+<%= stylesheet_link_tag "back-clients-show-show", :media => "all"  %>   
+<% @title = "CGT Clients Page Back - Show Clients Show Column" -%>
+<% @header = "CGT Clients Page Back - Show Clients Show Column" -%>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About showing Clients Show Column</h3>
+      <p>It shows client's logo, name and its URL. The picture size is totally 80X50px, but the 60X50px of it is for logo, and another 80X20px is for client's name and its URL link. Its name font size is 10px and it is text.
+      <p>In this page, there are 3 operations - Back, Edit Content and Destroy Content. Admin can select one to operate them.
+      <p>Please review the content as follows.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Show Clients Show Column</h3>
+      <h5>(The show box size is the same to Clients Show Column.)</h5>
+      <div id="operate-author">
+        <h5>Current Clinet's Logo: </h5> 
+      </div>
+      <div id="operate-image"><%= image_tag @client.public_filename %></div>
+      
+      <div id="operate-author">
+        <h5>Current client's Name:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p>Realrock</p>
+      </div>
+      <div id="operate-author">
+        <h5>Current client's URL:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=h @client.cl_url %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=h @client.cl_author %></p>
+      </div>
+      
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "Back" ,:action => "list"%></li>
+          <li><%= link_to "Edit Content" ,:action => "edit",:id => @client.id %></li>
+          <li><%= link_to "Destory Content" ,:action => "destroy",:id => @client.id,:confirm => 'Are you sure?', :method => :delete%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+
+</div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->

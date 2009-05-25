@@ -1,0 +1,42 @@
+<%= stylesheet_link_tag "back-ab-team-page", :media => "all"  %>   
+<% @title = "About CGT Page Back - Show About Our Work Team Page" -%>
+<% @header = "About CGT Page Back - Show About Our Work Team Page" -%>
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Information About Our Work Team Page</h3>
+    <p>About Our Work Team Page is an independent page which displays the content about CGT Work Team information. The font size is 14px, too, and its color is blue. 
+    <p>The width of its display area is 780px, and the length can be scrolled with the context. The content is not only text, but some pictures and videos.
+    <p>Please review the content as follows.
+    </p>
+  </div><!-- end #operate-intro -->
+
+  <div id="operate-area">
+    
+    <h3>Show About Our Work Team Page Content</h3>
+    <h5>(The show box size is the same to About Our Work Team page.)        </h5>
+    <div id="operate-show">
+      <p><%=  @team_page.content %></p>
+    </div>
+    <div id="operate-author">
+      <h5>Current Author:  </h5> 
+    </div>
+    <div id="operate-author">     
+      <p><%=  @team_page.author %></p>
+    </div>
+    <div id="operate-admin">
+      <h5>Current Admin: </h5> 
+    </div>    
+    <div id="operate-admin">
+      <p>DerDer</p>
+    </div>
+    <div id="operate-buttons"> 
+      <ul>
+        <li><%= link_to "New Comment" ,:action => "team_page_new"%></li>
+      </ul>
+    </div><!-- End #operate-bottons -->
+        
+  </div> <!-- end #operate-area -->
+    
+</div> <!-- end #operate-mgt -->
+
+

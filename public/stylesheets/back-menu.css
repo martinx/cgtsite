@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #FFF;
+	margin-top: 10px; 			
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+
+#container {
+	width: 1000px;  
+	height: 650px;
+	background: #FFF;
+	margin: 0 auto; 
+	border: 1px solid #6666FF;
+	text-align: left; 
+	color:#6666FF;
+}
+
+#header { 
+	background: #FFF; 
+	height: 60px;
+	border-bottom: 1px solid #6666FF;
+	padding: 0 20px;  
+} 
+
+#header h1 {
+	margin: 0; 
+	padding: 10px 0; 
+	color:#F00;
+	text-align: left;
+}
+
+#content-mgt {
+	margin-top:30px;
+	width: 1000px;
+	height:230px;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#content-mgt h3 {
+	text-align: center; 
+	color:#C30;
+	font-style:oblique;
+}
+
+#content-mgt h5 {
+	text-align: center; 
+	color:#C30;
+	font-style:oblique;
+	margin-top:10px;
+}
+
+#content-list {
+	width: 1000px;
+	height:auto;
+	text-align: center; 
+}
+
+#content-list ul{
+position:relative;
+margin:0;
+}
+
+#content-list li{
+list-style-type:none;
+float:left;
+width: 26%;
+text-align:left;
+padding:5px 10px 5px 60px;	
+}
+
+#content-list a:link, #content-mgt a:visited{
+color:#0000FF;
+text-decoration:underline;
+}
+
+#content-list a:hover{
+color:#FF0000;           	
+text-decoration:underline;
+}
+
+#information-mgt {
+	margin-top:60px;
+	width: 1000px;
+	text-align: center; 
+	color:#C30;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#information-mgt h3 {
+	text-align: center; 
+	color:#C30;
+	font-style:oblique;
+}
+
+#information-mgt h5 {
+	text-align: center; 
+	color:#C30;
+	font-style:oblique;
+	margin-top:10px;
+}
+
+#information-list {
+	width: 1000px;
+	height:auto;
+	text-align: center; 
+	margin-bottom:20px;
+}
+
+#information-list ul{
+position:relative;
+margin:0;
+}
+
+#information-list li{
+width: 100%;
+padding-top:5px;	
+padding-left:370px;
+color:#6666FF; 
+	text-align: left; 
+	list-style-type:none;
+}
+
+#information-list  a:link, #information-list  a:visited{
+color:#0000FF;
+text-decoration:underline;
+}
+
+#information-list  a:hover{
+color:#FF0000;           	
+text-decoration:underline;
+}

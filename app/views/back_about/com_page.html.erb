@@ -1,0 +1,41 @@
+<%= stylesheet_link_tag "back-ab-com-page", :media => "all"  %>   
+<% @header = "About CGT Page Back - Show About Company Page" -%>
+<% @title = "About CGT Page Back - Show About Company Page" -%>
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Information About Company Page</h3>
+    <p>About Company Page is an independent page which displays the content about CGT company information. The font size is 14px, too, and its color is orange. 
+    <p>The width of its display area is 780px, and the length is not fixed, and can be scrolled with the context. The content is not only text, but some pictures and videos.
+    <p>Please review the content as follows.
+    </p>
+  </div><!-- end #operate-intro -->
+
+  <div id="operate-area">
+    
+    <h3>Show About Company Page Content</h3>
+    <h5>(The show box size is the same to About Company page.)        </h5>
+    <div id="operate-show">
+      <p><%=  @com_page.content %></p>
+    </div>
+    <div id="operate-author">
+      <h5>Current Author:  </h5> 
+    </div>
+    <div id="operate-author">     
+      <p><%=  @com_page.author %></p>
+    </div>
+    <div id="operate-admin">
+      <h5>Current Admin: </h5> 
+    </div>    
+    <div id="operate-admin">
+      <p>DerDer</p>
+    </div>
+    <div id="operate-buttons"> 
+      <ul>
+        <li><%= link_to "New Comment" ,:action => "com_page_new"%></li>
+      </ul>
+    </div><!-- End #operate-bottons -->
+        
+  </div> <!-- end #operate-area -->
+    
+</div> <!-- end #operate-mgt -->
+

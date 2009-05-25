@@ -1,0 +1,75 @@
+<%= stylesheet_link_tag "back-serv-show-page-edit", :media => "all"  %>   
+<% @title = "CGT Services Page Back - Edit Services Show Page" -%>
+<% @header = "CGT Services Page Back - Edit Services Show Page" -%>
+<%=  javascript_include_tag :fckeditor %>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For Edit Services Show Page</h3>
+      <p>In Edit Services Show Page, Admin can Edit a content of service show page. This operation will update the service case then put it into the website and database. Then it will be displayed in the top of services list. 
+      <p>The content of the page can contains text, photos and videos. The width of the creating area is 780px, but the length can be scrolled by the content. Its font size is 14px and the font color is dark grey.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Edit Services Show Page</h3>
+      <div id="operate-new">
+        <% form_for :service,@service,:url => { :action => "update",:id => @service.id }, :html => { :method => :post } do |f| %>
+          <div class="word">
+            <p align="center">Update Title Of The Service Case:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 90 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :sl_title %>
+          </div>
+          <div class="word">
+            <p align="center">Update Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :sl_author %>
+          </div>
+          <div class="word">
+            <p>Update Content:&nbsp;&nbsp;&nbsp;&nbsp;(Text, Picture and Videos are available.)</p>
+          </div>
+          <div class="message">
+            <%= fckeditor_textarea(:service, :sl_content, :width => '100%', :height => '360px' )%>
+          </div>
+          <div class="word">
+            <p align="center">Update Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="admin" type="text" class="input" value="Original Admin Name" maxlength=40 size=50 />
+          </div>
+          <div class="word">
+            <p align="center">Select An Industry For the Updated Case:</p>
+          </div>        
+          <div class="row">
+            <% for service_type in @service_types %>
+              <% if @service.service_type_id == service_type.id %>
+                <%= radio_button_tag 'industry', service_type.id, :checked => "checked" %> <%= service_type.st_name %>
+              <% else  %>
+                <%= radio_button_tag 'industry', service_type.id %> <%= service_type.st_name %>
+              <% end %>  
+            <% end %>  
+          </div>       			
+          <div class="div">
+            <p>
+              <%= f.submit "Edit Content" ,:confirm => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+        <% end %>
+      </div>    <!-- End #operate-new -->
+
+      
+      <div id="operate-buttons"> 
+        <ul>
+           <li><%= link_to "Back" ,:action => "list"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+
+  
+</div> <!-- end #block-mgt -->

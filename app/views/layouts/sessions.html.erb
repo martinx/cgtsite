@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+    <title>CGT Employees Login</title>    
+    <%= stylesheet_link_tag "employees-login", :media => "all"  %>
+  </head>  
+  <body class="employees-login">
+    <div id="main">
+      <!--   Employees Login Page  -->
+      <!--   Employees Login Page Banner -->
+      <div id="employees-banner">
+        <div id="employees-page">
+          <%= image_tag('employee-cgt-logo-red.gif') %>
+          <%= image_tag('employee-title-red.gif') %>
+        </div>
+        <div id="employees-board"> 
+          <%= image_tag('employee-slang.gif') %>
+        </div>
+      </div>
+
+     <%= yield :layout %>
+  
+     <!-- Footer Block -->
+      <div id="cgt-footer">
+        <div id="cgt-footer-copyright">
+          <ul>
+            <li>Copyright © 2008 CGTechCo.com. All Rights Reserved. </li>
+            <li><%= link_to "Privacy Policy" ,:controller => "privacy"%></li>          
+          </ul>
+          <br/>
+        </div>
+        <div id="cgt-footer-usa">
+          <div id="cgt-footer-portland">
+            <p class="portland-usa">Portland:</p>
+          </div>
+          <div id="cgt-footer-portland-date">
+            <iframe src="http://free.timeanddate.com/clock/i1372a10/n221/fs10/fc444/tceee/pceee/ahl/fti/tt0/tw1/tm1" frameborder="0" width="200" height="18"></iframe>
+          </div>
+        </div>
+        <div id="cgt-footer-china">
+          <div id="cgt-footer-beijing">
+            <p class="beijing-cn">Beijing:</p>
+          </div>
+          <div id="cgt-footer-beijing-date">
+            <iframe src="http://free.timeanddate.com/clock/i136yma3/n33/fs10/fc444/tceee/pceee/ahl/fti/tt0/tw1/tm1" frameborder="0" width="200" height="18"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

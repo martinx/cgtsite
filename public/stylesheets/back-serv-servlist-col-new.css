@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #FFF;
+	margin-top: 10px; 			
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+
+#container {
+	width: 1000px;  
+	height: 730px;
+	background: #FFF;
+	margin: 0 auto; 
+	border: 1px solid #6666FF;
+	text-align: left; 
+	color:#6666FF;
+}
+
+#header { 
+	background: #FFF; 
+	height: 60px;
+	border-bottom: 1px solid #6666FF;
+	padding: 0 20px;  
+} 
+
+#header h1 {
+	margin: 0; 
+	padding: 10px 0;
+	color:#F00;
+	text-align: left;
+}
+
+#block-mgt {
+	float:left;
+	position:relative;
+	width: 1000px;
+	height: 580px;
+	margin: 0;
+}
+
+#block-list {
+	float:left;
+	position:relative;
+	width: 160px;
+	height: 550px;
+	margin: 0;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+	text-align:left;
+	font-size:12px;
+	border-right: 1px solid;
+}
+
+#block-list ul{
+	float:left;
+	position:relative;
+	width:140px;
+	margin:0;
+	font-size:12px;
+	padding:0;
+}
+
+#block-list li{
+	float:left;
+	width:130px;
+	list-style-type:none;
+	text-align:left;
+	padding:5px 0px;	
+	color:#C30;
+}
+
+#block-list a:link, #block-list a:visited{
+	color:#C30;
+	text-decoration:underline;
+}
+
+#block-list a:hover{
+	color:#0000FF;           	
+	text-decoration:underline;
+}
+
+#operate-mgt {
+	float:right;
+	position:relative;
+	margin:0;
+	width: 829px;
+	height:560px;
+	text-align: center;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding-bottom:20px;
+}
+
+#operate-intro {
+	width:789px;
+	height:160px;
+	margin:0;
+	padding:20px;
+	border-bottom:1px solid #66F;
+}
+
+#operate-intro h3 {
+	width:789px;
+	margin:0;
+}
+
+#operate-intro p {
+	width:789px;
+	margin-top:20px;
+	text-align: left;
+	line-height:16px;
+}
+
+#operate-area {
+	width:789px;
+	height:350px;
+	margin:0;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#operate-area h3 {
+	width:789px;
+	margin:0;
+}
+
+#operate-new {
+	width:789px;
+	height:290px;
+}
+
+#operate-buttons {
+	width:789px;
+	height:20px;
+	list-style-type:none;
+	color:#C30;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:3px;
+}
+
+#operate-buttons ul{
+	list-style-type:none;
+	color:#C30;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:3px;
+	padding:0;
+}
+
+#operate-buttons li{
+	float:left; 
+	text-align:left;
+	padding:0px 30px 0px 0px;
+	margin:0px;
+}
+
+#operate-buttons a:link, #operate-buttons a:visited{
+	color:#C30;
+	text-decoration:underline;
+}
+
+#operate-buttons a:hover{
+	color:#0000FF;           	
+	text-decoration:underline;
+}
+
+form {
+margin:0px;
+padding:0px;
+display:inline;
+}
+
+form .word {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:center;
+height:20px;
+margin-top:10px;
+}
+
+form .word p {
+height:20px;
+font-style:italic;
+color:#6666FF;
+text-align:center;
+display:inline;
+}
+
+form .row { 
+height:20px;
+font-size:14px;
+text-align:center;
+display:inline;
+}
+
+.input {
+width:305px; 
+height:20px; 
+padding-top: 3px;
+border:1px solid #6666FF; 
+font-family:Arial, Helvetica, sans-serif;
+line-height:16px; 
+font-size:14px;
+text-align:left;
+display:inline;
+}
+
+form .message {
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	font-size:12px;
+	text-align:left;
+	width:305px;
+	height:90px;
+	display:inline;
+}
+
+textarea {
+width:305px; 
+height:90px; 
+border:1px solid #6666FF; 
+background:none; 
+padding-top:3px; 
+overflow:hidden; 
+font-family:Arial, Helvetica, sans-serif;
+line-height:15px; 
+font-size:12px;
+text-align:left;
+display:inline;
+}
+
+form .div {
+text-align:center;
+margin-top:10px;
+padding:5px 0 0 0;
+font-size:12px;
+color:#6666FF; 
+display:inline;
+}
+
+.div input {
+position:relative;
+color:#0000FF;
+} 

@@ -1,0 +1,47 @@
+Many web-based software systems contain a number of common types of components and functionality.  
+Calling application code based on HTTP posts, performing database transactions, rendering HTML 
+responses, and putting all of the system’s functionality into a scaleable, extensible architecture are all 
+common concerns in these applications.  Because of the prevalence of web applications in today’s world, 
+these problems are faced by many developers worldwide on a daily basis.  Clearly, when facing such a 
+task, a prudent software engineer would seek a common framework for web application development that 
+could reduce the need to reinvent existing solutions, create a common base architecture for a number of 
+different applications, and provide a ready-to-go solution for as many of the requirements as possible. 
+This solution to the problem is not a new one.  Frameworks like Microsoft’s .NET or Sun’s Java 2 
+Enterprise Edition (J2EE) are widely used to satisfy the needs of developers creating large scale service 
+oriented architectures for web deployment.  These systems have been tried and tested many times and are 
+well known for the robust solutions they can provide.  Unfortunately, with such a robust architecture 
+seems to come an inherently large amount of overhead in terms of configuration and setup.  In addition, 
+there tends to be a large learning curve to understand the architecture and all of its variants.  In particular, 
+J2EE has many different technologies that can be glued together within it, including Struts, Hibernate, 
+and Spring. 
+Enter Ruby on Rails.  Ruby on Rails is an open-source web application framework designed to make the 
+job of the developer easier by providing everything one needs to create web-based, database-driven 
+applications easily while focusing on the idea, not the technology behind implementing the idea.  It is 
+designed to be a marriage of the “quick-n-dirty” camp of PHP web developers and the “slow-n-clean” 
+methodologies of the old enterprise architecture crowd.  Many proponents of the framework will be quick 
+to tout quotes saying that it can make developing web systems ten times faster than performing similar 
+tasks with competing, more complex frameworks like J2EE.   
+Rails was developed while its creators were building a real life system with it.  This allowed them to test 
+out their ideas as they were putting them in to production, along with allowing them to drive the 
+development of the framework based on the actual needs of a real project.   
+The creator of Ruby on Rails, David Heinemeier Hansson of 37signals, will tell you that some of the 
+framework’s power comes from the fact that it follows the mantra of “convention over configuration.”
+This means that instead of allowing an ultimate amount of flexibility in what a developer can do with a 
+system, there are limits imposed.  While this may sound like a bad thing, it actually allows for a much 
+easier time in creating the types of solutions that it is specifically designed for.  In David’s words, “If you 
+are happy to work along the golden path that I' ve embedded in Rails, you gain an immense reward in 
+terms of productivity that allows you to do more, sooner, and better at the application level.”  Basically, 
+because assumptions are made on the part of the framework about how the developer will be doing things, 
+the developer doesn’t have to tell the framework how those things will be done.  This means less time 
+spent writing configuration files and more time working on the idea of the product. 
+A high-level view of the Rails architecture makes it look very much like other web application 
+frameworks.  Its architecture is based on MVC, designed to separate concerns and reduce the coupling 
+between disparate functionality.  Part of Rails’ power comes from the fact that this architecture is 
+connected through an auto-generated code base structure.  The developer can set up a project and then 
+make changes to the model directly and observe the results without a lot of work to set up every part of 
+getting that data propagated throughout the rest of the system. 
+The entire benefit of using Ruby on Rails is in many of the small things it does to benefit the developer in 
+ways that other similar frameworks do not.  These little things collectively work together to create a 
+development experience which overall seems much more agile and less cumbersome than the process 
+involved in working with other large and robust web development architectures.
+

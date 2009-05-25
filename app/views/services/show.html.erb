@@ -1,0 +1,36 @@
+ <%= stylesheet_link_tag "services-show", :media => "all"  %>   
+<% @title = "CGT Services Show" -%>
+<!-- Services Block -->
+<div id="services-line">
+  <!-- Services Show Page  -->  
+  <!-- Services List Title Block -->
+  <div id="serviceslist-title">
+    <%=  image_tag("services-list-title-pic.gif") %>
+    <p>Services Show</p>    
+    <div id="serviceslist-search">  
+      <% form_tag :action => "find",:html => {:multipart=> true} do %>
+        <div class="sl-seek">
+          <%= text_field_tag :search_text %>
+          <span class="div">
+            <%= submit_tag 'Search' %>
+          </span>
+        </div>
+      <% end %> 
+    </div>    
+  </div>   
+  <!-- End of Services List Title Block  --> 
+<%= render(:partial => 'menu') %>    
+  <div id="serviceslist-show">
+    <h3 id="sl-show"><%= @service.sl_title %></h3>
+    <div id="serviceslist-sub">
+      <p id="sl-date">Date: <%= @service.updated_at.strftime("%b.,%d,%Y") %></p>
+      <p id="sl-author">Author: <%= @service.sl_author %></p>
+    </div>
+    <div id="serviceslist-case">
+      <p><%= @service.sl_content %></p>
+    </div> 
+  </div> 
+  <!-- End of Services Show Page  --> 
+
+</div>
+<!-- End of Services Block -->

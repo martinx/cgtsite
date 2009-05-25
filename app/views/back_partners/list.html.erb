@@ -1,0 +1,52 @@
+<%= stylesheet_link_tag "back-partners-show", :media => "all"  %>   
+<% @title = "CGT Partners Page Back - Listing Partners Show Column" -%>
+<% @header = "CGT Partners Page Back - Listing Partners Show Column" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>     
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For Listing Partners Show Column</h3>
+      <p>In Partners Show Column, there are many partners' name and logos there. Listing Partners Show Column displays those partner's names and published dates for Admin who can create, edit, show and delete them. 
+      <p>The order of listing those names and dates is the same to that which are listing in Partners Show Page in the front-end. It is that the lastest partner is listed in top of the list.
+      <p>In the list, there are the information of partners' names, and Dates. Admin can select one of them to operate. 
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Listing Partners Show Column	</h3>
+       <% form_tag :action => 'show' , :method => :post do -%>
+        <div id="operate-listing">
+          <div id="operate-line">
+            <% for partner in @partners %>
+              <div id="operate-item">
+                <ul>
+                  <% if partner.id == Partner.find(:first,:order => "updated_at DESC").id %>
+                    <li><%= radio_button_tag :list, partner.id,:checked => "checked" %><%=h partner.pa_name %></li>
+                    <li><%=h partner.updated_at.strftime("%b.,%d,%Y") %></li>
+                  <% else  %>
+                    <li><%= radio_button_tag :list, partner.id %><%=h partner.pa_name %></li>
+                    <li><%=h partner.updated_at.strftime("%b.,%d,%Y") %></li>
+                  <% end %>  
+                </ul>
+              </div>
+            <% end %>  
+          </div><!-- End #operate-line -->
+          <div id="news-buttons">
+            <div class="paginate"><%= will_paginate @partners %></div>
+          </div>
+        </div><!-- End #operate-listing --> 
+        <div id="operate-buttons"> 
+          <ul>
+            <%= link_to 'New Content',:action => "new"  %>
+            <%= submit_tag 'Show Content' %>
+            <%= link_to 'New Content',:action => "new"  %>
+          </ul>
+        </div><!-- End #operate-bottons -->
+<% end %>
+     
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+
+  
+</div> <!-- end #block-mgt -->

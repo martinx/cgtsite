@@ -1,0 +1,54 @@
+<%= stylesheet_link_tag "back-events-page", :media => "all"  %>   
+<% @title = "News/Events Page Back - Show Events Page" -%>
+<% @header = "News/Events Page Back - Listing Events Page" -%>
+<div id="block-mgt">  
+  <div id="block-list">  
+    <ul>
+      <li><%= link_to "Web Back Menu" ,:controller => "back_menu"%></li>
+    </ul>
+  </div><!-- End #back-list -->
+  
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For Listing Events Page</h3>
+      <p>In News/Events page, there are many news and events of CGT with time. Listing Events Page displays those news or events for Admin who can create, edit, show and delete those news and events. 
+      <p>The order of listing those news and events is the same to that which are listing in News/Evets Page in the front-end. It is that the lastest news or event is listed in top of the list.
+      <p>In the list, there are the information of Event Title, Date, Author and Admin. Admin can select one of those events to operate. Creating is to make a lastest news or event.
+      </p>
+    </div><!-- end #operate-intro -->
+       
+      <div id="operate-area">
+        <h3>Listing Events Page	</h3>
+        <% form_tag :action => 'show' , :method => :post do -%>
+        <div id="operate-listing">
+          <div id="operate-line">
+            <% for event in @events %>
+              <div id="operate-item">
+                <ul>
+                  <li><%= radio_button_tag :list, event.id %>   <%= event.ev_title %></li>
+                  <li><%=h event.updated_at.strftime("%b.,%d,%Y") %></li>
+                </ul>
+              </div>
+            <% end %>  
+          </div><!-- End #operate-line --> 
+            
+      
+          <div id="news-buttons">
+            <div class="paginate"><%= will_paginate @events %></div>
+          </div>  
+        </div><!-- End #operate-listing --> 
+
+        <div id="operate-buttons"> 
+          <ul>
+            <%= submit_tag 'Show Content' %>
+            <%= link_to 'New Content',:action => "new"  %>
+                    
+          </ul>
+        </div><!-- End #operate-bottons -->
+        <% end -%>
+    
+    </div> <!-- end #operate-mgt -->
+
+    
+  </div> <!-- end #block-mgt -->
+</div> 

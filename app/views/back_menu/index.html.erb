@@ -1,0 +1,61 @@
+<%= stylesheet_link_tag "back-menu", :media => "all"  %>   
+<% @title = "CGT Web-Back Menu" -%>
+<% @header = "CGT Web-Back Adminstration" -%>
+<div id="content-mgt">  
+  <h3>Web-Back Contents Management</h3>
+  <h5>(Select following items to manage web pages)</h5>
+  <div id="content-list">
+    <ul>
+      <li><%= link_to "Home Pages Back" ,:controller => "back_home",:action =>'wel'  %></li>
+      <li><%= link_to "About CGT Page Back" ,:controller => "back_about" %></li>
+      <li><%= link_to "News/Events Page Back" ,:controller => "back_events" %></li>
+    </ul>
+  </div>  
+  <div id="content-list">
+    <ul>
+      <li><%= link_to "Services Pages Back" ,:controller => "back_services" %></li>
+      <li><%= link_to "Solutions Pages Back" ,:controller => "back_solutions" %></li>
+      <li><%= link_to "Clients Page Back" ,:controller => "back_clients" %></li>
+    </ul>
+  </div>
+  <div id="content-list">
+    <ul>
+      <li><%= link_to "Partners Page Back" ,:controller => "back_partners" %></li>
+      <li><a href="back-ichat.html">iChat Pages Back</a></li>
+      <li><a href="back-contact.html">Contact Us Page Back</a></li>
+    </ul>
+  </div>
+  <div id="content-list">
+    <ul>
+      <li><%= link_to "Privacy Page Back" ,:controller => "back_privacy" %></li>
+      <li><a href="back-employees.html">Employees Pages Back</a></li>
+      <li><a href="back-weblog.html">Weblog Pages Back</a></li>
+      
+    </ul>
+  </div>    
+  <div id="content-list">
+    <ul>
+      <li><%= link_to "Footer Back" ,:controller => "back_footer" ,:action => 'footer' %></li>
+      <!--            <li><a href="#"></a></li>-->
+    <!--           <li><a href="#"></a></li>-->
+    </ul>
+  </div>
+  
+  <!-- end #content-mgt -->
+</div>   
+
+
+<div id="information-mgt">  
+  <h3>Web Information Management</h3>
+  <h5>(Select following items to list web information)</h5>
+  <div id="information-list">
+    <ul>
+      <li><a href="back-account.htm">Employees' Account Settings</a></li>
+      <li><a href="back-info.htm">Employees' information List</a></li>
+      <li><a href="back-operate.htm">Administrator Operation Log</a></li>
+      <li><a href="back-site.htm">Site Information List</a></li>
+    </ul>
+  </div>  
+  
+  <!-- end #information-mgt -->
+</div>

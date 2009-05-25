@@ -1,0 +1,89 @@
+<%= stylesheet_link_tag "contact", :media => "all"  %>
+<% @title = "CONTACT" -%> 
+<!-- Contact Block -->
+<div id="contact-line">
+  <div id="contact-us">
+    <div id="contact-company">
+      <div id="contact-company-pic"><%= image_tag("contact-company-pic.gif") %></div>
+      <div id="contact-company-title">
+        <h3><span>Our Locations</span></h3>
+      </div>
+    </div>
+    <div id="contact-company-portland-pic"><%= image_tag("contact-portland-pic.gif") %></div>
+    <div id="contact-company-portland-addr">
+      <p><strong>CGT Headquarters</strong></p>
+      <p>&nbsp;</p>
+      <p>Address:</p>
+      <p>Portland, OR, USA</p>
+      <p></p>
+      <p>&nbsp;</p>
+      <p>Cell Phone:</p>
+      <p>001-503-3096013</p>
+      <p>&nbsp;</p>
+      <p>Email:</p>
+      <p>info@cgtechco.com</p>
+    </div>
+    <div id="contact-company-beijing-pic"><%= image_tag("contact-beijing-pic.gif") %></div>
+    <div id="contact-company-beijing-addr">
+      <p><strong>CGT Beijing Office, China</strong></p>
+      <p>&nbsp;</p>
+      <p>Address:</p>
+      <p>HaiDian XiTuCheng Lu 10#, Beijing, PRC</p>
+      <p>100088</p>
+      <p>&nbsp;</p>
+      <p>Cell Phone:</p>
+      <p>0086-13301035665</p>
+      <p>&nbsp;</p>
+      <p>Email:</p>
+      <p>bj@cgtechco.com</p>
+    </div>
+  </div>
+  <div id="contact-mail">
+    <div id="contact-mail-title">
+      <div id="contact-mail-title-pic"> <%= image_tag("contact-mail-title-pic.gif") %></div>
+      <h3><span>Contact Form</span></h3>
+    </div>
+    <div id="contact-mail-frame">
+      <form  id="form" action="contact/email" enctype="multipart/form-data">
+        <div class="mail"> Please feel free contact us. Thanks!<br>
+          <br>
+          <div class="word">
+            <p>Your Name:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="contact[name]" type="text" class="input" />
+          </div>
+          <div class="word">
+            <p>Your Email:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="contact[email]" type="text" class="input" />
+          </div>
+          <div class="word">
+            <p>Send To:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="contact[sendto]" type="text" class="input" />
+          </div>
+          <div class="word">
+            <p>Subject:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="contact[subject]" type="text" class="input" />
+          </div>
+          <div class="word">
+            <p>Message:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 2000 letters.)</p>
+          </div>
+          <div class="message">
+            <textarea name="contact[message]" cols="1" rows="1"></textarea>
+            <br/>
+          </div>
+          <div class="div">
+            <input type=submit value="Send" onclick='sAlert("Thank you for your email.")'>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- End of Contact Block -->

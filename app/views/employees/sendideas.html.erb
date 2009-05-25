@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <%= stylesheet_link_tag "employees-sendideas", :media => "all"  %>
+    <% @title = "CGT Employees Send Ideas" -%>
+  </head>
+  <body class="employees-login">
+    <div id="main">
+      <!--   Employees Login Page  -->
+      <!--   Employees Login Page Banner -->
+      <div id="employees-banner">
+        <div id="employees-page">
+          <%= image_tag('employee-cgt-logo-red.gif') %>
+          <%= image_tag('employee-title-red.gif') %>
+          <%= image_tag('employee-sendideas.gif') %>
+        </div>
+        <div id="employees-board">
+          <%= image_tag('employee-slang.gif') %>
+        </div>
+      </div>
+<!--  End of Employees Login Page Banner -->
+
+
+<div id="employees-buttons"> 
+  <ul>
+    <li><%= link_to "Home" ,:controller => 'home' %></li>
+    <li><%= link_to "Ideas List" ,:action => 'ideaslist' %></li> 
+    <li><%= link_to 'Send Ideas',:action => 'sendideas' %></li>  
+  </ul>
+</div>
+<div id="employees-box">
+  <!-- Send Area -->
+  <div id="employees-send">
+    <h4 class="leave-title">Send Your Message</h4> 
+    <% form_for :idea, @idea, :url => { :action => 'create_ideas' }, :html => { :method => :post   } do |f| %>   
+      <%= f.error_messages %>
+              
+      <p>
+        <%= f.text_field :author, :size => "50" %>
+        <%= f.label "Name (Required)"   %>
+      </p>
+      <p>
+        <%= f.text_field :title ,:size => "50",:maxlength => "72" %>
+        <%= f.label "Subject (Required)" %>
+      </p>
+    
+      <p>
+        <%= f.text_area :content, :size => '50'%>
+      </p>
+      <p>
+        <%= select("idea", "idea_type_id", IdeaType.find(:all).collect{|t| [t.title, t.id]}, { :include_blank => false }) %>
+      </p>
+      <p>
+        <%= f.submit "Submit" %>
+      </p>
+    <% end %>
+  </div>
+  <!-- End of Send Area -->
+</div>
+<!--  End of Employees Send  -->
+
+
+    </div>
+  </body>
+</html>

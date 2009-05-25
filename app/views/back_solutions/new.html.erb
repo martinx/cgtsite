@@ -1,0 +1,75 @@
+<%= stylesheet_link_tag "back-serv-show-page-new", :media => "all"  %>   
+<% @title = "CGT Solutions Page Back - New Solutions Show Page" -%>
+<% @header = "CGT Solutions Page Back - New Solutions Show Page" -%>
+<%=  javascript_include_tag :fckeditor %>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For New Solutions Show Page</h3>
+      <p>In New Solutions Show Page, Admin can create a brand new Solution show page. This operation will add the new case into the website and database. Then it will be displayed in the top of solutions list. 
+      <p>The content of the page can contains text, photos and videos. The width of the creating area is 590px, but the length can be scrolled by the content. Its font size is 14px and the font color is dark grey.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>New Solutions Show Page</h3>
+      <div id="operate-new">
+        <% form_for :solution,@solution,:url => { :action => "create",:id => @solution.id }, :html => { :method => :post } do |f| %>
+          <div class="word">
+            <p align="center">New Title Of The Solution Case:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 90 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :so_title,:maxlength=>90,:size=>100  %>
+          </div>
+          <div class="word">
+            <p align="center">New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :so_author,:maxlength=>40,:size=>50 %>
+          </div>
+          <div class="word">
+            <p>New Content:&nbsp;&nbsp;&nbsp;&nbsp;(Text, Picture and Videos are available.)</p>
+          </div>
+          <div class="message">
+            <%= fckeditor_textarea(:solution, :so_content, :width => '100%', :height => '360px' )%>
+          </div>
+          <div class="word">
+            <p align="center">New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="admin" type="text" class="input" maxlength=40 size=50 />
+          </div>
+          <div class="word">
+            <p align="center">Select An Industry For the New Case:</p>
+          </div>        
+          <div class="row">
+            <% for solution_type in @solution_types %>
+              <% if solution_type.id == 1 %>
+                <%= radio_button_tag 'industry', solution_type.id, :checked => "checked" %> <%= solution_type.st_name %>
+              <% else  %>
+                <%= radio_button_tag 'industry', solution_type.id %> <%= solution_type.st_name %>
+              <% end %>  
+            <% end %> 
+          </div>       			
+          <div class="div">
+            <p>
+                <%= f.submit "New Content" ,:onclick => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+          <% end %>
+        </div>    <!-- End #operate-new -->
+
+      
+        <div id="operate-buttons"> 
+          <ul>
+            <li><%= link_to "Back" ,:action => "list"%></li>
+          </ul>
+        </div><!-- End #operate-bottons -->
+        
+      </div> <!-- end #operate-area -->
+    
+    </div> <!-- end #operate-mgt -->
+
+  
+  </div> <!-- end #block-mgt -->

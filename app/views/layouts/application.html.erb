@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <title><%= @title ||= "CGT Website" %></title>
+    
+    <%= stylesheet_link_tag "common", :media => "all"  %>
+  </head>
+  
+  <body class="cgtweb">
+    <div id="container">
+      <!-- Link Buttoms -->
+      <div id="cgt-link">
+        <ul>
+          <li><%= link_to "SERVICES" , :controller => "services" %></li>
+          <li><%= link_to "SOLUTIONS" , :controller => "solutions" %></li>
+          <li><%= link_to "CLIENTS" , :controller => "clients" %></li>
+          <li><%= link_to "PARTNERS" , :controller => "partners" %></li>
+          <li><%= link_to "EMPLOYEES" , :controller => "employees" ,:action => 'logins' %></li>
+          <li><%= link_to "WEBLOG" , :controller => "weblog" %></li>
+        </ul>
+        <br />
+      </div>
+      <!-- Company English Name -->
+      <div id="cgt-title-en">
+        <h2 class="title-en"><span>COOPERATIVE GLOBAL TECHNOLOGIES, LLC</span></h2>
+      </div>
+      <div id="cgt-title-cn">
+        <!-- Company Chinese Name -->
+        <p class="title-cn">全球合作技术责任有限公司</p>
+      </div>
+      <!-- Right Three Buttoms (home, ichat, contact) -->
+      <div id="cgt-func3">
+        <ul>
+          <li><%= link_to image_tag("comm-mail.gif") , :controller => "contact" %></li>
+          <li><%= link_to image_tag("comm-chat.gif") , :controller => "chat" %></li>
+          <li><%= link_to image_tag("comm-home.gif") , :controller => "home",:action =>'index' %></li>
+        </ul>
+      </div>
+      <!-- Website Banner -->
+      <div id="cgt-banner"><%= image_tag("comm-banner.gif") %></div>
+      
+      <%= yield :layout %>
+            
+      <!-- Footer Block -->
+      <div id="cgt-footer">
+        <div id="cgt-footer-copyright">
+          <ul>
+            <li>Copyright © 2009 CGTechCo.com. All Rights Reserved. </li>
+            <li><%= link_to "Privacy Policy" ,:controller => "privacy"%></li>          
+          </ul>
+          <br/>
+        </div>
+        <div id="cgt-footer-usa">
+          <div id="cgt-footer-portland">
+            <p class="portland-usa">Portland:</p>
+          </div>
+          <div id="cgt-footer-portland-date">
+            <iframe src="http://free.timeanddate.com/clock/i1372a10/n221/fs10/fc444/tceee/pceee/ahl/fti/tt0/tw1/tm1" frameborder="0" width="200" height="18"></iframe>
+          </div>
+        </div>
+        <div id="cgt-footer-china">
+          <div id="cgt-footer-beijing">
+            <p class="beijing-cn">Beijing:</p>
+          </div>
+          <div id="cgt-footer-beijing-date">
+            <iframe src="http://free.timeanddate.com/clock/i136yma3/n33/fs10/fc444/tceee/pceee/ahl/fti/tt0/tw1/tm1" frameborder="0" width="200" height="18"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<%= stylesheet_link_tag "clients", :media => "all"  %>
+<% @title = "Our Clients" -%>
+<!-- Clients Block -->
+<div id="clients-line">
+  <!-- Our Clients Title Block -->
+  <div id="clients-title"> 
+    <%= image_tag("clients-title-pic.gif") %>
+    <p>Our Clients</p>
+  </div>
+  <div id="clients-comment">
+    <p>Our clients come from many different industry sectors and many through referral. We think this is a testimony to the quality of our work and it is importance we place on creating a rewording working relationship with them. 
+    <p>Now please contact us: <%= link_to "info@cgtechco.com" , :controller => "contact"%></p>
+    
+  </div>
+  <div id="clients-show"> 
+    <% for client in @clients %>
+      <div id="clients-logo">
+        <%= image_tag(client.public_filename) %>       
+        <%= link_to client.cl_name,client.cl_url,:target => '_blank ' %> 
+        <%#= link_to client.cl_name,client.cl_url :controller => 'services' ,:action => 'find',:id => client %> 
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<!-- End of Clients Block -->

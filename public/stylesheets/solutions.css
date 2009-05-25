@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+#solutions-line {
+float:left;
+position:relative;
+margin:5px 0px 0px 0px;
+width:800px; height:452px;
+border-top:1px solid #999999;
+display:inline;
+}
+
+#solutions-about {
+	float:left;
+	position:relative;
+	margin-top:5px;
+	padding:0;
+	width:350px;
+	height:441px;
+	display:inline;
+	font-size:24px;
+}
+
+#solutions-about-title {
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+	background-image:url(/images/solutions-about-title-bg.gif);
+	width:350px;
+	height:40px;
+	display:inline;
+	font-size:24px;
+}
+
+#solutions-about-title img{
+	float:left;
+	position:relative;
+	margin:5px 10px 5px 10px;
+	padding:0;
+	width:30px;
+	height:30px;
+	display:inline;
+}
+
+#solutions-about-title p{
+	float:left;
+	position:relative;
+	margin:5px 0px 5px 0px;
+	padding:0;
+	width:290px;
+	height:30px;
+	display:inline;
+	color:#CC0066;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#solutions-about-con {
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+	background-image:url(/images/solutions-about-bg.gif);
+	width:350px;
+	height:407px;
+	display:inline;
+	font-size:14px;
+}
+
+#solutions-about-date {
+	float:left;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	padding-left:10px;  
+	width:320px;
+	height:10px;
+	display:inline;
+	font-size:10px;
+	color:#999999;
+}
+
+#solutions-about-date p{
+	margin:0;
+	padding:0;
+}
+
+#solutions-about-author {
+	float:left;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	margin-top:5px;
+	padding-left:10px;
+	width:320px;
+	height:10px;
+	display:inline;
+	font-size:10px;
+	color:#999999;
+}
+
+#solutions-about-author p{
+	margin:0;
+	padding:0;
+	width:320px;
+	height:10px;
+}
+
+#solutions-about-article {
+	float:left;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	margin-top:10px;
+	padding:0px;
+	width:320px;
+	height:350px;
+	display:inline;
+	font-size:14px;
+	color:#CC0066;
+	line-height:18px;
+	overflow:hidden;
+}
+
+#solutions-recent {
+	float:left;
+	position:relative;
+	margin:5px 0px 0px 10px;
+	padding:0;
+	width:440px;
+	height:447px;
+	display:inline;
+}
+
+#solutions-recent-title {
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+	background-image:url(/images/solutions-recent-title-bg.gif); 
+	width:440px;
+	height:40px;
+	display:inline;
+	font-size:24px;
+}
+
+#solutions-recent-title img{
+	float:left;
+	position:relative;
+	margin:5px 10px 5px 10px;
+	padding:0;
+	width:30px;
+	height:30px;
+	display:inline;
+}
+
+#solutions-recent-title p{
+	float:left;
+	position:relative;
+	margin:5px 0px 5px 0px;
+	padding:0;
+	width:380px;
+	height:30px;
+	display:inline;
+	color:#CC9900;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#solutions-recent-con {
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+	width:440px;
+	height:407px;
+	display:inline;
+}
+
+#solutions-recent-comm {
+	float:left;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	margin-left:10px;
+	padding-left:10px;
+	width:410px;
+	height:60px;
+	display:inline;
+	font-size:14px;
+	color:#CC9900;
+}
+
+#solutions-recent-comm p{
+	margin:0;
+	padding:0;
+}
+
+
+#solutions-recent-list {
+	float:left;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	margin-top:20px;
+	padding:0px;
+	width:410px;
+	height:290px;
+	display:inline;
+	font-size:14px;
+	color:#CC9900;
+	line-height:18px;
+}
+
+#solutions-recent-more {
+	float:left;
+	position:relative;
+	margin-top:7px;
+	padding:0;
+	background-image:url(/images/solutions-recent-footer-bg.gif); 
+	width:440px;
+	height:20px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#CC9900;
+	font-size:14px;
+	display:inline;
+	font-weight:bold;
+}
+
+#solutions-recent-more a{
+	margin:0;
+	padding-top:7px;
+}  
+
+#solutions-recent-more a:link, #solutions-recent-more a:visited{
+padding-top:7px;
+color:#CC9900;
+text-decoration:none;
+}
+
+#solutions-recent-more a:hover{
+color:#0000FF;           	
+text-decoration:underline;
+}

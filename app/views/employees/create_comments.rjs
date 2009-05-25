@@ -1,0 +1,6 @@
+# TODO Operate on the page object
+page.replace_html("com", :partial => "com")
+
+page[:com].visual_effect :highlight, 
+                                  :startcolor => "#88ff88",
+                                  :endcolor => "#114411"

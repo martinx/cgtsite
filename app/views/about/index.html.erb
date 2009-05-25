@@ -1,0 +1,43 @@
+<%= stylesheet_link_tag "about-cgt", :media => "all"  %>
+<% @title = "ABOUT CGT" -%>
+<!-- ABout CGT Block -->
+<div id="about-line">
+  <div id="about-box">
+    <div id="about-cgt">
+      <div id="about-cgt-title">
+        <%= image_tag("about-cgt-pic.gif") %>
+        <p>About Company</p>
+      </div>
+      <div id="about-cgt-contents">
+        <p>Here is the contents of About Company.</p>
+      </div>
+      <%= link_to "Read More" ,:action => "company" %>                    
+    </div>
+    <div id="about-principles">
+      <div id="about-principles-title">
+        <%= image_tag("about-principles-pic.gif") %>
+        <p>Our Reasons For Being  and Our Guiding Principles</p>    
+      </div>
+      <div  id="about-principles-contents">            
+        <p>&nbsp;&nbsp;Our Reasons For Being  and Our Guiding Principles are as follows. </p>
+        <ul>
+          <li>To faciliteate and expedite new International trade channels;</li>
+          <li>To ensure fair economic advantages to our partners;</li>
+          <li>Helping our partners through shared resources;</li>
+          <li>Honesty, Integrity, Philanthropy in all areas.</li>
+        </ul>
+      </div>    
+    </div>
+  </div>
+  <div id="about-team">
+    <div id="about-team-title">
+      <%= image_tag("about-team-pic.gif") %>
+      <p>Our WorkTeam</p>    
+    </div>
+    <div id="about-team-contents">
+      <p>Here is the contents of Our WorkTeam.</p>
+    </div>
+    <%= link_to "Read More" ,:action => "team"%>          	 
+  </div>
+</div>
+<!-- End of About CGT Block -->

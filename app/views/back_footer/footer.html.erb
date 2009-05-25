@@ -1,0 +1,39 @@
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Information About Copyright Column</h3>
+    <p>There is Copyright information in Page Footer. It expatiates the Copyright of CGT website on the bottom of each page.  
+    <p>Copyright column's font size is 10px.Its color is black.  At most, there is 60 letters in Copyright column. The content is only text. The copyright column has not "Destroy Content" function.
+    <p>Please review the content as follows.
+    </p>
+  </div><!-- end #operate-intro -->
+
+  <div id="operate-area">
+    
+    <h3>Show Copyright Column Content</h3>
+    <h5>(The content is the same to Copyright column.)        </h5>
+    <div id="operate-show">
+        <p><%=  @footer.content %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=  @footer.author %></p>
+      </div>
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "New Comment" ,:action => "footer_new"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->
+

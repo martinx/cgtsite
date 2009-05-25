@@ -1,0 +1,33 @@
+<%= stylesheet_link_tag "solutions-menu", :media => "all"  %>   
+<%= stylesheet_link_tag "solutions-show", :media => "all"  %>
+<%= stylesheet_link_tag "solutions-find", :media => "all"  %>      
+<%= stylesheet_link_tag "solutions", :media => "all"  %>   
+<% @title = "CGT Solutions Search Result" -%> 
+<!-- Solutions Show Block -->
+<div id="solutions-show-line">
+  <div id="solutions-show"> 
+    <%= render(:partial => 'menu') %>
+    <!-- Solutions Show Article Block -->	
+    <div id="solutions-find">
+      <div id="solutions-find-title">
+        <p>The Result List Of Searching </p>
+      </div>
+      <div id="solutions-result">
+        <% for solution in @solutions %>
+          <div id="solutions-display"> 
+            <%= image_tag("sf-find-view.gif") %>
+            <%= link_to solution.so_title,:action => "show",:id => solution %>
+            <p><%=h solution.updated_at.strftime("%b.,%d,%Y") %></p>
+          </div>
+        <% end %>
+      </div>
+      <div id="solutions-buttons">
+        <div class="paginate"> 
+          <%= will_paginate @solutions,:method=>"get" ,:search_text => @search_text   %>    
+        </div> 
+      </div>       
+    </div>
+    <!-- End Of Solutions Show Article Block -->	
+  </div>
+</div>
+<!-- End of Solutions Show Block -->

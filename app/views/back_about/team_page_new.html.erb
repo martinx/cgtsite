@@ -1,0 +1,53 @@
+<%= stylesheet_link_tag "back-ab-team-page-new", :media => "all"  %>   
+<% @title = "About CGT Page Back - New About Our Work Team Page" -%>
+<% @header = "About CGT Page Back - New About Our Work Team Page" -%>
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Information About Our Work Team Page</h3>
+    <p>About Our Work Team Page introduces CGT's work team with text, pictures and videos. The font size is 14px, and the color is blue. The page's width is 780px, but the length can be scrolled by its content.
+    <p>After you input the new content, then it will replace your old one that will be changed. 
+    <p>When you are sure that you need to input the new content, please input your information below.
+    </p>
+  </div><!-- end #operate-intro -->
+
+  <div id="operate-area">
+    <h3>New About Our Work Team Page</h3>
+    
+    <div id="operate-new">
+      <% form_for :about,@about,:url => { :action => "create_team_page",:id => @team_page.id }, :html => { :method => :post } do |f| %>
+        <div class="word">
+          <p>New Comment:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 220 letters.)</p>
+        </div>
+        <div class="message">
+          <%= f.text_area :content %>
+        </div>
+        <div class="word">
+          <p>New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+        </div>
+        <div class="row">
+          <%= f.text_field :author %>
+        </div>
+        <div class="word">
+          <p>New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+        </div>
+        <div class="row">
+          <input name="Admin" type="text" class="input" maxlength=40 size=50 />
+        </div>
+        <div class="div">
+          <p>
+            <%= f.submit "New Content" ,:popup => "New Content Has Been Successfully Input!" %>
+          </p>
+        </div>
+      <% end %>
+    </div>    <!-- End #operate-new -->
+
+    <div id="operate-buttons">
+      <ul>
+        <li><%= link_to "Back" ,:action => "team_page"%></li>
+      </ul>
+    </div>  <!-- End #operate-bottons -->
+
+  </div>   <!-- end #operate-area -->
+    
+</div>  <!-- end #operate-mgt -->
+

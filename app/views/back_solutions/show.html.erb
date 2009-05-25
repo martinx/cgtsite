@@ -1,0 +1,67 @@
+<%= stylesheet_link_tag "back-solu-show-page-show", :media => "all"  %>   
+<% @title = "CGT Solutions Page Back - Show Solutions Show Page" -%>
+<% @header = "CGT Solutions Page Back - Show Solutions Show Page" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>      
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About Show Solutions Show Page</h3>
+      <p>In Solutions Show Page, it displays the current content of the selected solution case of CGT. The content can be text, pictures and videos. Admin can review the content in the page.
+      <p>The font size of the page is 14px, and the font color is dark grey. The width of its display area is 590px, and the length can be scrolled by the context. 
+      <p>Please review the content as follows.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Show Solutions Show Page Content</h3>
+      <h5>(The show box size is the same to Solutions Show page.)</h5>
+      <div id="operate-title">
+        <h5>Current Solution Case's Title:</h5> 
+      </div>
+      <div id="operate-title">
+        <p><%=h @solution.so_title %></p> 
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=h @solution.so_author %></p>
+      </div>
+      <div id="operate-date">
+        <h5>Published Date:  </h5> 
+      </div>
+      <div id="operate-date">     
+        <p><%=h @solution.updated_at.strftime("%b.,%d,%Y") %></p>
+      </div>
+      <div id="operate-industry">
+        <h5>Industry:  </h5> 
+      </div>
+      <div id="operate-industry">     
+        <p><%=h @solution.solution_type.st_name %></p>
+      </div>
+      <div id="operate-industry">
+        <h5>Current Content:  </h5> 
+      </div>
+      <div id="operate-show">
+        <p><%= @solution.so_content %>   
+        </p>
+      </div>
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>Zhang Yi</p>
+      </div>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "Back" ,:action => "list"%></li>
+          <li><%= link_to "Edit Content" ,:action => "edit",:id => @solution.id %></li>
+          <li><%= link_to "Destory Content" ,:action => "destroy",:id => @solution.id,:confirm => 'Are you sure?', :method => :delete%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+  
+</div> <!-- end #block-mgt -->

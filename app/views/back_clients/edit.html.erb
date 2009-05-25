@@ -1,0 +1,60 @@
+<%= stylesheet_link_tag "back-clients-show-edit", :media => "all"  %>   
+<% @title = "CGT Clients Page Back - Edit Clients Show Column" -%>
+<% @header = "CGT Clients Page Back - Edit Clients Show Column" -%>
+<div id="block-mgt">  
+  <%= render(:partial => 'menu') %>     
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information About Editing Clients Show Column</h3>
+      <p>In the column, we need to update client's three information - logo, name and its URL. Logo picture size is 60X50px, name size is 80X20px, and font is 10px, its URL is just a link on the name.
+      <p>After you updated the contents, then they will replace your old one that will be changed. 
+      <p>When you are sure that you need to update the contents about the client, please input your new information below.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Edit Clients Show Column</h3>
+      
+      <div id="operate-new">
+        <% form_for :client,@client,:url => { :action => "update",:id => @client.id }, :html => { :method => :post , :multipart => true } do |f| %>
+          <div class="word">
+            <p>Updated Client's Logo Image File Name:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+          <%= f.file_field :uploaded_data,:maxlength=>40,:size=>50  %>          </div>
+          <div class="word">
+            <p align="center">Updated Client's Name:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 14 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :cl_name ,:maxlength=>40,:size=>50 %>
+          </div>
+          <div class="word">
+            <p align="center">Updated Client's URL:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :cl_url,:maxlength=>40,:size=>50  %>
+          </div>
+          <div class="word">
+            <p align="center">Updated Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :cl_author,:maxlength=>40,:size=>50  %>
+          </div>
+          <div class="div">
+            <p>
+              <%= f.submit "Edit Content" ,:onclick => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+        <% end %>
+      </div>    <!-- End #operate-new -->
+
+
+      <div id="operate-buttons">
+        <ul>
+          <li><%= link_to "Back" ,:action => "list"%></li>
+        </ul>
+      </div>  <!-- End #operate-bottons -->
+
+    </div>   <!-- end #operate-area -->
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt --> 

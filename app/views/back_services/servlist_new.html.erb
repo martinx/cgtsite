@@ -1,0 +1,55 @@
+<%= stylesheet_link_tag "back-serv-servlist-col-new", :media => "all"  %>   
+<% @title = "CGT Services Page Back - New Services List Comment" -%>
+<% @header = "CGT Services Page Back - New Services List Comment" -%>
+<div id="block-mgt">  
+    <%= render(:partial => 'menu') %>    
+  
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Important Understanding Of New Services List Comment</h3>
+      <p>The text size is about 290 letters with 12px font-size and font of Arial, Helvatica, sans-serif. There is not any picture and video in it.
+      <p>When you click the "New Comment" botton to finish your input in the text area, the program will count the letters. If your input is exceeding the defined size. Please polish your content agian so that you can complete the whole text input.
+      <p>After you made the new content, then it will replace your old one that will be changed.
+      </p>
+    </div>
+    <div id="operate-area">
+      <h3>New Services List Comment</h3>
+      <div id="operate-new">
+        <% form_for :about,@about,:url => { :action => "create_servlist",:id => @servlist.id }, :html => { :method => :post } do |f| %>
+          <div class="word">
+            <p>New Comment:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 220 letters.)</p>
+          </div>
+          <div class="message">
+            <%= f.text_area :content %>
+          </div>
+          <div class="word">
+            <p>New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <%= f.text_field :author %>
+          </div>
+          <div class="word">
+            <p>New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+          </div>
+          <div class="row">
+            <input name="Admin" type="text" class="input" maxlength=40 size=50 />
+          </div>
+          <div class="div">
+            <p>
+              <%= f.submit "New Content" ,:popup => "New Content Has Been Successfully Input!" %>
+            </p>
+          </div>
+        <% end %>
+      </div>    <!-- End #operate-new -->
+
+      <div id="operate-buttons">
+        <ul>
+          <li><%= link_to "Back" ,:action => "servlist_col"%></li>
+        </ul>
+      </div>  <!-- End #operate-bottons -->
+
+    </div>   <!-- end #operate-area -->
+    
+  </div>  <!-- end #operate-mgt -->
+  
+</div> <!-- end #block-mgt -->

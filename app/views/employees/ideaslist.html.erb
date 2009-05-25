@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <%= stylesheet_link_tag "employees-ideaslist", :media => "all"  %>
+    <% @title = "CGT Employees Ideas List" -%>
+  </head>
+  <body class="employees-login">
+    <div id="main">
+      <!--   Employees Login Page  -->
+      <!--   Employees Login Page Banner -->
+      <div id="employees-banner">
+        <div id="employees-page">
+          <%= image_tag('employee-cgt-logo-red.gif') %>
+          <%= image_tag('employee-title-red.gif') %>
+          <%= image_tag('employee-ideaslist.gif') %>
+        </div>
+        <div id="employees-board">
+          <%= image_tag('employee-slang.gif') %>
+        </div>
+      </div>
+<!--  End of Employees Login Page Banner -->
+
+
+
+<div id="employees-buttons"> 
+  <ul>
+    <li><%= link_to "Home" ,:controller => 'home',:action => 'index' %></li>
+    <li><%= link_to "Ideas List" ,:action => 'ideaslist' %></li> 
+    <li><%= link_to 'Send Ideas',:action => 'sendideas' %></li>  
+  </ul>
+</div>
+
+<div id="employees-box">
+  <!-- Left side of ideas -->
+  <div id="employees-left">
+    <% for idea in @ideas %>   
+      <div id="title">
+        <h4><%= link_to idea.title,:action => "comment", :id => idea %></h4>
+      </div>
+      <div id="info">
+        <p>Author: <%= idea.author %></p>
+        <p>Date: <%=h idea.updated_at.strftime("%b.,%d,%Y") %></p>
+      </div>
+      <div id="text_box">
+        <p><%= idea.content %></p>
+      </div>
+      <div id="comments"> 
+        <p>Category: <%= IdeaType.find(:first,:conditions => [ "id = ?" , idea.idea_type_id]).title %></p>
+        <%= link_to 'Read Comments ('+Comment.count(:conditions => [ "idea_id = ?" , idea.id]).to_s+')',:action => "comment", :id => idea %> 
+      </div>
+    <% end %>    
+  </div>
+  <!-- End of Left side of ideas -->
+  <%= render(:partial => 'right_side_bar') %>    
+  </div>
+<!--  End of Employees Ideas  -->
+
+  </div>
+  </body>
+</html>

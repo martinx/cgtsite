@@ -1,0 +1,91 @@
+<%= stylesheet_link_tag "services", :media => "all" %>
+<% @title = "CGT Services" -%> 
+
+<!-- Services Block -->
+<div id="services-line">
+  <div id="services-services">    
+    <div id="services-company">
+      <div id="services-company-pic">
+        <%=  image_tag("services-company-pic.gif") %>
+      </div>
+      <div id="services-company-services">
+        <h3><span>Company Services</span></h3>
+      </div> 
+    </div>
+    <div id="services-integrations">
+      <div id="services-integrations-pic">
+        <%= image_tag("services-integrations-pic.gif") %>
+      </div>
+      <div id="services-integrations-comm">
+        <div id="services-integrations-title">
+          <p><strong>System Integrations</strong></p>
+        </div>
+        <div id="services-integrations-content">
+          <p><%= ServiceType.find_by_id(1).st_desc %></p> 
+        </div>
+      </div>
+    </div>
+    <div id="services-software">
+      <div id="services-software-pic">
+        <%= image_tag("services-software-pic.gif") %>
+      </div>
+      <div id="services-software-comm">
+        <div id="services-software-title">
+          <p><strong>Software Development</strong></p>
+        </div>
+        <div id="services-software-content">
+          <p><%= ServiceType.find_by_id(2).st_desc %></p>
+        </div>
+      </div>
+    </div>
+    <div id="services-music">
+      <div id="services-music-pic">
+        <%= image_tag("services-music-pic.gif") %>
+      </div>
+      <div id="services-music-comm">
+        <div id="services-music-title">
+          <p><strong>Music Audio & Shows</strong></p>
+        </div>
+        <div id="services-music-content">
+          <p><%= ServiceType.find_by_id(3).st_desc %></p>
+        </div>
+      </div>
+    </div>
+    <div id="services-consultant">
+      <div id="services-consultant-pic">
+        <%= image_tag("services-consultant-pic.gif") %>
+      </div>
+      <div id="services-consultant-comm">
+        <div id="services-consultant-title">
+          <p><strong>Consultant & Training</strong></p>
+        </div>
+        <div id="services-consultant-content">
+          <p><%= ServiceType.find_by_id(4).st_desc %> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="services-list">
+    <div id="services-list-title">
+      <div id="services-list-title-pic">
+        <%= image_tag("services-list-title-pic.gif") %>
+      </div>
+      <h3><span>Services List</span></h3>
+    </div>
+    <div id="services-list-comm">
+      <p><%= ServiceComment.find_by_id(1).sc_desc %> </p>
+    </div>
+    <div id="services-list-list">
+      <ul>
+        <% for service in @services %>
+          <li><%= link_to service.sl_title ,:action => "show",:id => service %></li>
+        <% end  %>
+      </ul>
+    </div>
+    <div id="services-list-more">
+      <% recent_solution = Service.find(:first,:order => 'updated_at desc' ) %>                                             
+        <%= link_to "Read More" ,:action => "show", :id => recent_solution %>  
+    </div>
+  </div>
+</div>
+<!-- End of Services Block -->

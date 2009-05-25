@@ -1,0 +1,51 @@
+<%= stylesheet_link_tag "back-home-wel", :media => "all"  %>   
+<%= stylesheet_link_tag "back-home-event", :media => "all"  %>   
+<% @title = "Home Page Back - Show Welcome Content" -%>
+<% @header = "Home Page Back - Show Welcome Content" -%>
+<div id="block-mgt">  
+  <div id="block-list">  
+    <ul>
+      <li><%= link_to "Web Back Menu" ,:controller => "back_menu"%></li>
+      <li><%= link_to "Welcome Column" ,:controller => "back_home",:action => 'wel' %></li>
+      <li><%= link_to "Event Column" ,:controller => "back_home",:action => 'event' %></li>
+    </ul>
+  </div><!-- End #back-list -->
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Welcome Column Operation Introduce</h3>
+      <p>Welcome Column is in the middle-left of the "Home" Page. The operations mean that you can create, edit, show or delete the column with your requirement.
+      <p>In the column, the text size is about 540 letters with 14px font size, and it only has one paragraph. There is not any picture and video in it.
+      <p>The operations of the column is in below area.
+      </p>
+    </div>
+    <div id="operate-area">
+      <h3>Show Current Welcome Content</h3>
+      <h5>(The show box size is the same to the column on Home page.)</h5>
+      <div id="operate-show">
+        <p><%=  @wel.content %></p>
+      </div>
+      <div id="operate-author">
+        <h5>Current Author:  </h5> 
+      </div>
+      <div id="operate-author">     
+        <p><%=  @wel.author %></p>
+      </div>
+      <div id="operate-admin">
+        <h5>Current Admin: </h5> 
+      </div>    
+      <div id="operate-admin">
+        <p>DerDer</p>
+      </div>
+      <div id="operate-buttons"> 
+        <ul>
+          <li><%= link_to "New Comment" ,:action => "wel_new"%></li>
+        </ul>
+      </div><!-- End #operate-bottons -->
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+</div> <!-- end #block-mgt -->
+
+
+

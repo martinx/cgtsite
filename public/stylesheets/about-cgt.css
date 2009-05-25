@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+#about-line {
+float:left;
+position:relative;
+margin:5px 0px 0px 0px;
+width:800px; height:450px;
+border-top:1px double #999999;
+display:inline;
+}
+
+#about-box {
+float:left;
+position:relative;
+margin:5px 5px 0px 0px;
+width:485px; height:441px;
+display:inline;
+}
+
+#about-cgt {
+float:left;
+position:relative;
+margin-bottom:5px;
+width:485px; height:260px;
+background-image:url(images/about-cgt-bg.gif);
+display:inline;
+}
+
+#about-principles {
+float:left;
+position:relative;
+margin:0px;
+width:485px; height:181px;
+background-image:url(images/about-principles-bg.gif);
+display:inline;
+}
+
+#about-team {
+	float:right;
+	position:relative;
+	margin:5px 0px 0px 0px;
+	width:305px;
+	height:445px;
+	background-image:url(images/about-team-bg.gif);
+	display:inline;
+}
+
+#about-cgt-title {
+float:left;
+position:relative;
+margin:0px;
+width:485px; height:30px;
+background-image:url(images/about-cgt-title-bg.gif);
+display:inline;
+}
+
+#about-principles-title {
+float:left;
+position:relative;
+margin:0px;
+width:485px; height:30px;
+background-image:url(images/about-principles-title-bg.gif);
+display:inline;
+}
+
+#about-team-title {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:305px;
+	height:30px;
+	background-image:url(images/about-team-title-bg.gif);
+	display:inline;
+}
+
+#about-cgt-title img{
+float:left;
+position:relative;
+margin:3px 10px 3px 10px;
+width:24px; height:24px;
+display:inline;
+}
+
+#about-cgt-title p{
+float:left;
+position:relative;
+margin:3px 10px 3px 5px;
+width:300px; height:24px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+text-align:left;
+color:#FF6600;
+display:inline;
+}
+
+#about-principles-title img{
+float:left;
+position:relative;
+margin:3px 10px 3px 10px;
+width:24px; height:24px;
+display:inline;
+}
+
+#about-principles-title  p{
+float:left;
+position:relative;
+margin:3px 0px 3px 5px;
+width:420px; height:24px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#FF6699;
+display:inline;
+}
+
+#about-team-title img{
+float:left;
+position:relative;
+margin:3px 10px 3px 10px;
+width:24px; height:24px;
+display:inline;
+}
+
+#about-team-title  p{
+float:left;
+position:relative;
+margin:3px 10px 3px 5px;
+width:200px; height:24px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#0099FF;
+display:inline;
+}
+
+#about-cgt-contents {
+	float:left;
+	position:relative;
+	margin:10px 5px 5px 5px;
+	width:470px;
+	height:195px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:left;
+	color:#FF6600;
+	line-height:18px;
+	display:inline;
+	overflow:hidden;
+}
+
+#about-cgt a {
+float:left;
+position:relative;
+margin:0px 5px 0px 5px;
+width:475px; 
+height:15px;
+text-align:right;
+font-family:Arial, Helvetica, sans-serif;
+color:#0000FF;
+font-size:10px;
+display:inline;
+}
+
+#about-principles-contents {
+float:left;
+position:relative;
+margin:10px 5px 0px 5px;
+width:475px; height:135px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#FF6699;
+text-align:left;
+display:inline;
+}
+
+#about-principles-contents p ul li{
+float:left;
+position:relative;
+margin:0px;
+width:475px; height:140px;
+line-height:18px;
+display:inline;
+}
+
+#about-team-contents {
+	float:left;
+	position:relative;
+	margin:10px 5px 5px 5px;
+	width:290px;
+	height:380px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#0099FF;
+	text-align:left;
+	line-height:18px;
+	display:inline;
+	overflow:hidden;
+}
+
+#about-team a {
+float:left;
+position:relative;
+margin:0px 5px 0px 5px;
+width:290px; 
+height:15px;
+text-align:right;
+font-family:Arial, Helvetica, sans-serif;
+color:#0000FF;
+font-size:10px;
+display:inline;
+}

@@ -1,0 +1,62 @@
+<%= stylesheet_link_tag "solutions", :media => "all" %>
+<% @title = "CGT Solutions" -%> 
+<!-- Solutions Block -->
+<div id="solutions-line">
+  <!-- Solutions Title Block -->
+  <div id="solutions-about"> 
+    <div id="solutions-about-title"> 
+      <%= image_tag("solutions-about-pic.gif") %>
+      <p>Company Solutions</p>
+    </div>
+    <div id="solutions-about-con">
+      <div id="solutions-about-date">
+        <p>Date: System Format</p>
+      </div>
+      <div id="solutions-about-author">
+        <p>Author:XXXXX</p>
+      </div>
+      <div id="solutions-about-article">
+        <p>Here is the content of About Solutions. 
+        SAP as enabler “When you’ve been involved with SAP solutions for as
+        long as I have, you really understand that it’s a true
+        business enabler,” notes Quality Assurance Manager
+        and part of the original team that implemented the
+        company’s SAP software. “It replaced a conglomerate
+        of custom developed- and point solutions with an
+        integrated infrastructure that shares a common
+        language. SAP solutions were one of the first steps to
+        enabling IT to get past the technology and focus on
+        supporting the business.”
+        
+        <p>That doesn’t mean, however, that SAP application
+          implementations and the way they’re managed—don’t
+          evolve. Originally, he explains, a core group within the applications. The team was centrally located, working in
+          close proximity to manage SAP support and upgrades.
+        “It made it managing </p>
+      </div>
+    </div>						
+  </div>
+  <div id="solutions-recent">
+    <div id="solutions-recent-title"> 
+      <%= image_tag("solutions-recent-pic.gif") %>
+      <p>Recent Success Studies</p>
+    </div>
+    <div id="solutions-recent-con">
+      <div id="solutions-recent-comm">
+        <p>Sometimes corporations are wise to focus on single market segments. But in other cases, diversification makes more sense. For one global consumer packaged goods company, for instance, a combination of internal growth, product innovation,
+        </p>
+      </div>
+      <div id="solutions-recent-list">
+        <ul>
+        <% for solution in @solutions %>
+          <li><%= link_to solution.so_title ,:action => "show",:id => solution %></li>
+        <% end  %>
+        </ul>
+      </div>
+      <div id="solutions-recent-more">
+        <%= will_paginate @solutions %>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Solutions Block -->

@@ -1,0 +1,52 @@
+<%= stylesheet_link_tag "back-ab-com-page-new", :media => "all"  %>   
+<% @title = "About CGT Page Back - New About Company Page" -%>
+<% @header = "About CGT Page Back - New About Company Page" -%>
+<div id="operate-mgt">
+  <div id="operate-intro">
+    <h3>Information About Company Page</h3>
+    <p>About Company Page introduces CGT with text, pictures and videos. The font size is 14px, and the color is orange. The page's width is 780px, but the length is not fixed, and can be scrolled with its content.
+    <p>After you input the new content, then it will replace your old one that will be changed. </p>
+  </div><!-- end #operate-intro -->
+
+  <div id="operate-area">
+    <h3>New About Company Page</h3>
+    
+    <div id="operate-new">
+      <% form_for :about,@about,:url => { :action => "create_com_page",:id => @com_page.id }, :html => { :method => :post } do |f| %>
+        <div class="word">
+          <p>New Comment:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 220 letters.)</p>
+        </div>
+        <div class="message">
+          <%= f.text_area :content %>
+        </div>
+        <div class="word">
+          <p>New Author:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+        </div>
+        <div class="row">
+          <%= f.text_field :author %>
+        </div>
+        <div class="word">
+          <p>New Admin:&nbsp;&nbsp;&nbsp;&nbsp;(Less than 40 letters.)</p>
+        </div>
+        <div class="row">
+          <input name="Admin" type="text" class="input" maxlength=40 size=50 />
+        </div>
+        <div class="div">
+          <p>
+            <%= f.submit "New Content" ,:popup => "New Content Has Been Successfully Input!" %>
+          </p>
+        </div>
+      <% end %>
+    </div>    <!-- End #operate-new -->
+
+    <div id="operate-buttons">
+      <ul>
+        <li><%= link_to "Back" ,:action => "com_page"%></li>
+      </ul>
+    </div>  <!-- End #operate-bottons -->
+
+  </div>   <!-- end #operate-area -->
+    
+</div>  <!-- end #operate-mgt -->
+
+

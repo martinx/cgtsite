@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ichat-line {
+float:left;
+position:relative;
+margin:5px 0px 0px 0px;
+width:800px; 
+height:612px;
+border-top:1px solid #999999;
+border-bottom:1px solid #999999;
+display:inline;
+}
+
+#ichat-title {
+float:left;
+position:relative;
+background-image:url(images/news-title-box.gif);
+margin:10px 0px 0px 0px;
+width:800px; 
+height:40px;
+display:inline;
+}
+
+#ichat-title img {
+float:left;
+position:relative;
+margin:5px 10px 5px 10px;
+display:inline;
+}
+
+#ichat-title h3 {
+float:left;
+position:relative;
+margin:10px 0px 0px 10px;
+color:#0066FF;
+display:inline;
+}
+
+#ichat-cgt {
+float:left;
+position:relative;
+margin-top:20px;
+padding:0px;
+width:548px; 
+height:386px;
+border:1px solid #99CCFF;
+display:inline;
+color:#444444;
+font-size:16px;
+overflow-y:auto;
+}
+
+#ichat-cgt p {
+float:left;
+position:relative;
+margin:3px;
+padding:0px;
+width:525px; 
+display:inline;
+}
+
+#ichat-info {
+float:right;
+position:relative;
+margin-top:20px;
+padding:0px;
+width:249px; 
+height:522px;
+border-top:1px solid #99CCFF;
+border-right:1px solid #99CCFF;
+border-bottom:1px solid #99CCFF;
+color:#0033FF;
+font-size:16px;
+display:inline;
+}
+
+#ichat-info-comm {
+float:left;
+position:relative;
+margin:0px;
+padding:0px;
+width:249px; 
+height:200px;
+border-right:1px solid #99CCFF;
+border-bottom:1px solid #99CCFF;
+display:inline;
+}
+
+#ichat-info-comm p {
+float:left;
+position:relative;
+margin:5px;
+padding:0px;
+width:249px; 
+display:inline;
+}
+
+#ichat-info-ads {
+float:left;
+position:relative;
+margin:5px;
+padding:0px;
+width:239px; 
+height:322px;
+color:#0033FF;
+display:inline;
+}
+
+#ichat-func {
+float:left;
+position:relative;
+margin:0px;
+padding:0px;
+width:548px; 
+height:34px;
+border-left:1px solid #99CCFF;
+border-right:1px solid #99CCFF;
+display:inline;
+}
+
+#ichat-func ul {				
+list-style:none;
+margin:0px;
+padding:0px;
+display:inline;
+}
+
+#ichat-func li {				
+list-style:none;
+margin:0px;
+padding:0px;
+width:30px; 
+height:30px;
+display:inline;
+}
+
+#ichat-func img {
+border:none;
+margin:5px 0px 5px 10px;
+display:inline;
+}
+
+#ichat-client {
+float:left;
+position:relative;
+margin:0px;
+padding:0px;
+width:548px; 
+height:100px;
+border:1px solid #99CCFF;
+display:inline;
+font-size:16px;
+color:#444444;
+overflow-y:auto;
+}
+
+#ichat-client p {
+float:left;
+position:relative;
+margin:3px;
+padding:0px;
+width:525px; 
+display:inline;
+}

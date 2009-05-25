@@ -1,0 +1,25 @@
+<%= stylesheet_link_tag "solutions-menu", :media => "all"  %>   
+<%= stylesheet_link_tag "solutions-show", :media => "all"  %>   
+<%= stylesheet_link_tag "solutions", :media => "all"  %> 
+<% @title = "CGT Solutions Show" -%>
+<!-- Solutions Show Block -->
+<div id="solutions-show-line">
+  <div id="solutions-show">     
+    <%= render(:partial => 'menu') %>
+    <!-- Solutions Show Article Block -->	
+    <div id="solutions-show-article">
+      <div id="solutions-article-title">
+        <p><%= @solution.so_title %></p>
+      </div>
+      <div id="solutions-article-info"> 
+        <p id="date">Date: <%= @solution.updated_at.strftime("%b.,%d,%Y") %> </p> 	
+        <p id="author">Author: <%= @solution.so_author %></p> 		
+      </div>
+      <div id="solutions-article">
+        <p><%= @solution.so_content %>  </p>        					
+      </div>
+    </div>
+    <!-- End Of Solutions Show Article Block -->	
+  </div>
+</div>
+<!-- End of Solutions Show Block -->

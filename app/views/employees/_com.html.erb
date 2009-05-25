@@ -1,0 +1,8 @@
+
+<% for comment in @comments %>   
+  <li class="alt" id="comment"> <span><%= comment.author %></span><br />
+    <small><span><%=  comment.created_at.strftime("%b.,%d,%Y %H:%M %p") %></span></small>
+    <p><%= comment.content %></p>
+    <br />
+  </li>
+<% end %>    

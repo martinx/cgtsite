@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contact-line {
+float:left;
+position:relative;
+margin:5px 0px 0px 0px;
+width:800px; height:452px;
+border-top:1px double #999999;
+display:inline;
+}
+
+#contact-us {
+float:left;
+position:relative;
+margin:5px 5px 5px 5px;
+width:440px; height:441px;
+display:inline;
+}
+
+#contact-mail {
+float:left;
+position:relative;
+margin:5px 0px 0px 5px;
+width:345px; height:447px;
+background-color:#CCCCCC;
+display:inline;
+}
+
+#contact-company {
+float:left;
+position:relative;
+margin-top:8px;
+padding:0px;
+width:440px; height:40px;
+display:inline;
+}
+
+#contact-company-pic {
+float:left;
+position:relative;
+margin-left:10px;
+padding:0px;
+width:40px; height:40px;
+display:inline;
+}
+
+#contact-company-title {
+float:left;
+position:relative;
+margin:0px;
+padding:0px;
+width:370px; height:40px;
+display:inline;
+}
+
+#contact-company-title h3 {
+float:left;
+position:relative;
+margin:8px 0px 9px 10px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+color:#FF00FF;
+width:200px;
+height:24px;
+display:inline;
+}
+
+#contact-mail-title {
+float:right;
+position:relative;
+margin:8px 10px 0px 10px;
+width:325px;
+height:40px;
+background-image:url(images/comm-grey-box.gif);
+display:inline;
+}
+
+#contact-mail-title-pic {
+float:left;
+position:relative;
+margin-left:10px;
+padding:0px;
+width:40px;
+height:40px;
+display:inline;
+}
+
+#contact-mail-title h3{
+float:left;
+position:relative;
+margin:8px 0px 0px 10px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+color:#FF00FF;
+width:200px;
+height:24px;
+display:inline;
+}
+
+#contact-company-portland-pic {
+float:left;
+position:relative;
+margin:10px 10px 7px 10px;
+padding:0px;
+width:250px; height:185px;
+display:inline;
+}
+
+#contact-company-portland-addr {
+float:left;
+position:relative;
+margin:10px 10px 7px 10px;
+padding:0px;
+width:150px; height:185px;
+display:inline;
+}
+
+#contact-company-portland-addr p{
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+}
+
+#contact-company-beijing-pic {
+float:left;
+position:relative;
+margin:5px 10px 5px 10px;
+padding:0px;
+width:250px; height:185px;
+display:inline;
+}
+
+#contact-company-beijing-addr {
+float:left;
+position:relative;
+margin:5px 10px 5px 10px;
+padding:0px;
+width:150px; height:185px;
+display:inline;
+}
+
+#contact-company-beijing-addr p{
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+}
+
+#contact-mail-frame {
+float:left;
+position:relative;
+margin:10px 10px 10px 20px;
+padding:0px;
+width:315px;
+height:380px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+display:inline;
+}
+
+form {
+margin:0px;
+padding:0px;
+}
+
+form .mail {
+width:315px;
+}
+
+form .word {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+height:18px;
+padding-top:3px; 
+display:inline;
+}
+
+form .word p{
+margin:0px;
+padding-top:4px; 
+font-style:italic;
+color:#0000FF;
+display:inline;
+}
+
+form .row { 
+height:18px;
+font-size:12px;
+padding-top:3px; 
+display:inline;
+}
+
+.input {
+width:305px; 
+height:18px; 
+border:1px solid #a4a4a4; 
+background:none; 
+padding-top:3px; 
+font-family:Arial, Helvetica, sans-serif;
+line-height:13px; 
+font-size:12px;
+display:inline;
+}
+
+form .message {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+padding-top:3px; 
+width:305px; 
+height:100px; 
+display:inline;
+}
+
+textarea {
+width:305px; 
+height:140px; 
+border:1px solid #a4a4a4; 
+background:none; 
+padding-top:3px; 
+overflow:auto; 
+font-family:Arial, Helvetica, sans-serif;
+line-height:13px; 
+font-size:12px;
+display:inline;
+}
+
+form .div {
+text-align:left;
+margin-top:10px;
+padding:5px 0 0 0;
+font-size:12px;
+display:inline;
+}

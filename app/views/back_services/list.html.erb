@@ -1,0 +1,48 @@
+<%= stylesheet_link_tag "back-serv-show-page", :media => "all"  %>   
+<% @title = "CGT Services Page Back - Listing Services Show Page" -%>
+<% @header = "CGT Services Page Back - Listing Services Show Page" -%>
+<div id="block-mgt">    
+  <%= render(:partial => 'menu') %>      
+        
+  <div id="operate-mgt">
+    <div id="operate-intro">
+      <h3>Information For Listing Services Show Page</h3>
+      <p>In this page, there are many service cases of CGT. Listing Services Show Page displays those cases for Admin who can create, edit, show and delete.  
+      <p>The order of listing those cases is with the date of the input. The newest one is listing in the top. All of cases are listing with paginating. One page of the list has 15 cases' titles and dates to be showed.
+      <p>In the list, there are the information of Service Cases' Title, Date. Admin can select one of those to operate. Creating is to make a lastest service case.
+      </p>
+    </div><!-- end #operate-intro -->
+
+    <div id="operate-area">
+      <h3>Listing Services Show Page</h3>
+      <% form_tag :action => 'show' , :method => :post do -%>
+        <div id="operate-listing">
+          <div id="operate-line">
+            <% for service in @services %>
+              <div id="operate-item">
+                <ul>
+                  <li><%= radio_button_tag :list, service.id %><%=h service.sl_title %></li>
+                  <li><%=h service.updated_at.strftime("%b.,%d,%Y") %></li>
+                </ul>
+              </div>
+            <% end %>  
+          </div><!-- End #operate-line -->
+          <div id="news-buttons">
+            <div class="paginate"><%= will_paginate @services %></div>
+          </div>
+        </div><!-- End #operate-listing --> 
+
+        <div id="operate-buttons"> 
+          <ul>
+            <%= submit_tag 'Show Content' %>
+            <%= link_to 'New Content',:action => "new"  %>
+          </ul>
+        </div><!-- End #operate-bottons -->
+<% end -%>
+        
+    </div> <!-- end #operate-area -->
+    
+  </div> <!-- end #operate-mgt -->
+
+  
+</div> <!-- end #block-mgt -->

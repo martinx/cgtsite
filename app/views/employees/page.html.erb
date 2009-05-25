@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title><%= @title ||= "CGT Employees Login" %></title>
+    <%= stylesheet_link_tag "employees-login", :media => "all"  %>
+  </head>
+  <body class="employees-login">
+    <div id="main">
+      <!--   Employees Login Page  -->
+      <!--   Employees Login Page Banner -->
+      <div id="employees-banner">
+        <div id="employees-page">
+          <%= image_tag('employee-cgt-logo-red.gif') %>
+          <%= image_tag('employee-title-red.gif') %>
+        </div>
+        <div id="employees-board">
+          <%= image_tag('employee-slang.gif') %>
+        </div>
+      </div>
+<!--  End of Employees Login Page Banner -->
+
+<%= stylesheet_link_tag "employees-page", :media => "all"  %>
+<% @title = "CGT Employees Page" -%>
+<div id="employees-buttons"> 
+  <ul>
+    <li><%= link_to "Home" ,:controller => 'home' %></li>
+    <li><%= link_to "Ideas List" ,:action => 'ideaslist' %></li> 
+    <li><%= link_to 'Settings',:action => 'setting' %></li>  
+  </ul>
+</div>
+<div id="employees-main">  	
+  <h1>Welcome to CGT Employees Page!</h1>
+</div>
+
+<% if logged_in? %>   
+  <p><strong>You are logged in as <%=h current_employee.login %></strong></p>   
+  <p><%=h current_employee.password %><%= link_to 'Logout',:action => 'login_out' %></p>   
+<% else %>   
+  <p><strong>You are currently not logged in.</strong></p>   
+  <p>   
+    <%= link_to 'Login', :action => 'login' %> or   
+    <%#= link_to 'Sign Up', signup_path %>   
+  </p>   
+<% end %>
+
+</div>
+  </body>
+</html>
