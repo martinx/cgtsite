@@ -12,14 +12,14 @@ class ApplicationController < ActionController::Base
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
   
-  def pages_for(result,options = {})     
-    page, per_page, total = (options[:page] || 1),(options[:per_page] || 30),(result.total_hits || 0)   
-    page_total = page * per_page   
-    index = (page.to_i - 1) * per_page   
-    pager = WillPaginate::Collection.new(page, per_page, page_total)   
-    returning WillPaginate::Collection.new(page, per_page, total) do |pager|   
-      pager.replace result[index,per_page]   
-    end   
-  end 
+
+ def page_for(result,options={})
+
+       default_options = {:per_page => 10}
+       options = default_options.merge options
+       pages = WillPaginate::Collection.new(options[:page],options[:per_page],result.total_hits)
+         return pages
+
+     end
 
 end
