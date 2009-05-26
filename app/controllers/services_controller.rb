@@ -16,6 +16,7 @@ class ServicesController < ApplicationController
     end
 #    @page=(@page==nil||@pge=="")?1:@page
     @services=Service.find_by_contents(@keyWord,:per_page=>@per_page,:page=>@page)
+    @pages=page_for(@services,:page=>@page,:per_page=>@per_page)
     #@pager=pages_for(@services,{:per_page=>@per_page,:page=>@page}) 
     #@search_text = params[:search_text]
     #if params[:id]
@@ -31,7 +32,7 @@ class ServicesController < ApplicationController
 #    @query=params[:search_text]
     #@services = Service.full_text_search("*"+@query+"*", :page => params[:page], :per_page => 2,:order => 'updated_at desc') 
     #@services = Service.paginate_search(@query , :page => params[:page], :per_page => 4,:order => 'updated_at desc')
-    @services = Service.paginate(:page => params[:page], :per_page => 10,:order => 'updated_at desc',:conditions => [ "sl_title LIKE ? ", @query+"%"])
+    #@services = Service.paginate(:page => params[:page], :per_page => 10,:order => 'updated_at desc',:conditions => [ "sl_title LIKE ? ", @query+"%"])
     
     #results = Service.full_text_search @query 
     #@services = pages_for(results,:per_page => 5)  

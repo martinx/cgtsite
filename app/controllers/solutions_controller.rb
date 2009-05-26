@@ -5,12 +5,20 @@ class SolutionsController < ApplicationController
   end
   
   def find
-    @search_text = params[:search_text]
-    if @search_text
-      @solutions = Solution.find_by_contents("*"+@search_text+"*").paginate(:page => params[:page], :per_page => 2,:order => 'updated_at desc')
-    else
-     # @solutions = Solution.paginate(:page => params[:page], :per_page => 6,:order => 'updated_at desc')
+    @page=params[:page]
+    @keyWord=params[:keyWord]
+    @per_page = 3
+#    if @keyWord==nil||@keyWord==''
+#      @keyWord=""
+#    end
+    if @page==nil||@page==""
+      @page=1
     end
+#    @page=(@page==nil||@pge=="")?1:@page
+    @solutions=Solution.find_by_contents(@keyWord,:per_page=>@per_page,:page=>@page)
+    @pages=page_for(@solutions,:page=>@page,:per_page=>@per_page)
+
+    
   end
   
   def show
