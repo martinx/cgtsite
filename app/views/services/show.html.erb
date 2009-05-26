@@ -8,9 +8,9 @@
     <%=  image_tag("services-list-title-pic.gif") %>
     <p>Services Show</p>    
     <div id="serviceslist-search">  
-      <% form_tag :action => "find",:html => {:multipart=> true} do %>
+      <% form_tag('/services/find',:method => 'get') do %>
         <div class="sl-seek">
-          <%= text_field_tag :search_text %>
+          <%= text_field_tag 'keyWord'%>
           <span class="div">
             <%= submit_tag 'Search' %>
           </span>

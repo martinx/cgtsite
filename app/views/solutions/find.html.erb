@@ -22,8 +22,10 @@
         <% end %>
       </div>
       <div id="solutions-buttons">
-        <div class="paginate"> 
-          <%= will_paginate @solutions,:method=>"get" ,:search_text => @search_text   %>    
+        <div class="paginate">
+              <%=link_to "<",{:page=>@pages.previous_page,:keyWord=>@keyWord}%>
+      <%=link_to '>',{:page=>@pages.next_page,:keyWord=>@keyWord}%>
+          <%= will_paginate @services %>>
         </div> 
       </div>       
     </div>

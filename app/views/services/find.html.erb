@@ -9,9 +9,9 @@
     <%=  image_tag("services-list-title-pic.gif") %>
     <p>Services List</p>    
     <div id="serviceslist-search">  
-      <% form_tag('searches',:method => 'get') do %>
+      <% form_tag('/services/find',:method => 'get') do %>
         <div class="sl-seek">
-          <%= text_field_tag 'keyWord', @keyWord %>
+          <%= text_field_tag 'keyWord'%>
           <span class="div">
             <%= submit_tag 'Search' %>
           </span>
@@ -36,8 +36,6 @@
     </div>
     <div id="sf-buttons">
       <div class="paginate"> 
-      <%=link_to "<",{:page=>@pager.previous_page,:keyWord=>@keyWord}%>
-      <%=link_to '>',{:page=>@pager.next_page,:keyWord=>@keyWord}%>
       <%= will_paginate @services %>
       </div> 
     </div>     

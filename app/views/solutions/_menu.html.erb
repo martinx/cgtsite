@@ -6,9 +6,9 @@
   <%= image_tag("solutions-show-pic.gif") %>
   <p>Solutions Show</p> 	
   <div id="solutions-show-search">  		
-    <% form_tag :action => "find",:method=>"get" do %>
+    <% form_tag('/solutions/find',:method=>"get") do %>
       <div class="solu-seek">
-        <%= text_field_tag :search_text %>
+        <%= text_field_tag 'keyWord'%>
         <span class="div">
           <%= submit_tag 'Search' %>
         </span>
