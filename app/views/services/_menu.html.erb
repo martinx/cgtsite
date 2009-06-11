@@ -1,38 +1,13 @@
 <%= stylesheet_link_tag "ser-cbcscbinsmenu", :media => "all" %>  
 <!-- Services List Menu -->   
 <div id="serviceslist-listmenu">  
-  <% types = ServiceType.find(:all)%>
-  <% types.each do |type|  %>  
-    <% ebul_cbinsmenu = "ebul_cbinsmenu_" + type.id.to_s %>        
-    <ul id="<%= ebul_cbinsmenu %>" class="ebul_cbinsmenu" style="display: none;">
-      <% years = Service.find(:all,:select => " distinct sl_year  ",:conditions => [ "service_type_id = ?", type.id],:order => "sl_year DESC" ) %> 
-      <% i = 1 %>  
-      <% years.each do |year|  %>       
-        <li >
-          <span class="ebul_imgcbinsmenu16x16" style="background-image: url('/images/ser-cbsiicbinsmenu_1.gif')"></span>
-          <a target="_top" title=""><%= year.sl_year %></a>
-          <% ebul = ebul_cbinsmenu + "_"+ i.to_s %>  
-          <ul id="<%= ebul %>">
-            <% i = i+1 %> 
-            <% services = Service.find(:all,:conditions => [ "service_type_id = ? and sl_year = ? " , type.id,year.sl_year]) %> 
-            <% services.each do |service|  %>                                                     
-              <li>
-                <span class="ebul_imgcbinsmenu16x16" style="background-image: url('/images/ser-cbsiicbinsmenu_2.gif')"></span>
-                <%= link_to  service.sl_title ,:action => "show" ,:id => service %>
-              </li>
-            <% end %>
-          </ul>
-        </li>
-      <% end %>  
+
+	<ul>
+      <li><%= image_tag "service-si.gif" %> <%= link_to "System Integration" , :controller => "services", :action =>'index' %></li>
+      <li><%= image_tag "service-sw.gif" %> <%= link_to "Software Development" , :controller => "services", :action =>'index' %></li>
+      <li><%= image_tag "service-music.gif" %> <%= link_to "Music Audio & Shows" , :controller => "services", :action =>'index' %></li>
+      <li><%= image_tag "service-training.gif" %> <%= link_to "Consltant & Training" , :controller => "services", :action =>'index' %></li>
     </ul>
-  <% end %>  
-                                  
-  <ul id="cbinsmenuebul_table" class="cbinsmenuebul_menulist" style="width: 798px; height: 26px;">
-    <li class="spaced_li"><a href="#"><img id="cbi_cbinsmenu_1" src="/images/ser-ebbtcbinsmenu1_0.gif" name="ebbcbinsmenu_1" width="198" height="26" style="vertical-align: bottom;" border="0" alt="System Integrations" title="" /></a></li>
-    <li class="spaced_li"><a href="#"><img id="cbi_cbinsmenu_2" src="/images/ser-ebbtcbinsmenu2_0.gif" name="ebbcbinsmenu_2" width="198" height="26" style="vertical-align: bottom;" border="0" alt="Software Development" title="" /></a></li>
-    <li class="spaced_li"><a href="#"><img id="cbi_cbinsmenu_3" src="/images/ser-ebbtcbinsmenu3_0.gif" name="ebbcbinsmenu_3" width="198" height="26" style="vertical-align: bottom;" border="0" alt="Music Audio & Shows" title="" /></a></li>
-    <li class="spaced_li"><a href="#"><img id="cbi_cbinsmenu_4" src="/images/ser-ebbtcbinsmenu4_0.gif" name="ebbcbinsmenu_4" width="196" height="26" style="vertical-align: bottom;" border="0" alt="Consultant & Training" title="" /></a></li>
-  </ul>
-  <%= javascript_include_tag "ser-cbjscbinsmenu" %>
+
 </div>     
 <!-- End Of Services List Menu  --> 

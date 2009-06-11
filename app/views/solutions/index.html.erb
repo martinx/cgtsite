@@ -36,6 +36,7 @@
       </div>
     </div>						
   </div>
+  
   <div id="solutions-recent">
     <div id="solutions-recent-title"> 
       <%= image_tag("solutions-recent-pic.gif") %>
@@ -43,9 +44,17 @@
     </div>
     <div id="solutions-recent-con">
       <div id="solutions-recent-comm">
-        <p>Sometimes corporations are wise to focus on single market segments. But in other cases, diversification makes more sense. For one global consumer packaged goods company, for instance, a combination of internal growth, product innovation,
-        </p>
+        	<ul>
+                  <li><%= link_to "Information" , :controller => "solutions", :action => "" %></li>
+                  <li><%= link_to "Media" , :controller => "solutions", :action => "" %></li>
+                  <li><%= link_to "Training" , :controller => "solutions", :action => "" %></li>
+                  <li><%= link_to "Others" , :controller => "solutions", :action => "" %></li>
+      		</ul>
       </div>
+      <div id="solutions-study-title">
+           <p>XXX Industry Study List</p>
+      </div>
+ 
       <div id="solutions-recent-list">
         <ul>
         <% for solution in @solutions %>

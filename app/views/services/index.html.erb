@@ -6,7 +6,7 @@
   <div id="services-services">    
     <div id="services-company">
       <div id="services-company-pic">
-        <%=  image_tag("services-company-pic.gif") %>
+        <%=  image_tag("services-overview.gif") %>
       </div>
       <div id="services-company-services">
         <h3><span>Company Services</span></h3>
@@ -18,7 +18,7 @@
       </div>
       <div id="services-integrations-comm">
         <div id="services-integrations-title">
-          <p><strong>System Integrations</strong></p>
+          <p><%= link_to "System Integration", :controller => "services", :action => "" %></p>
         </div>
         <div id="services-integrations-content">
           <p><%= ServiceType.find_by_id(1).st_desc %></p> 
@@ -31,7 +31,7 @@
       </div>
       <div id="services-software-comm">
         <div id="services-software-title">
-          <p><strong>Software Development</strong></p>
+          <p><%= link_to "Software Development", :controller => "services", :action => "" %></p>
         </div>
         <div id="services-software-content">
           <p><%= ServiceType.find_by_id(2).st_desc %></p>
@@ -44,7 +44,7 @@
       </div>
       <div id="services-music-comm">
         <div id="services-music-title">
-          <p><strong>Music Audio & Shows</strong></p>
+          <p><%= link_to "Music Audio & Shows ", :controller => "services", :action => "" %></p>
         </div>
         <div id="services-music-content">
           <p><%= ServiceType.find_by_id(3).st_desc %></p>
@@ -57,7 +57,7 @@
       </div>
       <div id="services-consultant-comm">
         <div id="services-consultant-title">
-          <p><strong>Consultant & Training</strong></p>
+          <p><%= link_to "Consultant & Training", :controller => "services", :action => "" %></p>
         </div>
         <div id="services-consultant-content">
           <p><%= ServiceType.find_by_id(4).st_desc %> </p>
@@ -73,7 +73,7 @@
       <h3><span>Services List</span></h3>
     </div>
     <div id="services-list-comm">
-      <p><%= ServiceComment.find_by_id(1).sc_desc %> </p>
+      <p>XXX Service List </p>        <!--The specified service title with left clicks  -->
     </div>
     <div id="services-list-list">
       <ul>

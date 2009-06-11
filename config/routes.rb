@@ -2,6 +2,8 @@ ActionController::Routing::Routes.draw do |map|
   #map.signup 'employees/signup', :controller => 'employees', :action => 'new'
   #map.login 'employees/login', :controller => 'employees', :action => 'login'
   # map.logout 'employees/logout', :controller => 'employees', :action => 'login_out'
+  map.root :controller => "home"
+  
   map.resources :events
   
   map.resources :abouts

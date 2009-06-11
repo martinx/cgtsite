@@ -1,5 +1,5 @@
 class EmployeesController < ApplicationController
-  # Be sure to include AuthenticationSystem in Application Controller instead
+  # Be sure to include AuthenticationSystem in Application Controller
   include AuthenticatedSystem
   #before_filter :login_required  , :except => [ :login ,:new]  
 
@@ -7,21 +7,7 @@ class EmployeesController < ApplicationController
   def new
     @employee = Employee.new
   end
-  
-  def login
-    if logged_in?
-      if params[:remember_me] == "1"
-        current_employee.remember_me unless current_employee.remember_token?
-        cookies[:auth_token] = { :value => self.current_employee.remember_token , :expires => self.current_employee.remember_token_expires_at }
-      end
-      #redirect_back_or_default('/')
-      redirect_to :action => 'page'
-      flash[:notice] = "Logged in successfully"
-    else
-      render :action => 'new'
-    end
-  end
-  
+
   def test
     
   end
@@ -119,26 +105,47 @@ class EmployeesController < ApplicationController
     end  
   end
 
+
+  ######################################################################################################
+  # Method   : login_in
+  # Parameter:
+  #          1. :login       -
+  #          2. :password    -
+  #          3. :remember_me -
+  #          4. :auth_token  -
+  #          5. :admin       -
+  #          6. :notice      -
+  #
+  # Function : Handle login operation in Employees logins page
+  #          1. Get login information from parameters
+  #          2. Check login operation information
+  #          3. Validate name and password items not empty at the same time
+  #          4. Empty, display error information on the page
+  #          5. Check check_box remember me mark and set in table employee of DB
+  #          6. Check if logged as an Admin then redirct to back_menu page or employee_page page
+  #          7. Display login successful or login failed information
+  #
+  # Author   : Lin,     Gao
+  # Date     : 2009-02, 2009-05 
+  ######################################################################################################
   def login_in
     self.current_employee = Employee.authenticate(params[:login], params[:password])
     if logged_in?
-      if params[:remember_me] == "1"
+      if params[:remember_me] == "1"                       # check if remember me mark is set
         current_employee.remember_me unless current_employee.remember_token?
         cookies[:auth_token] = { :value => self.current_employee.remember_token , :expires => self.current_employee.remember_token_expires_at }
       end
-      #redirect_back_or_default('/')
       @employee = Employee.find_by_login(params[:login])
-#Gao      if @employee.admin == '1' && params[:adim] == 'Admin'
-      if  params[:adim] == 'Admin'
-        redirect_to :controller => 'back_menu'
-      else
-        redirect_to :action => 'page'
+      if  params[:adim] == 'Admin'                         # if logged as an Admin
+        redirect_to :controller => 'back_menu'            # yes, as an Admin, then display back_menu page
+      else                                                  # no, as an employee
+        redirect_to :action => 'page'                     # then display employee's page page
       end
-      flash[:notice] = "Logged in successfully"
-    else
-      render :action => 'new'
+    else                                                    # when login is failed
+      render :action => 'failed'                           # display login failed information
     end
   end
+
 
   def login_out
     self.current_employee.forget_me if logged_in?
