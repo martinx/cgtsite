@@ -5,7 +5,8 @@
 float:left;
 position:relative;
 margin:5px 0px 0px 0px;
-width:800px; height:452px;
+width:800px;
+height: auto;
 border-top:1px solid #999999;
 border-bottom:1px solid #999999;
 display:inline;
@@ -16,7 +17,7 @@ display:inline;
 	position:relative;
 	margin:5px 0px 5px 0px;
 	padding:0;
-	background-image:url(images/about-company-title-bg.gif);
+	background-image:url(/images/about-company-title-bg.gif);
 	width:800px;
 	height:40px;
 	display:inline;
@@ -52,7 +53,7 @@ display:inline;
 	margin-top:5px;
 	padding:0;
 	width:800px;
-	height:397px;
+	height:auto;
 	display:inline;
 }
 
@@ -96,7 +97,7 @@ display:inline;
 	margin:0px auto 10px 10px;
 	padding:0px;
 	width:780px;
-	height:367px;
+	height:auto;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	text-align:left;

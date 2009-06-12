@@ -76,8 +76,39 @@ display:inline;
 	padding:0;
 	width:800px;
 	height:30px;
+	font-size:14px;
 	display:inline;
+	border-bottom:dotted #CCC 1px;
 }
+
+#serviceslist-listmenu ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+height: 26px;
+}
+
+#serviceslist-listmenu li{
+float:left;
+text-align:center;
+padding:8px 25px;
+}
+
+#serviceslist-listmenu li img{
+float:left;
+padding:0px 6px;
+}
+
+#serviceslist-listmenu a:link, #serviceslist-listmenu a:visited{
+color: #69F;
+text-decoration:none;
+}
+
+#serviceslist-listmenu a:hover{
+color:#0000FF;
+text-decoration:underline;
+}
+
 
 #servicesfind-show {
 	float:left;
@@ -154,7 +185,7 @@ display:inline;
 }
 
 #sf-display a:hover{
-	color:#0000FF;           	
+	color:#0000FF;
 	text-decoration:underline;
 }
 
@@ -186,70 +217,70 @@ display:inline;
 }
 
 DIV.paginate {
-	PADDING-RIGHT: 3px; 
-	PADDING-LEFT: 3px; 
-	PADDING-BOTTOM: 3px; 
-	MARGIN: 5px; 
-	PADDING-TOP: 3px; 
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	MARGIN: 5px;
+	PADDING-TOP: 3px;
 	TEXT-ALIGN: center;
 }
 
 DIV.paginate A {
-	BORDER-RIGHT: #9aafe5 1px solid; 
-	PADDING-RIGHT: 5px; 
-	BORDER-TOP: #9aafe5 1px solid; 
-	PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; 
-	BORDER-LEFT: #9aafe5 1px solid; 
-	COLOR: #2e6ab1; 
-	MARGIN-RIGHT: 2px; 
-	PADDING-TOP: 2px; 
-	BORDER-BOTTOM: #9aafe5 1px solid; 
+	BORDER-RIGHT: #9aafe5 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #9aafe5 1px solid;
+	PADDING-LEFT: 5px; PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #9aafe5 1px solid;
+	COLOR: #2e6ab1;
+	MARGIN-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #9aafe5 1px solid;
 	TEXT-DECORATION: none;
 }
 
 DIV.paginate A:hover {
-	BORDER-RIGHT: #2b66a5 1px solid; 
-	BORDER-TOP: #2b66a5 1px solid; 
-	BORDER-LEFT: #2b66a5 1px solid; 
-	COLOR: #000; 
-	BORDER-BOTTOM: #2b66a5 1px solid; 
+	BORDER-RIGHT: #2b66a5 1px solid;
+	BORDER-TOP: #2b66a5 1px solid;
+	BORDER-LEFT: #2b66a5 1px solid;
+	COLOR: #000;
+	BORDER-BOTTOM: #2b66a5 1px solid;
 	BACKGROUND-COLOR: lightyellow;
 }
 
 DIV.paginate A:active {
-	BORDER-RIGHT: #2b66a5 1px solid; 
-	BORDER-TOP: #2b66a5 1px solid; 
-	BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; 
-	BORDER-BOTTOM: #2b66a5 1px solid; 
+	BORDER-RIGHT: #2b66a5 1px solid;
+	BORDER-TOP: #2b66a5 1px solid;
+	BORDER-LEFT: #2b66a5 1px solid; COLOR: #000;
+	BORDER-BOTTOM: #2b66a5 1px solid;
 	BACKGROUND-COLOR: lightyellow;
 }
 
 DIV.paginate SPAN.current {
-	BORDER-RIGHT: navy 1px solid; 
-	PADDING-RIGHT: 5px; 
-	BORDER-TOP: navy 1px solid; 
-	PADDING-LEFT: 5px; 
-	FONT-WEIGHT: bold; 
-	PADDING-BOTTOM: 2px; 
-	BORDER-LEFT: navy 1px solid; 
-	COLOR: #fff; 
-	MARGIN-RIGHT: 2px; 
-	PADDING-TOP: 2px; 
-	BORDER-BOTTOM: navy 1px solid; 
+	BORDER-RIGHT: navy 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: navy 1px solid;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: navy 1px solid;
+	COLOR: #fff;
+	MARGIN-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: navy 1px solid;
 	BACKGROUND-COLOR: #2e6ab1;
 }
 
 DIV.paginate SPAN.disabled {
-	BORDER-RIGHT: #929292 1px solid; 
-	PADDING-RIGHT: 5px; 
-	BORDER-TOP: #929292 1px solid; 
-	PADDING-LEFT: 5px; 
-	PADDING-BOTTOM: 2px; 
-	BORDER-LEFT: #929292 1px solid; 
-	COLOR: #929292; 
-	MARGIN-RIGHT: 2px; 
-	PADDING-TOP: 2px; 
+	BORDER-RIGHT: #929292 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #929292 1px solid;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #929292 1px solid;
+	COLOR: #929292;
+	MARGIN-RIGHT: 2px;
+	PADDING-TOP: 2px;
 	BORDER-BOTTOM: #929292 1px solid;
 }
 
-	
+

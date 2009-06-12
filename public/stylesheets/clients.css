@@ -5,7 +5,8 @@
 float:left;
 position:relative;
 margin:5px 0px 0px 0px;
-width:800px; height:452px;
+width:800px;
+height:auto;
 border-top:1px solid #999999;
 border-bottom:1px solid #999999;
 display:inline;
@@ -73,18 +74,17 @@ display:inline;
 	margin:0;
 	padding:0;
 	width:800px;
-	height:341px;
+	height:auto;
 	font-family: Helvetica, sans-serif;
 	font-size:12px;
 	color:#666666;
 	display:inline;
-	overflow-y:auto;
 }
 
 #clients-logo {
 	float:left;
 	position:relative;
-	margin:25px 5px 10px 10px;
+	margin:15px 5px 25px 10px;
 	padding:0;
 	width:80px;
 	height:50px;

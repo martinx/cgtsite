@@ -23,7 +23,7 @@ float:left;
 position:relative;
 margin-bottom:5px;
 width:485px; height:260px;
-background-image:url(images/about-cgt-bg.gif);
+background-image:url(/images/about-cgt-bg.gif);
 display:inline;
 }
 
@@ -32,7 +32,7 @@ float:left;
 position:relative;
 margin:0px;
 width:485px; height:181px;
-background-image:url(images/about-principles-bg.gif);
+background-image:url(/images/about-principles-bg.gif);
 display:inline;
 }
 
@@ -42,7 +42,7 @@ display:inline;
 	margin:5px 0px 0px 0px;
 	width:305px;
 	height:445px;
-	background-image:url(images/about-team-bg.gif);
+	background-image:url(/images/about-team-bg.gif);
 	display:inline;
 }
 
@@ -51,7 +51,7 @@ float:left;
 position:relative;
 margin:0px;
 width:485px; height:30px;
-background-image:url(images/about-cgt-title-bg.gif);
+background-image:url(/images/about-cgt-title-bg.gif);
 display:inline;
 }
 
@@ -60,7 +60,7 @@ float:left;
 position:relative;
 margin:0px;
 width:485px; height:30px;
-background-image:url(images/about-principles-title-bg.gif);
+background-image:url(/images/about-principles-title-bg.gif);
 display:inline;
 }
 
@@ -70,7 +70,7 @@ display:inline;
 	margin:0px;
 	width:305px;
 	height:30px;
-	background-image:url(images/about-team-title-bg.gif);
+	background-image:url(/images/about-team-title-bg.gif);
 	display:inline;
 }
 

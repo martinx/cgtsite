@@ -5,7 +5,8 @@
 float:left;
 position:relative;
 margin:5px 0px 0px 0px;
-width:800px; height:452px;
+width:800px;
+height:auto;
 border-top:1px solid #999999;
 border-bottom:1px solid #999999;
 display:inline;
@@ -17,7 +18,7 @@ display:inline;
 	margin-top:5px;
 	padding:0;
 	width:800px;
-	height:447px;
+	height:auto;
 	display:inline;
 }
 
@@ -26,7 +27,7 @@ display:inline;
 	position:relative;
 	margin:0;
 	padding:0;
-	background-image:url(/images/solutions-show-title-bg.gif);
+	background-image:url(images/solutions-show-title-bg.gif);
 	width:800px;
 	height:40px;
 	display:inline;
@@ -85,9 +86,47 @@ display:inline;
 	margin-top:2px;
 	padding:0;
 	width:200px;
-	height:405px;
+	height:auto;
+	font-size:14px;
 	display:inline;
+	background-color: #F0FDFF;
+	}
+
+#solutions-show-menu ul{
+float:left;
+position:relative;
+width:200px;
+height:auto;
+padding:0px;
+margin:px;
 }
+
+#solutions-show-menu li{
+float:left;
+position:relative;
+list-style-type:none;
+text-align:left;
+margin:5px 0px;
+padding-left:5px;
+}
+
+#solutions-show-menu li img{
+float:left;
+padding:0px 6px;
+}
+
+#solutions-show-menu a:link, #solutions-show-menu a:visited{
+color: #C63;
+text-decoration:none;
+}
+
+#solutions-show-menu a:hover{
+color:#0000FF;
+text-decoration:underline;
+}
+
+
+
 
 #solutions-show-article {
 	float:left;
@@ -95,7 +134,7 @@ display:inline;
 	margin-left:10px;
 	padding:0;
 	width:590px;
-	height:407px;
+	height:auto;
 	display:inline;
 }
 
@@ -165,11 +204,10 @@ display:inline;
 	margin:0;
 	padding:0;
 	width:590px;
-	height:360px;
+	height:auto;
 	display:inline;
 	color:#666666;
 	font-size:14px;
 	font-family:Arial, Helvetica, sans-serif;
-	overflow-y:auto;
 	line-height:18px;
 }

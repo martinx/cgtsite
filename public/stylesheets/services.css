@@ -107,8 +107,13 @@ margin:0px;
 padding:0px;
 font-family:Arial, Helvetica, sans-serif;
 font-size:16px;
+font-weight:bold;
 color:#339900;
 display:inline;
+}
+
+#services-integrations-title a{
+color:#339900;
 }
 
 #services-integrations-content {
@@ -172,8 +177,13 @@ margin:0px;
 padding:0px;
 font-family:Arial, Helvetica, sans-serif;
 font-size:16px;
+font-weight:bold;
 color:#339900;
 display:inline;
+}
+
+#services-software-title a{
+color:#339900;
 }
 
 #services-software-content {
@@ -230,6 +240,11 @@ width:320px; height:20px;
 display:inline;
 }
 
+#services-music-title a{
+color:#339900;
+}
+
+
 #services-music-title p{
 float:left;
 position:relative;
@@ -237,6 +252,7 @@ margin:0px;
 padding:0px;
 font-family:Arial, Helvetica, sans-serif;
 font-size:16px;
+font-weight:bold;
 color:#339900;
 display:inline;
 }
@@ -295,6 +311,11 @@ width:320px; height:20px;
 display:inline;
 }
 
+#services-consultant-title a{
+color:#339900;
+}
+
+
 #services-consultant-title p{
 float:left;
 position:relative;
@@ -302,6 +323,7 @@ margin:0px;
 padding:0px;
 font-family:Arial, Helvetica, sans-serif;
 font-size:16px;
+font-weight:bold;
 color:#339900;
 display:inline;
 }
@@ -357,17 +379,18 @@ display:inline;
 }
 
 #services-list-comm {
-float:left;
-position:relative;
-margin:10px 20px 4px 20px;
-padding:0px;
-width:305px;
-height:86px;
-font-family:Arial, Helvetica, sans-serif;
-font-size:12px;
-display:inline;
-line-height:14px;
-overflow:hidden;
+	float:left;
+	position:relative;
+	margin:10px 20px 4px 20px;
+	padding:0px;
+	width:305px;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	display:inline;
+	line-height:14px;
+	overflow:hidden;
 }
 
 #services-list-comm p{
@@ -378,10 +401,10 @@ padding:0px;
 #services-list-list {
 float:left;
 position:relative;
-margin:6px 20px 0px 20px;
+margin:0px 20px;
 padding:0px;
 width:305px;
-height:260px;
+height:320px;
 font-family:Arial, Helvetica, sans-serif;
 font-size:12px;
 display:inline;

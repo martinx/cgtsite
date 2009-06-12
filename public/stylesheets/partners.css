@@ -5,7 +5,8 @@
 float:left;
 position:relative;
 margin:5px 0px 0px 0px;
-width:800px; height:452px;
+width:800px;
+height:auto;
 border-top:1px solid #999999;
 border-bottom:1px solid #999999;
 display:inline;
@@ -31,7 +32,6 @@ display:inline;
 	width:30px;
 	height:30px;
 	display:inline;
-
 }
 
 #partners-title p{
@@ -50,10 +50,10 @@ display:inline;
 #partners-comment {
 	float:left;
 	position:relative;
-	margin:0;
+    margin-bottom:10px;
 	padding:0;
 	width:800px;
-	height:60px;
+	height:70px;
 	border-bottom:1px dashed #999999;
 	font-family: Helvetica, sans-serif;
 	font-size:12px;
@@ -70,12 +70,10 @@ display:inline;
 #partners-show {
 	float:left;
 	position:relative;
-	margin:0;
 	padding:0;
 	width:800px;
-	height:341px;
+	height:auto;
 	display:inline;
-	overflow-y:auto;
 }
 
 #partners-logo {
@@ -86,7 +84,6 @@ display:inline;
 	width:80px;
 	height:60px;
 	display:inline;
-
 }
 
 #partners-logo img{

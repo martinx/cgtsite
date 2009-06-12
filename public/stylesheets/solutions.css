@@ -26,7 +26,7 @@ display:inline;
 	position:relative;
 	margin:0;
 	padding:0;
-	background-image:url(/images/solutions-about-title-bg.gif);
+	background-image:url(images/solutions-about-title-bg.gif);
 	width:350px;
 	height:40px;
 	display:inline;
@@ -61,7 +61,7 @@ display:inline;
 	position:relative;
 	margin:0;
 	padding:0;
-	background-image:url(/images/solutions-about-bg.gif);
+	background-image:url(images/solutions-about-bg.gif);
 	width:350px;
 	height:407px;
 	display:inline;
@@ -73,7 +73,7 @@ display:inline;
 	position:relative;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-left:10px;
-	padding-left:10px;  
+	padding-left:10px;
 	width:320px;
 	height:10px;
 	display:inline;
@@ -138,7 +138,7 @@ display:inline;
 	position:relative;
 	margin:0;
 	padding:0;
-	background-image:url(/images/solutions-recent-title-bg.gif); 
+	background-image:url(images/solutions-recent-title-bg.gif);
 	width:440px;
 	height:40px;
 	display:inline;
@@ -186,27 +186,76 @@ display:inline;
 	margin-left:10px;
 	padding-left:10px;
 	width:410px;
-	height:60px;
+	height:20px;
 	display:inline;
-	font-size:14px;
+	font-size:12px;
+	color:#CC9900;
+	border-bottom:dotted #C90 1px;
+}
+
+#solutions-recent-comm ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+height: 26px;
+}
+
+#solutions-recent-comm li{
+float:left;
+text-align:center;
+padding:0px 25px 0px 25px;
+}
+
+#solutions-recent-comm a:link, #solutions-recent-comm a:visited{
+color:#CC9900;
+text-decoration:none;
+}
+
+#solutions-recent-comm a:hover{
+color:#0000FF;
+text-decoration:underline;
+}
+
+
+#solutions-recent-comm a{
+	margin:0;
+	padding:0;
 	color:#CC9900;
 }
 
-#solutions-recent-comm p{
-	margin:0;
-	padding:0;
+#solutions-study-title {
+	float:left;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:30px;
+	margin-left:10px;
+	padding:0px;
+	width:390px;
+	height:20px;
+	display:inline;
+	font-size:14px;
 }
 
+#solutions-study-title p {
+	float:left;
+	width:370px;
+	height:24px;
+	margin:0;
+	padding-top:5px;
+	padding-left:50px;
+	color:#C90;
+	text-align:left;
+	font-weight:bold;
+}
 
 #solutions-recent-list {
 	float:left;
 	position:relative;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-left:10px;
-	margin-top:20px;
 	padding:0px;
-	width:410px;
-	height:290px;
+	width:420px;
+	height:300px;
 	display:inline;
 	font-size:14px;
 	color:#CC9900;
@@ -218,7 +267,7 @@ display:inline;
 	position:relative;
 	margin-top:7px;
 	padding:0;
-	background-image:url(/images/solutions-recent-footer-bg.gif); 
+	background-image:url(images/solutions-recent-footer-bg.gif);
 	width:440px;
 	height:20px;
 	text-align:center;
@@ -232,7 +281,7 @@ display:inline;
 #solutions-recent-more a{
 	margin:0;
 	padding-top:7px;
-}  
+}
 
 #solutions-recent-more a:link, #solutions-recent-more a:visited{
 padding-top:7px;
@@ -241,6 +290,6 @@ text-decoration:none;
 }
 
 #solutions-recent-more a:hover{
-color:#0000FF;           	
+color:#0000FF;
 text-decoration:underline;
 }
