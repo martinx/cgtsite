@@ -73,4 +73,7 @@ ActionController::Routing::Routes.draw do |map|
   # consider removing the them or commenting them out if you're using named routes and resources.
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+  map.connect 'back_services/show/:id',:controller=>'back_service',:action=>'show'
+  map.connect 'back_services/list',:controller=>'back_services',:action=>'list'
+  map.connect '/back_solutions/show/:id',:controller=>'back_solutions',:action=>'show'
 end
