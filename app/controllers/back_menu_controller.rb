@@ -1,4 +1,4 @@
-class BackMenuController < ApplicationController
+class BackMenuController <BaseController
   layout "back"
   
   def index

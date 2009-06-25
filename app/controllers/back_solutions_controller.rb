@@ -1,4 +1,4 @@
-class BackSolutionsController < ApplicationController
+class BackSolutionsController < BaseController
   layout "back"
   
   def list#shwo

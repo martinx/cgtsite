@@ -1,7 +1,8 @@
-class BackServicesController < ApplicationController
+class BackServicesController < BaseController
   layout "back"
   
   def list
+    #debugger
     @services = Service.paginate( :page => params[:page], 
       :per_page => 10,
       :order => "updated_at DESC")
@@ -10,8 +11,8 @@ class BackServicesController < ApplicationController
   # GET /services/1
   # GET /services/1.xml
   def show
-    if params[:list]
-      @service = Service.find(:first,:conditions => [ "id = ?" , params[:list]])
+    if params[:id]
+      @service = Service.find(:first,:conditions => [ "id = ?" , params[:id]])
     else 
       @service = Service.find(params[:id])
     end
@@ -81,7 +82,7 @@ class BackServicesController < ApplicationController
   end
   
   def music_col
-    @music =About.find_by_name('music')
+    @music =ServiceType.find(:first,:conditions=>{:id=>3})
   end
   
   def music_new
@@ -104,7 +105,7 @@ class BackServicesController < ApplicationController
   end
   
   def system_col
-    @system =About.find_by_name('system')
+    @system =ServiceType.find(:first,:conditions => {:id=>1});
   end
   
   def system_new
@@ -127,7 +128,7 @@ class BackServicesController < ApplicationController
   end
   
   def soft_col
-    @soft =About.find_by_name('soft')
+    @soft =ServiceType.find(:first,:conditions=>{:id=>2})
   end
   
   def soft_new
@@ -150,7 +151,7 @@ class BackServicesController < ApplicationController
   end
   
   def train_col
-    @train =About.find_by_name('train')
+    @train =ServiceType.find(:first,:conditions=>{:id=>4})
   end
   
   def train_new
