@@ -15,14 +15,16 @@
 
     <div id="operate-area">
       <h3>Listing Services Show Page</h3>
-      <% form_tag :action => 'show' , :method => :post do -%>
+
         <div id="operate-listing">
           <div id="operate-line">
             <% for service in @services %>
               <div id="operate-item">
                 <ul>
-                  <li><%= radio_button_tag :list, service.id %><%=h service.sl_title %></li>
+                  <li><%=h service.sl_title %></li>
                   <li><%=h service.updated_at.strftime("%b.,%d,%Y") %></li>
+                  <li><%=link_to 'edit',:controller=>'back_services',:action=>'show',:id=>service.id%></li>
+                  <li><%=link_to 'delete',:controller=>'back_services',:action=>'destroy',:id=>service.id%></li>
                 </ul>
               </div>
             <% end %>  
@@ -34,11 +36,11 @@
 
         <div id="operate-buttons"> 
           <ul>
-            <%= submit_tag 'Show Content' %>
+
             <%= link_to 'New Content',:action => "new"  %>
           </ul>
         </div><!-- End #operate-bottons -->
-<% end -%>
+
         
     </div> <!-- end #operate-area -->
     
