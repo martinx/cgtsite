@@ -1,4 +1,4 @@
-class BackEventsController < ApplicationController
+class BackEventsController < BaseController
   layout "back"
   
   def index
