@@ -1,0 +1,65 @@
+<%= stylesheet_link_tag "blog-login", :media => "all"  %>
+
+	<div id="menu">
+		<ul>
+			<li class="left-item"><%= link_to "Home" , :controller => "home" %></li>
+			<li class="left-item"><%= link_to "Blog" , :controller => "blog" %></li>
+			<li class="left-item"><%= link_to "Media" , :controller => "media" %></li>
+			<li class="left-item"><%= link_to "About" , :controller => "about" %></li>
+			<li class="left-item"><%= link_to "People" , :controller => "people" %></li>
+		</ul>
+        <ul>
+            <li class="right-item"><%= link_to "Register" , register_path %></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+  <div id="page">
+
+    	<div id="page-bgtop">
+		<div id="content">
+			<div id="post">
+                <h2 class="title">CGT Blog Login</h2>
+				<div class="entry">
+                   <% if flash[:warning] %>
+                      <div class="notice"><%= flash[:warning] %></div>
+                   <% end %>
+
+
+                  <% form_tag session_path do -%>
+               	      <div class="word">
+                       	  <p>Your Name(ID):</p>
+                      </div>
+                      <div class="word">
+                        <%= text_field_tag 'login' %>
+                    </div>
+                      <div class="word">
+                        <p>Your Password:</p>
+                      </div>
+                      <div class="word">
+                        <%= password_field_tag 'password' %>
+                      </div>
+                      <div class="word">
+                        <p class="remember">
+                          <%= check_box_tag 'remember_me' %> Remember Me
+                        </p>
+                      </div>
+                      <div class="item">
+                        <p>For your security, please do not use this option in Internet shop or on public computers.</p>
+                      </div>
+                      <div class="div">
+                        <%= submit_tag 'Login' %>
+                        <%= link_to "Forgot password?" , :controller => "forgot_password" %>                        
+               		  </div>
+                    <% end -%>
+                </div>
+                <!-- end .entry -->
+             </div>
+            <!-- end #post -->
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+  </div>
+	<!-- end #page -->

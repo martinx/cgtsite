@@ -19,7 +19,7 @@
         <%= link_to image_tag(partner.public_filename,:alt => partner.pa_url),partner.pa_url %>
       </div>
       <div id="partners-info">
-        <p><%= truncate(partner.pa_desc,80) %> </p>        			
+        <p><%= truncate(partner.pa_desc, :length =>190) %> </p>
       </div>
     <% end %>
   </div>

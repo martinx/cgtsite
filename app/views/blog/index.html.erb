@@ -1,0 +1,84 @@
+<%= stylesheet_link_tag "blog-page", :media => "all"  %>
+
+	<div id="menu">
+		<ul>
+			<li class="left-item"><%= link_to "Home" , :controller => "home" %></li>
+			<li class="left-item"><%= link_to "Blog" , :controller => "blog" %></li>
+			<li class="left-item"><%= link_to "Media" , :controller => "media" %></li>
+			<li class="left-item"><%= link_to "About" , :controller => "about" %></li>
+			<li class="left-item"><%= link_to "People" , :controller => "people" %></li>
+		</ul>
+        <ul>
+            <% if logged_in? %>
+                <li class="right-item"><%= link_to "Logout" , logout_path %></li>
+            <%else %>
+                <li class="right-item"><%= link_to "Login" , login_path %></li>
+                <li class="right-item"><%= link_to "Register" , register_path %></li>
+            <% end %>
+		</ul>
+	</div>
+	<!-- end #menu -->
+
+    <div id="page">
+  	<div id="message-area">
+      <% if logged_in? %>
+       <p><%=h current_blogger.login %>, Logged in!  </p> 
+      <%else %>
+        <p>Welcome, Guest</p>
+      <% end %>
+    </div>
+	<div id="page-bgtop">
+		<div id="content">
+			<div id="post">
+				<h2 class="title">Welcome to XXXX Blog</h2>
+                <p class="author">Posted By XXXX</p>
+				<p class="date"> 2009-03-30</p>
+				<div class="entry">
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Phasellus pellentesque. Mauris quam enim, molestie in, rhoncus ut, lobortis a, est.
+                    </p>
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.</p>
+				</div>
+                <div class="bottom">
+        			<p>Category:Whatever <a href="blog-comments.html">Comments &nbsp;(2)</a></p>
+                </div>
+			</div>
+
+			<div id="post">
+				<h2 class="title">Lorem ipsum sed aliquam</h2>
+                <p class="author">Posted By XXXX</p>
+				<p class="date"> 2009-02-15</p>
+				<div class="entry">
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Phasellus pellentesque. Mauris quam enim, molestie in, rhoncus ut, lobortis a, est.</p>
+					<p>Praesent ac lectus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus augue. Fusce eget tellus ultrices ligula volutpat adipiscing. Aenean ligula lectus, vehicula in, dictum a, fermentum nec, felis. Nunc ac turpis in leo posuere imperdiet.</p>
+				</div>
+                <div class="bottom">
+        			<p>Category:Technologies <a href="#">Comments &nbsp;(1)</a></p>
+                </div>
+			</div>
+			<div id="post">
+				<h2 class="title">Phasellus pellentesque turpis </h2>
+                <p class="author">Posted By XXXX</p>
+				<p class="date">2009-01-20</p>
+				<div class="entry">
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Phasellus pellentesque. Mauris quam enim molestie  rhoncus lobortis a, est.</p>
+				</div>
+                <div class="bottom">
+        			<p>Category:Music <a href="#">Comments &nbsp;(3)</a></p>
+                </div>
+
+			</div>
+        <div class="paginate">< 1 2 3 ></div>
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+
+        <!--  Render side bar view -->
+        <%= render(:partial => 'side_bar') %>
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	</div>
+	<!-- end #page -->
+
+
+    

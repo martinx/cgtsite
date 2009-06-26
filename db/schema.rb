@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090228125323) do
+ActiveRecord::Schema.define(:version => 20090623130158) do
 
   create_table "about_comms", :force => true do |t|
     t.string   "name"
@@ -30,6 +30,17 @@ ActiveRecord::Schema.define(:version => 20090228125323) do
     t.datetime "updated_at"
   end
 
+  create_table "bloggers", :force => true do |t|
+    t.string   "login"
+    t.string   "email"
+    t.string   "crypted_password",          :limit => 40
+    t.string   "salt",                      :limit => 40
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "remember_token"
+    t.datetime "remember_token_expires_at"
+  end
+
   create_table "clients", :force => true do |t|
     t.string   "cl_name"
     t.text     "cl_desc"
@@ -42,45 +53,10 @@ ActiveRecord::Schema.define(:version => 20090228125323) do
     t.datetime "updated_at"
   end
 
-  create_table "comments", :force => true do |t|
-    t.string   "author"
-    t.text     "content"
-    t.integer  "idea_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "employees", :force => true do |t|
-    t.string   "login"
-    t.string   "email"
-    t.string   "crypted_password",          :limit => 40
-    t.string   "salt",                      :limit => 40
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "remember_token"
-    t.datetime "remember_token_expires_at"
-    t.string   "reset_password_code"
-  end
-
   create_table "events", :force => true do |t|
     t.string   "ev_title"
     t.text     "ev_desc"
     t.string   "ev_author"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "idea_types", :force => true do |t|
-    t.string   "title"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "ideas", :force => true do |t|
-    t.string   "author"
-    t.string   "title"
-    t.text     "content"
-    t.integer  "idea_type_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

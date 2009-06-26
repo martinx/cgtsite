@@ -1,15 +1,17 @@
 ActionController::Routing::Routes.draw do |map|
-  #map.signup 'employees/signup', :controller => 'employees', :action => 'new'
-  #map.login 'employees/login', :controller => 'employees', :action => 'login'
-  # map.logout 'employees/logout', :controller => 'employees', :action => 'login_out'
   map.root :controller => "home"
+  
+  map.resources :blog
+  map.resources :bloggers
+  map.resource :session
+  map.register '/register', :controller => 'bloggers', :action => 'new'
+  map.login  '/login', :controller => 'sessions', :action => 'new'
+  map.logout '/logout', :controller => 'sessions', :action => 'destroy'
   
   map.resources :events
   
   map.resources :abouts
  
-  map.resources :ideas
-
   map.resources :solution_types
 
   map.resources :solution_types
@@ -22,12 +24,10 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :service_types
 
-  map.resources :events
-
   map.resources :partners
 
   map.resources :service_comments
-  
+
   #map.connect "servicesfind",    :controller => 'services',    :action =>'find' 
 
 

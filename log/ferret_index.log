@@ -1656,3 +1656,103 @@ LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
 LocalIndex: ensure_index_exists at E:/cgt_site/index/development/service
 query: 
 stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: client_id:music sl_year:music sl_author:music sl_content:music updated_at:music sl_title:music created_at:music service_type_id:music
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: client_id:music sl_year:music sl_author:music sl_content:music updated_at:music sl_title:music created_at:music service_type_id:music
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: client_id:system sl_year:system sl_author:system sl_content:system updated_at:system sl_title:system created_at:system service_type_id:system
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: so_author:system so_content:system updated_at:system so_title:system created_at:system solution_type_id:system
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: so_author:system so_content:system updated_at:system so_title:system created_at:system solution_type_id:system
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: client_id:music sl_content:music sl_year:music sl_title:music sl_author:music updated_at:music created_at:music service_type_id:music
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: client_id:training sl_content:training sl_year:training sl_title:training sl_author:training updated_at:training created_at:training service_type_id:training
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: client_id:training sl_content:training sl_year:training sl_title:training sl_author:training updated_at:training created_at:training service_type_id:training
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: so_content:ruby so_title:ruby updated_at:ruby solution_type_id:ruby created_at:ruby so_author:ruby
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: so_content:ruby so_title:ruby updated_at:ruby solution_type_id:ruby created_at:ruby so_author:ruby
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:systrm updated_at:systrm so_author:systrm created_at:systrm so_content:systrm so_title:systrm
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:systrm updated_at:systrm so_author:systrm created_at:systrm so_content:systrm so_title:systrm
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:ruby updated_at:ruby so_author:ruby created_at:ruby so_content:ruby so_title:ruby
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:rails so_content:rails so_author:rails so_title:rails updated_at:rails created_at:rails
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:rails so_content:rails so_author:rails so_title:rails updated_at:rails created_at:rails
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:rails so_content:rails so_author:rails so_title:rails updated_at:rails created_at:rails
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: solution_type_id:rails so_content:rails so_author:rails so_title:rails updated_at:rails created_at:rails
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: so_title:music solution_type_id:music updated_at:music so_author:music created_at:music so_content:music
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+query: so_title:music solution_type_id:music updated_at:music so_author:music created_at:music so_content:music
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: sl_year:training sl_author:training sl_content:training updated_at:training service_type_id:training sl_title:training created_at:training client_id:training
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/service
+query: sl_year:training sl_author:training sl_content:training updated_at:training service_type_id:training sl_title:training created_at:training client_id:training
+stored_fields: 
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution
+LocalIndex: ensure_index_exists at G:/cgt_site/index/development/solution

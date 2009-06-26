@@ -1,0 +1,212 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(/images/blog-img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F93D00;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+
+a {
+	text-decoration: none;
+	color: #7F0000;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 900px;
+	height: 100px;
+	margin: 0;
+	background: url(/images/blog-img05.gif) no-repeat left 25px;
+	color: #FFFFFF;
+}
+
+/* Information area close to logo for some special info or ads or something else*/
+#info {
+	float: right;
+	width: 600px;
+	height: 100px;
+	margin: 0;
+	color: #EEE;
+}
+
+
+
+
+/* Footer */
+
+#cgt-footer {
+float:left;
+position:relative;
+margin-top:20px;
+margin-left:50px;
+width:800px;
+height:60px;
+display:inline;
+}
+
+#cgt-footer-copyright {
+float:left; 
+width:800px; height:30px;	
+margin:0px; 
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-copyright ul{
+list-style-type:none;
+position:absolute;			
+width:440px;
+left:180px;
+top:10px;					
+padding:0px;
+margin:0px;
+height: 20px;
+}
+
+#cgt-footer-copyright li{
+float:left; 
+text-align:center;
+padding:2px 15px 0px 15px;	
+display:inline;
+}
+
+#cgt-footer-copyright a:link, #cgt-footer-copyright a:visited{
+color:#0000FF;
+text-decoration:none;
+}
+
+#cgt-footer-copyright a:hover{
+color:#FF0000;           	
+text-decoration:underline;
+}
+
+#cgt-footer-usa {
+float:left; 
+width:400px; height:20px;	
+margin-top:5px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+display:inline;
+}
+
+#cgt-footer-portland {
+float:left; 
+width:60px; height:15px;	
+margin-left:120px; 
+margin-top:3px;
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444444;
+display:inline;
+}
+
+#cgt-footer-portland p{
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-portland-date iframe{
+float:right; 
+text-align:left;
+width:200px; height:20px;	
+margin-right:20px; 
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+#cgt-footer-china {
+float:right; 
+width:370px; height:20px;	
+margin-top:5px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+display:inline;
+}
+
+#cgt-footer-beijing {
+float:left; 
+width:60px; height:15px;	
+margin-top:3px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444444;
+display:inline;
+}
+
+#cgt-footer-beijing p{
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:10px;
+display:inline;
+
+}
+
+#cgt-footer-beijing-date iframe{
+float:left; 
+text-align:left;
+width:200px; height:20px;	
+margin:0px; padding:0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+display:inline;
+}
+
+
