@@ -15,6 +15,19 @@ class SolutionsController < ApplicationController
     @pages=page_for(@solutions,:page=>@page,:per_page=>@per_page)
     
   end
+
+  def type
+    if params[:id]=="1"
+      @htitle='Information'
+    elsif params[:id]=="2"
+      @htitle='Media'
+    elsif params[:id]=="3"
+      @htitle='Training'
+    elsif params[:id]=="4"
+      @htitle='Others'
+    end
+    @solutions=Solution.paginate :page=>params[:page],:per_page=>2,:conditions=>['solution_type_id=?',params[:id]]
+  end
   
   def show
     @solution = Solution.find(params[:id])  

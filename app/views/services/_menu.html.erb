@@ -3,10 +3,10 @@
 <div id="serviceslist-listmenu">  
 
 	<ul>
-      <li><%= image_tag "service-si.gif" %> <%= link_to "System Integration" , :controller => "services", :action =>'index' %></li>
-      <li><%= image_tag "service-sw.gif" %> <%= link_to "Software Development" , :controller => "services", :action =>'index' %></li>
-      <li><%= image_tag "service-music.gif" %> <%= link_to "Music Audio & Shows" , :controller => "services", :action =>'index' %></li>
-      <li><%= image_tag "service-training.gif" %> <%= link_to "Consltant & Training" , :controller => "services", :action =>'index' %></li>
+      <li><%= image_tag "service-si.gif" %> <%= link_to "System Integration" , :controller => "services",  :action => "type",:id=>"1" %></li>
+      <li><%= image_tag "service-sw.gif" %> <%= link_to "Software Development" , :controller => "services",  :action => "type",:id=>"2"%></li>
+      <li><%= image_tag "service-music.gif" %> <%= link_to "Music Audio & Shows" , :controller => "services", :action => "type",:id=>"3" %></li>
+      <li><%= image_tag "service-training.gif" %> <%= link_to "Consltant & Training" , :controller => "services",  :action => "type",:id=>"4" %></li>
     </ul>
 
 </div>     

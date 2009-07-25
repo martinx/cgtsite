@@ -1,10 +1,10 @@
 <%= stylesheet_link_tag "solutions", :media => "all" %>
-<% @title = "CGT Solutions" -%> 
+<% @title = "CGT Solutions" -%>
 <!-- Solutions Block -->
 <div id="solutions-line">
   <!-- Solutions Title Block -->
-  <div id="solutions-about"> 
-    <div id="solutions-about-title"> 
+  <div id="solutions-about">
+    <div id="solutions-about-title">
       <%= image_tag("solutions-about-pic.gif") %>
       <p>Company Solutions</p>
     </div>
@@ -16,7 +16,7 @@
         <p>Author:XXXXX</p>
       </div>
       <div id="solutions-about-article">
-        <p>Here is the content of About Solutions. 
+        <p>Here is the content of About Solutions.
         SAP as enabler “When you’ve been involved with SAP solutions for as
         long as I have, you really understand that it’s a true
         business enabler,” notes Quality Assurance Manager
@@ -27,18 +27,18 @@
         language. SAP solutions were one of the first steps to
         enabling IT to get past the technology and focus on
         supporting the business.”
-        
+
         <p>That doesn’t mean, however, that SAP application
           implementations and the way they’re managed—don’t
           evolve. Originally, he explains, a core group within the applications. The team was centrally located, working in
           close proximity to manage SAP support and upgrades.
         “It made it managing </p>
       </div>
-    </div>						
+    </div>
   </div>
-  
+
   <div id="solutions-recent">
-    <div id="solutions-recent-title"> 
+    <div id="solutions-recent-title">
       <%= image_tag("solutions-recent-pic.gif") %>
       <p>Recent Success Studies</p>
     </div>
@@ -52,9 +52,9 @@
       		</ul>
       </div>
       <div id="solutions-study-title">
-           <p></p>
+           <p><%=@htitle%> Industry Study List</p>
       </div>
- 
+
       <div id="solutions-recent-list">
         <ul>
         <% for solution in @solutions %>

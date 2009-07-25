@@ -1,16 +1,16 @@
 <%= stylesheet_link_tag "services", :media => "all" %>
-<% @title = "CGT Services" -%> 
+<% @title = "CGT Services" -%>
 
 <!-- Services Block -->
 <div id="services-line">
-  <div id="services-services">    
+  <div id="services-services">
     <div id="services-company">
       <div id="services-company-pic">
         <%=  image_tag("services-overview.gif") %>
       </div>
       <div id="services-company-services">
         <h3><span>Company Services</span></h3>
-      </div> 
+      </div>
     </div>
     <div id="services-integrations">
       <div id="services-integrations-pic">
@@ -21,7 +21,7 @@
           <p><%= link_to "System Integration", :controller => "services", :action => "type",:id=>"1" %></p>
         </div>
         <div id="services-integrations-content">
-          <p><%= ServiceType.find_by_id(1).st_desc %></p> 
+          <p><%= ServiceType.find_by_id(1).st_desc %></p>
         </div>
       </div>
     </div>
@@ -73,7 +73,7 @@
       <h3><span>Services List</span></h3>
     </div>
     <div id="services-list-comm">
-      <p> </p>        <!--The specified service title with left clicks  -->
+      <p><%=@htitle%> Service List </p>        <!--The specified service title with left clicks  -->
     </div>
     <div id="services-list-list">
       <ul>

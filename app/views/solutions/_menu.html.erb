@@ -23,10 +23,10 @@
 
     <div id="solutions-show-menu">
         <ul>
-              <li><%= image_tag "solu-info.gif" %> <%= link_to "Information Industry" , :controller => "solutions", :action =>'index' %></li>
-              <li><%= image_tag "solu-cd.gif" %> <%= link_to "Media Industry" , :controller => "solutions", :action =>'index' %></li>
-              <li><%= image_tag "solu-train.gif" %> <%= link_to "Training Industry" , :controller => "solutions", :action =>'index' %></li>
-              <li><%= image_tag "solu-tradi.gif" %> <%= link_to "Other Industries" , :controller => "solutions", :action =>'index' %></li>
+              <li><%= image_tag "solu-info.gif" %> <%= link_to "Information Industry" , :controller => "solutions", :action => "type",:id=>"1" %></li>
+              <li><%= image_tag "solu-cd.gif" %> <%= link_to "Media Industry" , :controller => "solutions", :action => "type",:id=>"2" %></li>
+              <li><%= image_tag "solu-train.gif" %> <%= link_to "Training Industry" , :controller => "solutions", :action => "type",:id=>"3" %></li>
+              <li><%= image_tag "solu-tradi.gif" %> <%= link_to "Other Industries" , :controller => "solutions", :action => "type",:id=>"4" %></li>
         </ul>
     </div>
 
